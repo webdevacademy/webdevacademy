@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-bootstrap-netlify",
-  "description": "Example Gatsby, Bootstrap, and Netlify CMS project",
-  "version": "1.0.0",
-  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "name": "webdevacademy",
+  "description": "Web Dev Academy Website",
+  "version": "0.0.1",
+  "author": "Ruan Carvalho <ruan@webdevacademy.com.br>",
   "dependencies": {
     "bootstrap": "^4.1.0",
     "bootswatch": "4.*",

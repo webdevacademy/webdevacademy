@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Web Dev Academy',
     author: 'ruancarvalho',
-    authorLink: 'https://webdevacademy.com.br',
+    authorLink: 'webdevacademy.com.br',
     disqus: 'webdevacademycombr'// put your disqus ID here
   },
   plugins: [
