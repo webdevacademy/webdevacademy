@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 import { Container, Row} from 'reactstrap'
 
-import 'prismjs/themes/prism-twilight.css'
+import Header from './header'
+import Footer from './footer'
 
 // main site style
+import 'prismjs/themes/prism-twilight.css'
 import '../assets/index.scss'
 
 class Template extends React.Component {
@@ -45,10 +47,13 @@ class Template extends React.Component {
       )
     }
     return (
-      <Container className="mt-5">
-        {header}
-        {children}
-      </Container>
+      <Fragment>
+        <Header />
+        <Container className="mt-5" tag="main">
+          {children}
+        </Container>
+        <Footer />
+      </Fragment>
     )
   }
 }

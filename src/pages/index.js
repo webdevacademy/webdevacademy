@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import { Container, Row, Card, CardText, CardBody, CardTitle, CardSubtitle, Jumbotron } from 'reactstrap'
 
 import Layout from '../components/layout'
-import { rhythm } from '../utils/typography'
 
 class Home extends React.Component {
   render() {
@@ -25,26 +24,24 @@ class Home extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <Container className="mt-5">
-          <Row>
-            {posts.map(({ node }) => {
-              const title = get(node, 'frontmatter.title') || node.title
-              return (
-                <article key={node.id} className="col-sm-6 col-md-4">
-                  <Card className="mb-4">
-                    <Link to={node.slug}>                      
-                      <img className="card-img-top" src={node.image || placeholder} alt={node.title} />
-                      <CardBody>
-                        <CardTitle className="text-dark">{title}</CardTitle>
-                      </CardBody>
-                    </Link>                  
-                  {/* <p dangerouslySetInnerHTML={{ __html: node.description.description }} /> */}
-                  </Card>
-                </article>
-              )
-            })}
-          </Row>
-        </Container>
+        <Row className="posts" tag="section">
+          {posts.map(({ node }) => {
+            const title = get(node, 'frontmatter.title') || node.title
+            return (
+              <article key={node.id} className="col-sm-6 col-md-4">
+                <Card className="mb-4">
+                  <Link to={node.slug}>
+                    <img className="card-img-top" src={node.image || placeholder} alt={node.title} />
+                    <CardBody>
+                      <CardTitle className="text-dark">{title}</CardTitle>
+                    </CardBody>
+                  </Link>
+                {/* <p dangerouslySetInnerHTML={{ __html: node.description.description }} /> */}
+                </Card>
+              </article>
+            )
+          })}
+        </Row>
       </Layout>
     )
   }

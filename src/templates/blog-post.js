@@ -4,7 +4,6 @@ import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
-import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -22,13 +21,9 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.title} | ${siteTitle}`}
         />
-        <h1>{post.title}</h1>        
+        <h1>{post.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: post.body.childMarkdownRemark.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
 
         <ul
           style={{

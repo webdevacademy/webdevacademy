@@ -37,12 +37,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
-// page-level layout
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   line-height: 2rem;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+  bottom: 0;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  position: absolute;
+  width: 100%;
 }
 
 .App {
