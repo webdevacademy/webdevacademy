@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>User Experience &#8211; Web Dev Academy</title>
+	<atom:link href="/categoria/ux/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>Criando Telas de CRUD com Bootstrap 3 – Parte V</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/</link>
+		<comments>/ux/crud-com-bootstrap-3-parte5/#comments</comments>
+		<pubDate>Thu, 06 Aug 2015 12:00:08 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[CRUD]]></category>
+
+		<guid isPermaLink="false">/?p=759</guid>
+		<description><![CDATA[<p>Neste tutorial, vamos implementar a principal parte do nosso CRUD, que é a tela de listagem e que dá acesso a todas as outras funcionalidades para o usuário.</p>
+<p>O post <a rel="nofollow" href="/ux/crud-com-bootstrap-3-parte5/">Criando Telas de CRUD com Bootstrap 3 – Parte V</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/crud-com-bootstrap-3-parte5/feed/</wfw:commentRss>
+		<slash:comments>27</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">759</post-id>	</item>
+		<item>
+		<title>Criando Telas de CRUD com Bootstrap 3 – Parte IV</title>
+		<link>/ux/crud-com-bootstrap-3-parte4/</link>
+		<comments>/ux/crud-com-bootstrap-3-parte4/#comments</comments>
+		<pubDate>Wed, 29 Jul 2015 22:34:42 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=651</guid>
+		<description><![CDATA[<p>Nesta quarta parte, você vai ver como implementar um modal de exclusão para o nosso CRUD, que equivale ao DELETE.<br />
+Nesta quarta parte, você vai ver como implementar um popup de exclusão (usando o modal do Bootstrap) para o nosso CRUD, que equivale ao DELETE.</p>
+<p>O post <a rel="nofollow" href="/ux/crud-com-bootstrap-3-parte4/">Criando Telas de CRUD com Bootstrap 3 – Parte IV</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/crud-com-bootstrap-3-parte4/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">651</post-id>	</item>
+		<item>
+		<title>Criando Telas de CRUD com Bootstrap 3 – Parte III</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/</link>
+		<comments>/ux/crud-com-bootstrap-3-parte3/#comments</comments>
+		<pubDate>Tue, 09 Jun 2015 13:00:19 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[CRUD]]></category>
+
+		<guid isPermaLink="false">/?p=619</guid>
+		<description><![CDATA[<p>Nesta terceira parte, você vai ver como implementar a tela de visualização do nosso CRUD, que equivale ao READ.</p>
+<p>O post <a rel="nofollow" href="/ux/crud-com-bootstrap-3-parte3/">Criando Telas de CRUD com Bootstrap 3 – Parte III</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/crud-com-bootstrap-3-parte3/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">619</post-id>	</item>
+		<item>
+		<title>Criando Telas de CRUD com Bootstrap 3 &#8211; Parte II</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/</link>
+		<comments>/ux/crud-com-bootstrap-3-parte2/#comments</comments>
+		<pubDate>Thu, 04 Jun 2015 14:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[CRUD]]></category>
+
+		<guid isPermaLink="false">/?p=562</guid>
+		<description><![CDATA[<p>Agora, na segunda parte você vai aprender a implementar as telas de inserção e atualização do nosso CRUD, com o Bootstrap.</p>
+<p>O post <a rel="nofollow" href="/ux/crud-com-bootstrap-3-parte2/">Criando Telas de CRUD com Bootstrap 3 &#8211; Parte II</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/crud-com-bootstrap-3-parte2/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">562</post-id>	</item>
+		<item>
+		<title>Criando Telas de CRUD com Bootstrap 3 &#8211; Parte I</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/</link>
+		<comments>/ux/crud-com-bootstrap-3-parte1/#comments</comments>
+		<pubDate>Tue, 02 Jun 2015 13:00:49 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[CRUD]]></category>
+
+		<guid isPermaLink="false">/?p=493</guid>
+		<description><![CDATA[<p>Nesta série de tutoriais, você vai aprender uma forma eficaz de implementar telas de CRUD com o Bootstrap 3. Ao final desta série, teremos criado quatro telas que funcionam a partir de uma tela de listagem.</p>
+<p>O post <a rel="nofollow" href="/ux/crud-com-bootstrap-3-parte1/">Criando Telas de CRUD com Bootstrap 3 &#8211; Parte I</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/crud-com-bootstrap-3-parte1/feed/</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">493</post-id>	</item>
+		<item>
+		<title>Bootstrap 3: Criando Imagens Responsivas</title>
+		<link>/ux/bootstrap-imagens-responsivas/</link>
+		<comments>/ux/bootstrap-imagens-responsivas/#comments</comments>
+		<pubDate>Tue, 13 Jan 2015 13:00:57 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=425</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender como trabalhar com imagens responsivas no Bootstrap 3. Vamos ver a classe que torna as imagens responsivas, algumas classes que modificam o formato da imagem, como criar miniaturas e aprender a usar o media object.</p>
+<p>O post <a rel="nofollow" href="/ux/bootstrap-imagens-responsivas/">Bootstrap 3: Criando Imagens Responsivas</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/bootstrap-imagens-responsivas/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">425</post-id>	</item>
+		<item>
+		<title>Bootstrap 3: Template de Layout com Três Colunas</title>
+		<link>/ux/bootstrap-template-layout-tres-colunas/</link>
+		<comments>/ux/bootstrap-template-layout-tres-colunas/#comments</comments>
+		<pubDate>Fri, 07 Mar 2014 00:00:52 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=820</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender a implementar um layout de três colunas com o Bootstrap, um dos tipos mais comuns para sites grandes e para e-commerce.</p>
+<p>O post <a rel="nofollow" href="/ux/bootstrap-template-layout-tres-colunas/">Bootstrap 3: Template de Layout com Três Colunas</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/bootstrap-template-layout-tres-colunas/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">820</post-id>	</item>
+		<item>
+		<title>Bootstrap 3: Template de Layout Duas Colunas</title>
+		<link>/ux/bootstrap-template-layout-duas-colunas/</link>
+		<comments>/ux/bootstrap-template-layout-duas-colunas/#comments</comments>
+		<pubDate>Tue, 18 Feb 2014 22:20:50 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=812</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender a implementar um layout de duas colunas com Bootstrap, um dos tipos mais comuns para sites menores e para blogs.</p>
+<p>O post <a rel="nofollow" href="/ux/bootstrap-template-layout-duas-colunas/">Bootstrap 3: Template de Layout Duas Colunas</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/bootstrap-template-layout-duas-colunas/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">812</post-id>	</item>
+		<item>
+		<title>Bootstrap: Template de Layout Simples</title>
+		<link>/ux/bootstrap-template-layout-simples/</link>
+		<comments>/ux/bootstrap-template-layout-simples/#comments</comments>
+		<pubDate>Tue, 11 Feb 2014 12:00:55 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=304</guid>
+		<description><![CDATA[<p>Neste tutorial você vai aprender a criar um template simples com Bootstrap 3, que pode servir para seus próximos projetos.</p>
+<p>O post <a rel="nofollow" href="/ux/bootstrap-template-layout-simples/">Bootstrap: Template de Layout Simples</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/ux/bootstrap-template-layout-simples/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">304</post-id>	</item>
+	</channel>
+</rss>

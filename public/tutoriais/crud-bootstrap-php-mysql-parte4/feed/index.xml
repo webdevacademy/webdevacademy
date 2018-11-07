@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: CRUD com Bootstrap, PHP &#038; MySQL – Parte IV</title>
+	<atom:link href="/tutoriais/crud-bootstrap-php-mysql-parte4/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/crud-bootstrap-php-mysql-parte4/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-726</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 18:04:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-726</guid>
+		<description><![CDATA[Mais uma vez, obrigado !!!
+
+Beginner sendo beginner.....]]></description>
+		<content:encoded><![CDATA[<p>Mais uma vez, obrigado !!!</p>
+<p>Beginner sendo beginner&#8230;..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-724</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 17:37:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-724</guid>
+		<description><![CDATA[Você não implementou a função update() no database.php, por isso o erro &quot;Call to undefined function&quot;
+
+Essa função está nesse mesmo tutorial.]]></description>
+		<content:encoded><![CDATA[<p>Você não implementou a função update() no database.php, por isso o erro &#8220;Call to undefined function&#8221;</p>
+<p>Essa função está nesse mesmo tutorial.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-723</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 15:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-723</guid>
+		<description><![CDATA[Opa Iuri ! Também estou usando o tutorial do Ruan para me basear, mas estou esbarrando em uma questão que talvez você saiba. Quando tento editar, estou recebendo o erro: --&#062; Fatal error: Call to undefined function update() in C:xampp2htdocsCRUD2customersfunctions.php on line 52 format(&quot;Y-m-d H:i:s&quot;);
+
+      update(&#039;customers&#039;, $id, $customer);
+      header(&#039;location: index.php&#039;);
+    } else {
+
+      global $customer;
+      $customer = find(&#039;customers&#039;, $id);
+    } 
+  } else {
+    header(&#039;location: index.php&#039;);
+  }
+}
+
+
+OBS&#062;: a linha 52 tem esse código --&#062; update(&#039;customers&#039;, $id, $customer); &#060;--
+
+Desde já obrigado !]]></description>
+		<content:encoded><![CDATA[<p>Opa Iuri ! Também estou usando o tutorial do Ruan para me basear, mas estou esbarrando em uma questão que talvez você saiba. Quando tento editar, estou recebendo o erro: &#8211;&gt; Fatal error: Call to undefined function update() in C:xampp2htdocsCRUD2customersfunctions.php on line 52 format(&#8220;Y-m-d H:i:s&#8221;);</p>
+<p>      update(&#8216;customers&#8217;, $id, $customer);<br />
+      header(&#8216;location: index.php&#8217;);<br />
+    } else {</p>
+<p>      global $customer;<br />
+      $customer = find(&#8216;customers&#8217;, $id);<br />
+    }<br />
+  } else {<br />
+    header(&#8216;location: index.php&#8217;);<br />
+  }<br />
+}</p>
+<p>OBS&gt;: a linha 52 tem esse código &#8211;&gt; update(&#8216;customers&#8217;, $id, $customer); &lt;&#8211;</p>
+<p>Desde já obrigado !</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Elquisllei DA Silva Oliveira A</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-719</link>
+		<dc:creator><![CDATA[Elquisllei DA Silva Oliveira A]]></dc:creator>
+		<pubDate>Sun, 14 Jan 2018 04:11:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-719</guid>
+		<description><![CDATA[Poderia incrementar de como criar imagem e editar junto ao formulário]]></description>
+		<content:encoded><![CDATA[<p>Poderia incrementar de como criar imagem e editar junto ao formulário</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: wellington</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-588</link>
+		<dc:creator><![CDATA[wellington]]></dc:creator>
+		<pubDate>Mon, 20 Nov 2017 23:15:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-588</guid>
+		<description><![CDATA[Boa noite, excelente trabalho, no meu nao esta inserindo  novos clientes, poderia me explicar o por que, muito obrigado. quando clico em salvar ele vai pra o index mas nao adiciona novos clientes.]]></description>
+		<content:encoded><![CDATA[<p>Boa noite, excelente trabalho, no meu nao esta inserindo  novos clientes, poderia me explicar o por que, muito obrigado. quando clico em salvar ele vai pra o index mas nao adiciona novos clientes.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: fabio</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-587</link>
+		<dc:creator><![CDATA[fabio]]></dc:creator>
+		<pubDate>Tue, 07 Nov 2017 16:16:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-587</guid>
+		<description><![CDATA[Olá Ruan tudo bem? Olha só criando a tabela &quot;customers&quot; conforme o tutorial dá tudo certo aqui. Mas quando crio a tabela &quot;suportes&quot; não consigo inserir os dados, no caso dos names nos inputs como devo fazer para associar aquele input a tabela que quero inserir dados?]]></description>
+		<content:encoded><![CDATA[<p>Olá Ruan tudo bem? Olha só criando a tabela &#8220;customers&#8221; conforme o tutorial dá tudo certo aqui. Mas quando crio a tabela &#8220;suportes&#8221; não consigo inserir os dados, no caso dos names nos inputs como devo fazer para associar aquele input a tabela que quero inserir dados?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-586</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 20 Oct 2017 01:51:04 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-586</guid>
+		<description><![CDATA[Provavelmente você está com uma versão desatualizada do PHP, ou da mysqli.
+Daí, não encontra a função fetch_all().
+
+Use o método alternativo que está comentado no arquivo database.php, na função find().
+Revise a parte III, caso necessário.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Provavelmente você está com uma versão desatualizada do PHP, ou da mysqli.<br />
+Daí, não encontra a função fetch_all().</p>
+<p>Use o método alternativo que está comentado no arquivo database.php, na função find().<br />
+Revise a parte III, caso necessário.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Albuquerque</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-585</link>
+		<dc:creator><![CDATA[Diego Albuquerque]]></dc:creator>
+		<pubDate>Thu, 19 Oct 2017 19:44:47 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-585</guid>
+		<description><![CDATA[Olá, boa tarde! Muito bom o tutorial!!
+Estou com um problema.. quando clico em &quot;clientes&quot; na tela principal ele apresenta a seguinte mensagem de erro: Fatal error: Call to undefined method mysqli_result::fetch_all() in D:MSXwwwrootprojetoXcrudincdatabase.php on line 44
+
+E quando eu clico em savar, os dados não estão sendo enviados para o DB e aparece uma tela em branco.
+
+O que poderia ser?
+
+Desde já agradeço.
+
+Um abraço]]></description>
+		<content:encoded><![CDATA[<p>Olá, boa tarde! Muito bom o tutorial!!<br />
+Estou com um problema.. quando clico em &#8220;clientes&#8221; na tela principal ele apresenta a seguinte mensagem de erro: Fatal error: Call to undefined method mysqli_result::fetch_all() in D:MSXwwwrootprojetoXcrudincdatabase.php on line 44</p>
+<p>E quando eu clico em savar, os dados não estão sendo enviados para o DB e aparece uma tela em branco.</p>
+<p>O que poderia ser?</p>
+<p>Desde já agradeço.</p>
+<p>Um abraço</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Mario Binga</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-584</link>
+		<dc:creator><![CDATA[Mario Binga]]></dc:creator>
+		<pubDate>Wed, 11 Oct 2017 21:03:23 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-584</guid>
+		<description><![CDATA[Parabens pelo excelente post
+
+mais estou com um problema quando clico no botao EDITAR
+aparece nos campos a seguinte linha de comando:
+
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined index: name in &lt;b&gt;D:crud-bootstrap-phpcustomersedit.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;
+
+Alguem pode me ajudar ?]]></description>
+		<content:encoded><![CDATA[<p>Parabens pelo excelente post</p>
+<p>mais estou com um problema quando clico no botao EDITAR<br />
+aparece nos campos a seguinte linha de comando:</p>
+<p><b>Notice</b>:  Undefined index: name in <b>D:crud-bootstrap-phpcustomersedit.php</b> on line <b>15</b></p>
+<p>Alguem pode me ajudar ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-583</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 20 Sep 2017 15:12:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-583</guid>
+		<description><![CDATA[Você pode seguir os mesmos passos para criar um CRUD de usuários. Basta criar a tabela e mudar um pouco o código.
+
+Para criar um relatório PDF, você precisa usar alguma biblioteca que faça isso e colocar nesse CRUD. Outra opção é usar o modo de impressão do navegador mesmo.]]></description>
+		<content:encoded><![CDATA[<p>Você pode seguir os mesmos passos para criar um CRUD de usuários. Basta criar a tabela e mudar um pouco o código.</p>
+<p>Para criar um relatório PDF, você precisa usar alguma biblioteca que faça isso e colocar nesse CRUD. Outra opção é usar o modo de impressão do navegador mesmo.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

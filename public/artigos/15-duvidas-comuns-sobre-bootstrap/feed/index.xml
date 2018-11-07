@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: 15 Dúvidas Comuns que Você pode Ter Sobre o Bootstrap</title>
+	<atom:link href="/artigos/15-duvidas-comuns-sobre-bootstrap/feed/" rel="self" type="application/rss+xml" />
+	<link>/artigos/15-duvidas-comuns-sobre-bootstrap/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-325</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 31 Mar 2017 15:20:41 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-325</guid>
+		<description><![CDATA[Verifique a ordem das chamadas dos arquivos.
+
+O seu CSS deve sempre vir depois do Bootstrap.]]></description>
+		<content:encoded><![CDATA[<p>Verifique a ordem das chamadas dos arquivos.</p>
+<p>O seu CSS deve sempre vir depois do Bootstrap.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Gilson</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-324</link>
+		<dc:creator><![CDATA[Gilson]]></dc:creator>
+		<pubDate>Wed, 29 Mar 2017 16:53:38 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-324</guid>
+		<description><![CDATA[Boa tarde, quando declaro a biblioteca css do bootstrap a maioria do conteúdo da minha página deixa de usar meu arquivo css para utilizar o do bootstrap o que desconfigura toda a página, o que pode ser?]]></description>
+		<content:encoded><![CDATA[<p>Boa tarde, quando declaro a biblioteca css do bootstrap a maioria do conteúdo da minha página deixa de usar meu arquivo css para utilizar o do bootstrap o que desconfigura toda a página, o que pode ser?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: ricardo</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-323</link>
+		<dc:creator><![CDATA[ricardo]]></dc:creator>
+		<pubDate>Mon, 30 Jan 2017 17:31:55 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-323</guid>
+		<description><![CDATA[eu posso fazer um menu diferente do que o bootstrap nos apresenta ?]]></description>
+		<content:encoded><![CDATA[<p>eu posso fazer um menu diferente do que o bootstrap nos apresenta ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Amaury Santos</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-322</link>
+		<dc:creator><![CDATA[Amaury Santos]]></dc:creator>
+		<pubDate>Fri, 04 Nov 2016 20:34:47 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-322</guid>
+		<description><![CDATA[Estou desejando fazer uma página com vídeos on line... mas ainda estou inseguro quanto ao procedimento...]]></description>
+		<content:encoded><![CDATA[<p>Estou desejando fazer uma página com vídeos on line&#8230; mas ainda estou inseguro quanto ao procedimento&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: RAFAELA V MARRASCHI</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-321</link>
+		<dc:creator><![CDATA[RAFAELA V MARRASCHI]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 19:47:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-321</guid>
+		<description><![CDATA[muito bom!!]]></description>
+		<content:encoded><![CDATA[<p>muito bom!!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-320</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 08 Sep 2016 20:26:38 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-320</guid>
+		<description><![CDATA[Sim, pode ter .container dentro de .container-fluid, sem problemas. Claro que ele deve ter uma função útil, e não apenas estar lá.
+Não faria sentido ter .container dentro de .container, porque o resultado não serviria para nada.
+
+Você pode usar o container para criar seções de uma página, por exemplo, com a tag section. As páginas do tipo One Page Layout, e os hotsites também, podem usar o container como divisão de cada parte horizontal da página.]]></description>
+		<content:encoded><![CDATA[<p>Sim, pode ter .container dentro de .container-fluid, sem problemas. Claro que ele deve ter uma função útil, e não apenas estar lá.<br />
+Não faria sentido ter .container dentro de .container, porque o resultado não serviria para nada.</p>
+<p>Você pode usar o container para criar seções de uma página, por exemplo, com a tag section. As páginas do tipo One Page Layout, e os hotsites também, podem usar o container como divisão de cada parte horizontal da página.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Everton Godoy</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-319</link>
+		<dc:creator><![CDATA[Everton Godoy]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 11:19:33 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-319</guid>
+		<description><![CDATA[Na parte sobre &quot;Topo Full Width e o Conteúdo Normal&quot;, foi comentado de usar 2 Containers, sendo:
+ - container-fluid
+ - container
+
+Minha dúvida é a seguinte, posso usar um &quot;container&quot; dentro de outro, mesmo sendo um &quot;container&quot; dentro de um &quot;container-fluid&quot; ?
+
+Ou como como boa prática, não devemos utilizar desse modo ?
+
+
+Além disso, no inicio, foi comentado sobre um &quot;container&quot; para englobar o site todo, que também me deixa na dúvida anterior.
+
+Eu vi um exemplo bem prático na internet, onde para cada sessão da página, a pessoa utilizou um &quot;container&quot;, por exemplo, um para formulário comum de dados, outro para fotos, etc.]]></description>
+		<content:encoded><![CDATA[<p>Na parte sobre &#8220;Topo Full Width e o Conteúdo Normal&#8221;, foi comentado de usar 2 Containers, sendo:<br />
+ &#8211; container-fluid<br />
+ &#8211; container</p>
+<p>Minha dúvida é a seguinte, posso usar um &#8220;container&#8221; dentro de outro, mesmo sendo um &#8220;container&#8221; dentro de um &#8220;container-fluid&#8221; ?</p>
+<p>Ou como como boa prática, não devemos utilizar desse modo ?</p>
+<p>Além disso, no inicio, foi comentado sobre um &#8220;container&#8221; para englobar o site todo, que também me deixa na dúvida anterior.</p>
+<p>Eu vi um exemplo bem prático na internet, onde para cada sessão da página, a pessoa utilizou um &#8220;container&#8221;, por exemplo, um para formulário comum de dados, outro para fotos, etc.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-318</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Tue, 06 Sep 2016 03:07:09 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-318</guid>
+		<description><![CDATA[Muito obrigado, Fabio!
+Qualquer dúvida, é só comentar... ou mandar um e-mail.
+
+Abs!]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Fabio!<br />
+Qualquer dúvida, é só comentar&#8230; ou mandar um e-mail.</p>
+<p>Abs!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Fabio Tust</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-317</link>
+		<dc:creator><![CDATA[Fabio Tust]]></dc:creator>
+		<pubDate>Mon, 05 Sep 2016 22:00:20 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-317</guid>
+		<description><![CDATA[Olá Ruan!
+
+Parabéns pelo teu trabalho. Encontrei o teu blog quando procurava exatamente dicas sobre bootstrap. Baixei o livro, mas ainda não pude olhar. Recebi teu email convidando para ler este post e realmente valeu a leitura. Continue com o ótimo trabalho!]]></description>
+		<content:encoded><![CDATA[<p>Olá Ruan!</p>
+<p>Parabéns pelo teu trabalho. Encontrei o teu blog quando procurava exatamente dicas sobre bootstrap. Baixei o livro, mas ainda não pude olhar. Recebi teu email convidando para ler este post e realmente valeu a leitura. Continue com o ótimo trabalho!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/#comment-316</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sat, 16 Jul 2016 01:10:24 +0000</pubDate>
+		<guid isPermaLink="false">/?p=825#comment-316</guid>
+		<description><![CDATA[Realmente depende da licença do que você for usar.
+
+Normalmente, são usadas a Apache, a GPL e a MIT. A principio você pode usar, e deve manter o autor original e manter o código aberto.
+Mas, cada uma tem sua especificidade.
+Dá uma olhada nesse site que ele resume bem cada uma: https://tldrlegal.com]]>/</description>
+		<content:encoded><![CDATA[<p>Realmente depende da licença do que você for usar.</p>
+<p>Normalmente, são usadas a Apache, a GPL e a MIT. A principio você pode usar, e deve manter o autor original e manter o código aberto.<br />
+Mas, cada uma tem sua especificidade.<br />
+Dá uma olhada nesse site que ele resume bem cada uma: <a href="https://tldrlegal.com/" rel="nofollow">https://tldrlegal.com/</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

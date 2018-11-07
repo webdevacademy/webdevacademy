@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Criando Telas de CRUD com Bootstrap 3 – Parte V</title>
+	<atom:link href="/ux/crud-com-bootstrap-3-parte5/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/crud-com-bootstrap-3-parte5/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-725</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 17:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-725</guid>
+		<description><![CDATA[Acho que você não vai conseguir isso com o bootstrap, porque não dá pra colocar &quot;colunas ilimitadas&quot; no Grid System. Você vai ficar limitado a 12.
+
+Use uma tabela normal pra fazer isso.
+
+Para criar as colunas em resultados de consulta (SELECT, etc.), você deve fazer um loop nos resultados, e criar as colunas com eles. Senão, vai ficar um embaixo do outro mesmo.
+
+O Grid System é para layouts e posicionamento. E não para exibir resultados de busca.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Acho que você não vai conseguir isso com o bootstrap, porque não dá pra colocar &#8220;colunas ilimitadas&#8221; no Grid System. Você vai ficar limitado a 12.</p>
+<p>Use uma tabela normal pra fazer isso.</p>
+<p>Para criar as colunas em resultados de consulta (SELECT, etc.), você deve fazer um loop nos resultados, e criar as colunas com eles. Senão, vai ficar um embaixo do outro mesmo.</p>
+<p>O Grid System é para layouts e posicionamento. E não para exibir resultados de busca.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Giovani Domingues</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-369</link>
+		<dc:creator><![CDATA[Giovani Domingues]]></dc:creator>
+		<pubDate>Mon, 25 Sep 2017 01:28:25 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-369</guid>
+		<description><![CDATA[/tutoriais/crud-bootstrap-php-mysql-parte3/ nesse tutorial queria saber sobre paginçaão, pesquisar, etc.... a paginação de acordo com a quantidade de registros, etc.... tem como?]]></description>
+		<content:encoded><![CDATA[<p><a href="/tutoriais/crud-bootstrap-php-mysql-parte3/" rel="nofollow">/tutoriais/crud-bootstrap-php-mysql-parte3/</a> nesse tutorial queria saber sobre paginçaão, pesquisar, etc&#8230;. a paginação de acordo com a quantidade de registros, etc&#8230;. tem como?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Joao Emilio</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-368</link>
+		<dc:creator><![CDATA[Joao Emilio]]></dc:creator>
+		<pubDate>Sat, 18 Mar 2017 06:33:41 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-368</guid>
+		<description><![CDATA[Muito didático e simples. Para quem já tem noção de Bootstrap e AngularJS, esse template que você criou vem muito bem a calhar.
+Obrigado!]]></description>
+		<content:encoded><![CDATA[<p>Muito didático e simples. Para quem já tem noção de Bootstrap e AngularJS, esse template que você criou vem muito bem a calhar.<br />
+Obrigado!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Daniel Fernandes</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-367</link>
+		<dc:creator><![CDATA[Daniel Fernandes]]></dc:creator>
+		<pubDate>Wed, 01 Feb 2017 19:01:38 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-367</guid>
+		<description><![CDATA[Parabéns pelo seu tutorial, gostei muito da sua idéia.
+Sou novo no desenvolvimento front-end  e estou aplicando seu exemplo em um projeto asp.net com MVC , mas o &quot;cabeçalho&quot; onde fica o botao de pesquisa e o botão de incluir , ao invés de ficar todos em uma linha somente , estão ficando em três linhas  (um em baixo do outro). Achei que poderia ser alguma referencia ao .css , mas pelo que estou notando os botões pegaram as cores , etc , sabe o que poderia ser.]]></description>
+		<content:encoded><![CDATA[<p>Parabéns pelo seu tutorial, gostei muito da sua idéia.<br />
+Sou novo no desenvolvimento front-end  e estou aplicando seu exemplo em um projeto asp.net com MVC , mas o &#8220;cabeçalho&#8221; onde fica o botao de pesquisa e o botão de incluir , ao invés de ficar todos em uma linha somente , estão ficando em três linhas  (um em baixo do outro). Achei que poderia ser alguma referencia ao .css , mas pelo que estou notando os botões pegaram as cores , etc , sabe o que poderia ser.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-366</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 23 Nov 2016 15:28:47 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-366</guid>
+		<description><![CDATA[Valeu, Ricardo!
+Sugiro que você use o Bootstrap junto com o ASP.NET MVC. O sistema fica muito bom assim.
+
+Sds.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Valeu, Ricardo!<br />
+Sugiro que você use o Bootstrap junto com o ASP.NET MVC. O sistema fica muito bom assim.</p>
+<p>Sds.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ricardo</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-365</link>
+		<dc:creator><![CDATA[Ricardo]]></dc:creator>
+		<pubDate>Sat, 19 Nov 2016 13:44:59 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-365</guid>
+		<description><![CDATA[Muito bom tutorial, parabéns!
+Sou novo na área e estou começando no .net. Vou testar com objetos asp.
+Agradeço o compartilhamento do conhecimento.]]></description>
+		<content:encoded><![CDATA[<p>Muito bom tutorial, parabéns!<br />
+Sou novo na área e estou começando no .net. Vou testar com objetos asp.<br />
+Agradeço o compartilhamento do conhecimento.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-364</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Tue, 11 Oct 2016 03:46:12 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-364</guid>
+		<description><![CDATA[Obrigado, Luiz!
+
+Realmente, como você colocou, não se deve fazer uma consulta completa em tabelas grandes. Causa lentidão e desperdício de memória e recursos.
+Esse exemplo foi feito apenas para ilustrar como funciona a listagem, com o Bootstrap. Em uma aplicação real, deve-se usar paginação para trazer os registros.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Obrigado, Luiz!</p>
+<p>Realmente, como você colocou, não se deve fazer uma consulta completa em tabelas grandes. Causa lentidão e desperdício de memória e recursos.<br />
+Esse exemplo foi feito apenas para ilustrar como funciona a listagem, com o Bootstrap. Em uma aplicação real, deve-se usar paginação para trazer os registros.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Luiz Henrique</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-363</link>
+		<dc:creator><![CDATA[Luiz Henrique]]></dc:creator>
+		<pubDate>Tue, 11 Oct 2016 01:52:42 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-363</guid>
+		<description><![CDATA[Gostei bastante mas se a tabela  de Clientes e for grande geralmente é....  Eu nao faria fullscan na tabela   deixaria  para o filtro trazer somente o que precisa ser alterado, visualizado e removido.   O que mata a aplicação é  ler uma tabela inteira atoa.     Se tiver uns 10 registros até tudo bem o problema maior é que as tabelas crescem.    Achei legal, valeu!!!]]></description>
+		<content:encoded><![CDATA[<p>Gostei bastante mas se a tabela  de Clientes e for grande geralmente é&#8230;.  Eu nao faria fullscan na tabela   deixaria  para o filtro trazer somente o que precisa ser alterado, visualizado e removido.   O que mata a aplicação é  ler uma tabela inteira atoa.     Se tiver uns 10 registros até tudo bem o problema maior é que as tabelas crescem.    Achei legal, valeu!!!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Cirleno Vieira Marcal</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-362</link>
+		<dc:creator><![CDATA[Cirleno Vieira Marcal]]></dc:creator>
+		<pubDate>Fri, 07 Oct 2016 21:52:35 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-362</guid>
+		<description><![CDATA[Registro aqui com prazer o meu muito Obrigado pelo seu belo trabalho. Parabéns professor Ruan, segui passo a passo e deu tudo certinho, sou iniciante e ainda tenho muinto que aprender, as partes que ficaram em aberto, vou tentar aprender como completar. Obrigado meu querido!]]></description>
+		<content:encoded><![CDATA[<p>Registro aqui com prazer o meu muito Obrigado pelo seu belo trabalho. Parabéns professor Ruan, segui passo a passo e deu tudo certinho, sou iniciante e ainda tenho muinto que aprender, as partes que ficaram em aberto, vou tentar aprender como completar. Obrigado meu querido!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Romeu Sebastião</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-361</link>
+		<dc:creator><![CDATA[Romeu Sebastião]]></dc:creator>
+		<pubDate>Fri, 30 Sep 2016 20:09:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-361</guid>
+		<description><![CDATA[Amigos, acompanhei todos tutoriais !! 10 !! Vocês são gigantes !! Muito obrigado mesmo !!]]></description>
+		<content:encoded><![CDATA[<p>Amigos, acompanhei todos tutoriais !! 10 !! Vocês são gigantes !! Muito obrigado mesmo !!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Ferramentas &#8211; Web Dev Academy</title>
+	<atom:link href="/categoria/tools/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>Atom.io (Editor)</title>
+		<link>/tools/atom-io/</link>
+		<pubDate>Sun, 01 Jun 2014 12:00:11 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Ferramentas]]></category>
+
+		<guid isPermaLink="false">/?p=2258</guid>
+		<description><![CDATA[<p>O Atom é um editor de textos, e de código, bastante leve e tem vários plugins. Ele é ótimo para front-end e também para backend, ainda mais se você for desenvolver em Node.js.</p>
+<p>O post <a rel="nofollow" href="/tools/atom-io/">Atom.io (Editor)</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+	<post-id xmlns="com-wordpress:feed-additions:1">2258</post-id>	</item>
+		<item>
+		<title>VS Code (Editor)</title>
+		<link>/tools/vs-code/</link>
+		<pubDate>Tue, 01 Apr 2014 22:54:47 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Ferramentas]]></category>
+
+		<guid isPermaLink="false">/?p=2282</guid>
+		<description><![CDATA[<p>O Visual Studio Code é um editor recente da Microsoft feito para web dev. Muito útil se você precisa desenvolver para Windows. E tem para Mac e Linux também.</p>
+<p>O post <a rel="nofollow" href="/tools/vs-code/">VS Code (Editor)</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+	<post-id xmlns="com-wordpress:feed-additions:1">2282</post-id>	</item>
+		<item>
+		<title>Sublime Text (Editor)</title>
+		<link>/tools/sublime-text-editor/</link>
+		<pubDate>Sat, 01 Feb 2014 12:00:22 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Ferramentas]]></category>
+
+		<guid isPermaLink="false">/?p=2279</guid>
+		<description><![CDATA[<p>O Sublime é um ótimo editor que aumenta muito a nossa produtividade para escrever código. Ele é pago, mas pode ser testado gratuitamente. </p>
+<p>O post <a rel="nofollow" href="/tools/sublime-text-editor/">Sublime Text (Editor)</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+	<post-id xmlns="com-wordpress:feed-additions:1">2279</post-id>	</item>
+	</channel>
+</rss>

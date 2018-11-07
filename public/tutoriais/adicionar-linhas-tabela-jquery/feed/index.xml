@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Como Adicionar Linhas em uma Tabela com jQuery</title>
+	<atom:link href="/tutoriais/adicionar-linhas-tabela-jquery/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/adicionar-linhas-tabela-jquery/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Pablo Pereira</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-717</link>
+		<dc:creator><![CDATA[Pablo Pereira]]></dc:creator>
+		<pubDate>Wed, 10 Jan 2018 01:04:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-717</guid>
+		<description><![CDATA[Boa Noite,
+Como salvar esses dados no banco de dados mysql, com php 7.
+Nao estou conseguindo gravar os dados no banco de dados, a tabela funcionou direitinho mas nao esta dando certo gravar.
+Porque tem o filtro e nao esta dando certo.
+Obrigado.]]></description>
+		<content:encoded><![CDATA[<p>Boa Noite,<br />
+Como salvar esses dados no banco de dados mysql, com php 7.<br />
+Nao estou conseguindo gravar os dados no banco de dados, a tabela funcionou direitinho mas nao esta dando certo gravar.<br />
+Porque tem o filtro e nao esta dando certo.<br />
+Obrigado.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: John</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-161</link>
+		<dc:creator><![CDATA[John]]></dc:creator>
+		<pubDate>Wed, 01 Mar 2017 16:47:27 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-161</guid>
+		<description><![CDATA[Olá...excelente explicação...!!! esta sendo muito útil para mim.
+Porem eu precisava que essas tabela fosse gerada automaticamente durante o carregamento da página. Até nesse ponto, ok...
+Porem não estou conseguindo preencher um &quot;campo&quot; especifico com um dado salvo em uma variável em .js.
+
+Estaria ao seu alcance me auxiliar... no mais obrigado
+
+Att,
+
+John]]></description>
+		<content:encoded><![CDATA[<p>Olá&#8230;excelente explicação&#8230;!!! esta sendo muito útil para mim.<br />
+Porem eu precisava que essas tabela fosse gerada automaticamente durante o carregamento da página. Até nesse ponto, ok&#8230;<br />
+Porem não estou conseguindo preencher um &#8220;campo&#8221; especifico com um dado salvo em uma variável em .js.</p>
+<p>Estaria ao seu alcance me auxiliar&#8230; no mais obrigado</p>
+<p>Att,</p>
+<p>John</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Lucas Morais</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-160</link>
+		<dc:creator><![CDATA[Lucas Morais]]></dc:creator>
+		<pubDate>Fri, 27 Jan 2017 22:29:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-160</guid>
+		<description><![CDATA[Ruan
+
+Independente de quantas linhas forem adicionadas, poderia me dar um exemplo de como eu enviarei estes dados a um banco?]]></description>
+		<content:encoded><![CDATA[<p>Ruan</p>
+<p>Independente de quantas linhas forem adicionadas, poderia me dar um exemplo de como eu enviarei estes dados a um banco?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-159</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 12 Jan 2017 12:48:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-159</guid>
+		<description><![CDATA[Isso mesmo. Esse trecho é do tutorial de remoção.
+
+Este tutorial aqui é a continuação daquele.]]></description>
+		<content:encoded><![CDATA[<p>Isso mesmo. Esse trecho é do tutorial de remoção.</p>
+<p>Este tutorial aqui é a continuação daquele.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Anderson de Castro</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-158</link>
+		<dc:creator><![CDATA[Anderson de Castro]]></dc:creator>
+		<pubDate>Thu, 12 Jan 2017 12:43:27 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-158</guid>
+		<description><![CDATA[RemoveTableRow = function(handler) {
+    var tr = $(handler).closest(&#039;tr&#039;);
+
+    tr.fadeOut(400, function(){ 
+      tr.remove(); 
+    }); 
+
+    return false;
+  };
+
+Achei nem esta no tutorial a parte deste codigo.]]></description>
+		<content:encoded><![CDATA[<p>RemoveTableRow = function(handler) {<br />
+    var tr = $(handler).closest(&#8216;tr&#8217;);</p>
+<p>    tr.fadeOut(400, function(){<br />
+      tr.remove();<br />
+    }); </p>
+<p>    return false;<br />
+  };</p>
+<p>Achei nem esta no tutorial a parte deste codigo.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Anderson de Castro</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-157</link>
+		<dc:creator><![CDATA[Anderson de Castro]]></dc:creator>
+		<pubDate>Thu, 12 Jan 2017 12:29:29 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-157</guid>
+		<description><![CDATA[Nao encontra a function RemoveTableRow ? onde ela e declarada ? Obrigado]]></description>
+		<content:encoded><![CDATA[<p>Nao encontra a function RemoveTableRow ? onde ela e declarada ? Obrigado</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Rqeconti</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-156</link>
+		<dc:creator><![CDATA[Rqeconti]]></dc:creator>
+		<pubDate>Sun, 01 Jan 2017 18:14:19 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-156</guid>
+		<description><![CDATA[Ruan, eay cara adorei seu modelo e deu tudo certo quando coloquei uma array como name ex: produto[].
+
+mais agora queria saber uma outra coisa existe a possibilidade de colocar no lugar de um input um select chamando os produtos da base de dados?
+pois ele não executa o php (conexao e select do banco) dentro do javascrip certo? 
+
+se existe vc tem algum modelo de como fazer esse select chamando os produtos da base?]]></description>
+		<content:encoded><![CDATA[<p>Ruan, eay cara adorei seu modelo e deu tudo certo quando coloquei uma array como name ex: produto[].</p>
+<p>mais agora queria saber uma outra coisa existe a possibilidade de colocar no lugar de um input um select chamando os produtos da base de dados?<br />
+pois ele não executa o php (conexao e select do banco) dentro do javascrip certo? </p>
+<p>se existe vc tem algum modelo de como fazer esse select chamando os produtos da base?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-155</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 29 Dec 2016 15:26:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-155</guid>
+		<description><![CDATA[Estude esse exemplo: http://codepen.io/ruancarvalho/pen/ZBgamK]]></description>
+		<content:encoded><![CDATA[<p>Estude esse exemplo: <a href="http://codepen.io/ruancarvalho/pen/ZBgamK" rel="nofollow">http://codepen.io/ruancarvalho/pen/ZBgamK</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Allan Souza</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-154</link>
+		<dc:creator><![CDATA[Allan Souza]]></dc:creator>
+		<pubDate>Thu, 29 Dec 2016 00:08:17 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-154</guid>
+		<description><![CDATA[Boa noite! 
+
+Alguém me poderia ajudar com o código para adicionar colunas dinamicamente, da mesma maneira que fazemos com as linhas da tabela?
+
+Não estou a conseguir colocar a função a funcionar.
+
+Por favor!
+
+Obrigado]]></description>
+		<content:encoded><![CDATA[<p>Boa noite! </p>
+<p>Alguém me poderia ajudar com o código para adicionar colunas dinamicamente, da mesma maneira que fazemos com as linhas da tabela?</p>
+<p>Não estou a conseguir colocar a função a funcionar.</p>
+<p>Por favor!</p>
+<p>Obrigado</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Rqeconti</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/#comment-153</link>
+		<dc:creator><![CDATA[Rqeconti]]></dc:creator>
+		<pubDate>Wed, 28 Dec 2016 16:34:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=40#comment-153</guid>
+		<description><![CDATA[Deu certinho!!!, mais agora tenho outra duvida rs, para que eu faca a quantidade vezes o valor aparecer no campo total  eu estou usando pelo id mais nas que adiciono não consigo colocar uma id para cada linha você tem alguma ideia de como fazer isso?]]></description>
+		<content:encoded><![CDATA[<p>Deu certinho!!!, mais agora tenho outra duvida rs, para que eu faca a quantidade vezes o valor aparecer no campo total  eu estou usando pelo id mais nas que adiciono não consigo colocar uma id para cada linha você tem alguma ideia de como fazer isso?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Web Dev Academy</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>Bootstrap 4: Como Começar</title>
+		<link>/tutoriais/bootstrap-4-como-comecar/</link>
+		<comments>/tutoriais/bootstrap-4-como-comecar/#comments</comments>
+		<pubDate>Mon, 22 Jan 2018 10:00:14 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=2575</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender como começar um projeto com Bootstrap 4 e os conceitos básicos.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/bootstrap-4-como-comecar/">Bootstrap 4: Como Começar</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/bootstrap-4-como-comecar/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">2575</post-id>	</item>
+		<item>
+		<title>Bootstrap: Como Criar Tabelas</title>
+		<link>/tutoriais/bootstrap-tabelas/</link>
+		<comments>/tutoriais/bootstrap-tabelas/#comments</comments>
+		<pubDate>Tue, 03 Jan 2017 10:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=900</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai entender como trabalhar com tabelas no Bootstrap junto com alguns exemplos.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/bootstrap-tabelas/">Bootstrap: Como Criar Tabelas</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/bootstrap-tabelas/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">900</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL – Parte VI</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte6/#comments</comments>
+		<pubDate>Fri, 07 Oct 2016 16:00:21 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1625</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai ver como criar a parte de exclusão de registros, do nosso CRUD, usando o componente de modal do Bootstrap.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte6/">CRUD com Bootstrap, PHP &#038; MySQL – Parte VI</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte6/feed/</wfw:commentRss>
+		<slash:comments>82</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1625</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL – Parte V</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte5/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte5/#comments</comments>
+		<pubDate>Mon, 03 Oct 2016 18:55:09 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[CRUD]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1584</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai ver como criar os arquivos e funções para implementar a tela de visualização do cadastro de um cliente, em um CRUD com PHP, MySQL e Bootstrap.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte5/">CRUD com Bootstrap, PHP &#038; MySQL – Parte V</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte5/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1584</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL – Parte IV</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte4/#comments</comments>
+		<pubDate>Tue, 27 Sep 2016 16:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1465</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender como criar os formulários de inserção e a edição no cadastro de clientes. Além disso, vamos criar as funções de persistência dessas informações no banco de dados, usando PHP e MySQL, ou seja o cadastro em si.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte4/">CRUD com Bootstrap, PHP &#038; MySQL – Parte IV</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte4/feed/</wfw:commentRss>
+		<slash:comments>54</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1465</post-id>	</item>
+		<item>
+		<title>JavaScript: Trabalhando com Funções</title>
+		<link>/tutoriais/javascript-funcoes/</link>
+		<comments>/tutoriais/javascript-funcoes/#comments</comments>
+		<pubDate>Fri, 23 Sep 2016 00:24:18 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[JavaScript]]></category>
+
+		<guid isPermaLink="false">/?p=1539</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender o que são as funções, como criá-las e como utilizar os argumentos para modificar o comportamento de trechos do seu código.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/javascript-funcoes/">JavaScript: Trabalhando com Funções</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/javascript-funcoes/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1539</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL – Parte III</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte3/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte3/#comments</comments>
+		<pubDate>Tue, 24 May 2016 13:00:53 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1306</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai ver como criar a tela de listagem para o nosso CRUD. Além disso, você vai ver como implementar as funções de consulta e como integrar o front-end ao backend.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte3/">CRUD com Bootstrap, PHP &#038; MySQL – Parte III</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte3/feed/</wfw:commentRss>
+		<slash:comments>76</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1306</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL – Parte II</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte2/#comments</comments>
+		<pubDate>Thu, 19 May 2016 13:00:46 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1277</guid>
+		<description><![CDATA[<p>Neste tutorial, vamos criar os arquivos de template do header e do footer para usar no projeto. E depois, a página principal do sistema.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte2/">CRUD com Bootstrap, PHP &#038; MySQL – Parte II</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte2/feed/</wfw:commentRss>
+		<slash:comments>50</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1277</post-id>	</item>
+		<item>
+		<title>CRUD com Bootstrap, PHP &#038; MySQL &#8211; Parte I</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte1/</link>
+		<comments>/tutoriais/crud-bootstrap-php-mysql-parte1/#comments</comments>
+		<pubDate>Tue, 17 May 2016 13:00:39 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1215</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai criar o banco de dados para o nosso sistema de CRUD, criar um arquivo de configurações do sistema e, então, criar o script de conexão com o banco de dados em PHP.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql-parte1/">CRUD com Bootstrap, PHP &#038; MySQL &#8211; Parte I</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/crud-bootstrap-php-mysql-parte1/feed/</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1215</post-id>	</item>
+		<item>
+		<title>Aprenda a Fazer um CRUD com Bootstrap, PHP &#038; MySQL</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql/</link>
+		<pubDate>Fri, 13 May 2016 13:00:56 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">/?p=1188</guid>
+		<description><![CDATA[<p>Nesta série de tutoriais, você vai aprender uma forma eficaz de implementar um sistema de CRUD completo, usando o Bootstrap no front-end e PHP com MySQL no back end.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/crud-bootstrap-php-mysql/">Aprenda a Fazer um CRUD com Bootstrap, PHP &#038; MySQL</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+	<post-id xmlns="com-wordpress:feed-additions:1">1188</post-id>	</item>
+	</channel>
+</rss>

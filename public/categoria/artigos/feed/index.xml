@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Artigos &#8211; Web Dev Academy</title>
+	<atom:link href="/categoria/artigos/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>As 3 Meta Tags Essenciais para o Design Responsivo</title>
+		<link>/artigos/meta-tags-design-responsivo/</link>
+		<comments>/artigos/meta-tags-design-responsivo/#comments</comments>
+		<pubDate>Fri, 26 Feb 2016 12:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[HTML & CSS]]></category>
+
+		<guid isPermaLink="false">/?p=1035</guid>
+		<description><![CDATA[<p>Neste artigo, você vai entender para que servem cada uma das meta tags que são usadas em páginas com design responsivo, principalmente a de viewport.</p>
+<p>O post <a rel="nofollow" href="/artigos/meta-tags-design-responsivo/">As 3 Meta Tags Essenciais para o Design Responsivo</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/meta-tags-design-responsivo/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1035</post-id>	</item>
+		<item>
+		<title>One Page Layout&#8230; O Que É? E Quando Usar?</title>
+		<link>/artigos/one-page-layout/</link>
+		<comments>/artigos/one-page-layout/#comments</comments>
+		<pubDate>Tue, 01 Sep 2015 12:00:12 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[HTML & CSS]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">/?p=858</guid>
+		<description><![CDATA[<p>Neste artigo, você vai conhecer o One Page Layout, uma técnica de layouts que pode ser muito útil quando bem aplicada. Vai ver também quando você pode usá-lo e quando não deveria.</p>
+<p>O post <a rel="nofollow" href="/artigos/one-page-layout/">One Page Layout&#8230; O Que É? E Quando Usar?</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/one-page-layout/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">858</post-id>	</item>
+		<item>
+		<title>15 Dúvidas Comuns que Você pode Ter Sobre o Bootstrap</title>
+		<link>/artigos/15-duvidas-comuns-sobre-bootstrap/</link>
+		<comments>/artigos/15-duvidas-comuns-sobre-bootstrap/#comments</comments>
+		<pubDate>Tue, 20 Jan 2015 14:57:32 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[Bootstrap]]></category>
+
+		<guid isPermaLink="false">/?p=825</guid>
+		<description><![CDATA[<p>Neste post, eu reuni as principais dúvidas que as pessoas tem (e que você pode ter) sobre o Bootstrap. Veja se alguma delas você tinha, ou ainda tem...</p>
+<p>O post <a rel="nofollow" href="/artigos/15-duvidas-comuns-sobre-bootstrap/">15 Dúvidas Comuns que Você pode Ter Sobre o Bootstrap</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/15-duvidas-comuns-sobre-bootstrap/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">825</post-id>	</item>
+		<item>
+		<title>Como Funcionam as Comunicações Web</title>
+		<link>/artigos/como-funcionam-comunicacoes-web/</link>
+		<comments>/artigos/como-funcionam-comunicacoes-web/#respond</comments>
+		<pubDate>Thu, 14 Aug 2014 12:00:33 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+
+		<guid isPermaLink="false">/?p=283</guid>
+		<description><![CDATA[<p>Neste artigo você vai conhecer os principais componentes de qualquer aplicação web, e websites também. Esses itens são a base para entender a arquitetura de todas as comunicações web.</p>
+<p>O post <a rel="nofollow" href="/artigos/como-funcionam-comunicacoes-web/">Como Funcionam as Comunicações Web</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/como-funcionam-comunicacoes-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">283</post-id>	</item>
+		<item>
+		<title>As Ferramentas Básicas do Desenvolvedor Web</title>
+		<link>/artigos/ferramentas-basicas-web-dev/</link>
+		<comments>/artigos/ferramentas-basicas-web-dev/#comments</comments>
+		<pubDate>Wed, 09 Apr 2014 12:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[Tooling]]></category>
+
+		<guid isPermaLink="false">/?p=1089</guid>
+		<description><![CDATA[<p>Neste artigo, você vai conhecer as ferramentas básicas e essenciais para começar a trabalhar com desenvolvimento web.</p>
+<p>O post <a rel="nofollow" href="/artigos/ferramentas-basicas-web-dev/">As Ferramentas Básicas do Desenvolvedor Web</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/ferramentas-basicas-web-dev/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1089</post-id>	</item>
+		<item>
+		<title>Por Quê Você Deveria Estar Usando um CMS</title>
+		<link>/artigos/por-que-usar-cms/</link>
+		<comments>/artigos/por-que-usar-cms/#comments</comments>
+		<pubDate>Tue, 07 Jan 2014 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[Drupal]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">/?p=171</guid>
+		<description><![CDATA[<p>Mesmo com as várias ferramentas para facilitar a vida de quem faz a Web, ainda há pessoas que fazem seus sites da mesma forma que faziam há dez anos. Atualmente, existem três formas principais de fazer um site, mas neste post você vai entender porquê você deve escolher usar um CMS.</p>
+<p>O post <a rel="nofollow" href="/artigos/por-que-usar-cms/">Por Quê Você Deveria Estar Usando um CMS</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/por-que-usar-cms/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">171</post-id>	</item>
+	</channel>
+</rss>

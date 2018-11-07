@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>JavaScript &#8211; Web Dev Academy</title>
+	<atom:link href="/tag/javascript/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>JavaScript: Trabalhando com Funções</title>
+		<link>/tutoriais/javascript-funcoes/</link>
+		<comments>/tutoriais/javascript-funcoes/#comments</comments>
+		<pubDate>Fri, 23 Sep 2016 00:24:18 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[JavaScript]]></category>
+
+		<guid isPermaLink="false">/?p=1539</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender o que são as funções, como criá-las e como utilizar os argumentos para modificar o comportamento de trechos do seu código.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/javascript-funcoes/">JavaScript: Trabalhando com Funções</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/javascript-funcoes/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1539</post-id>	</item>
+		<item>
+		<title>Como Adicionar Linhas em uma Tabela com jQuery</title>
+		<link>/tutoriais/adicionar-linhas-tabela-jquery/</link>
+		<comments>/tutoriais/adicionar-linhas-tabela-jquery/#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 12:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">/?p=40</guid>
+		<description><![CDATA[<p>No post anterior, vimos como remover as linhas dinâmicas de uma tabela sem usar os seletores do jQuery, Agora, neste tutorial, vamos aprender uma forma de adicionar linhas dinamicamente nessa mesma tabela, utilizando também o jQuery.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/adicionar-linhas-tabela-jquery/">Como Adicionar Linhas em uma Tabela com jQuery</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/adicionar-linhas-tabela-jquery/feed/</wfw:commentRss>
+		<slash:comments>72</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">40</post-id>	</item>
+		<item>
+		<title>Como Remover Linhas de uma Tabela com jQuery</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/</link>
+		<comments>/tutoriais/remover-linhas-tabela-jquery/#comments</comments>
+		<pubDate>Tue, 28 Jan 2014 12:00:08 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">/?p=37</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender uma solução para remover linhas que foram criadas dinamicamente em uma tabela, utilizando para isso o jQuery. Porém, não usaremos os seletores do jQuery já que as linhas serão criadas pelo usuário.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/remover-linhas-tabela-jquery/">Como Remover Linhas de uma Tabela com jQuery</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/remover-linhas-tabela-jquery/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">37</post-id>	</item>
+	</channel>
+</rss>

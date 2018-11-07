@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Bootstrap 3: Criando Imagens Responsivas</title>
+	<atom:link href="/ux/bootstrap-imagens-responsivas/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/bootstrap-imagens-responsivas/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Web atividade extra 04 &#8211; Professor Edson Maia</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-733</link>
+		<dc:creator><![CDATA[Web atividade extra 04 &#8211; Professor Edson Maia]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 00:09:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-733</guid>
+		<description><![CDATA[[&#8230;] /ux/bootstrap-imagens-responsivas/ [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="/ux/bootstrap-imagens-responsivas/" rel="nofollow">/ux/bootstrap-imagens-responsivas/</a> [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: LUCIAN SANTOS SOUSA</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-246</link>
+		<dc:creator><![CDATA[LUCIAN SANTOS SOUSA]]></dc:creator>
+		<pubDate>Tue, 03 Oct 2017 14:49:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-246</guid>
+		<description><![CDATA[Me ajudou bastante, tinha uma imagem que não se ajustava no celular, ao usar o código acima consegui fazer ficar responsiva no celular.
+
+Muito obrigado.]]></description>
+		<content:encoded><![CDATA[<p>Me ajudou bastante, tinha uma imagem que não se ajustava no celular, ao usar o código acima consegui fazer ficar responsiva no celular.</p>
+<p>Muito obrigado.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: José</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-245</link>
+		<dc:creator><![CDATA[José]]></dc:creator>
+		<pubDate>Sun, 22 Jan 2017 20:20:20 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-245</guid>
+		<description><![CDATA[Queria fazer uma imagem como link, mas ele perde o link assim que a tela diminui, como faço?]]></description>
+		<content:encoded><![CDATA[<p>Queria fazer uma imagem como link, mas ele perde o link assim que a tela diminui, como faço?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ricardo</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-244</link>
+		<dc:creator><![CDATA[Ricardo]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2015 12:47:08 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-244</guid>
+		<description><![CDATA[Ruan,
+
+Estou inciando os estudos em Bootstrap. Tentei usar a classe img-responsive no carousel, exemplo do próprio site do Bootsrap, mas não funcionou. O que pode estar errado? Obrigado!]]></description>
+		<content:encoded><![CDATA[<p>Ruan,</p>
+<p>Estou inciando os estudos em Bootstrap. Tentei usar a classe img-responsive no carousel, exemplo do próprio site do Bootsrap, mas não funcionou. O que pode estar errado? Obrigado!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-243</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 08 Oct 2015 20:37:52 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-243</guid>
+		<description><![CDATA[Marcio,
+
+você pode usar a classe &quot;center-block&quot; na tag da imagem.
+
+&lt;code&gt;&lt;img ... class=&quot;center-block&quot; /&gt;&lt;/code&gt;
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Marcio,</p>
+<p>você pode usar a classe &#8220;center-block&#8221; na tag da imagem.</p>
+<p><code><img ... class="center-block" /></code></p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Marcio</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-242</link>
+		<dc:creator><![CDATA[Marcio]]></dc:creator>
+		<pubDate>Sat, 03 Oct 2015 05:49:59 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-242</guid>
+		<description><![CDATA[Quando a classe &quot;img-responsive&quot; é aplicada não é possível centraliza-la?
+
+Estou com esse problema aqui.
+
+Minha imagem está com classe (.img-responsive) devidamente aplicada e inserida numa &quot;row&quot; e duma div com &quot;col-md-12&quot;. 
+
+No momento que aplico a classe &quot;img-responsive&quot; a classe &quot;text-center&quot; deixa de fazer efeito e a imagem ica alinhada à esquerda.
+
+Segue o código abaixo:
+
+```
+
+         			
+		
+				
+		
+	
+
+
+Pode me dar uma ajuda?
+Desde já te agradeço.
+
+Abraço;]]></description>
+		<content:encoded><![CDATA[<p>Quando a classe &#8220;img-responsive&#8221; é aplicada não é possível centraliza-la?</p>
+<p>Estou com esse problema aqui.</p>
+<p>Minha imagem está com classe (.img-responsive) devidamente aplicada e inserida numa &#8220;row&#8221; e duma div com &#8220;col-md-12&#8221;. </p>
+<p>No momento que aplico a classe &#8220;img-responsive&#8221; a classe &#8220;text-center&#8221; deixa de fazer efeito e a imagem ica alinhada à esquerda.</p>
+<p>Segue o código abaixo:</p>
+<p>&#8220;`</p>
+<p>Pode me dar uma ajuda?<br />
+Desde já te agradeço.</p>
+<p>Abraço;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Roberto Acruche</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-241</link>
+		<dc:creator><![CDATA[Roberto Acruche]]></dc:creator>
+		<pubDate>Sun, 03 May 2015 19:21:09 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-241</guid>
+		<description><![CDATA[Obrigado Ruan.
+
+Quando vamos ter novos artigos sobre bootstrap?]]></description>
+		<content:encoded><![CDATA[<p>Obrigado Ruan.</p>
+<p>Quando vamos ter novos artigos sobre bootstrap?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-240</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sun, 03 May 2015 00:52:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-240</guid>
+		<description><![CDATA[Muito obrigado, Roberto!
+
+Sobre as perguntas: O alinhamento da imagem neste componente é sempre à esquerda ou à direita. Não é possível colocar embaixo (pelo que eu pesquisei). Pra fazer isso você pode usar as rows e columns mesmo, sem o media object.
+
+Dentro do .media-body você pode usar buttons, e outros componentes. Basta ficar de olho nos tamanhos, para manter a proporção.
+
+Abs!]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Roberto!</p>
+<p>Sobre as perguntas: O alinhamento da imagem neste componente é sempre à esquerda ou à direita. Não é possível colocar embaixo (pelo que eu pesquisei). Pra fazer isso você pode usar as rows e columns mesmo, sem o media object.</p>
+<p>Dentro do .media-body você pode usar buttons, e outros componentes. Basta ficar de olho nos tamanhos, para manter a proporção.</p>
+<p>Abs!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Roberto Acruche</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-239</link>
+		<dc:creator><![CDATA[Roberto Acruche]]></dc:creator>
+		<pubDate>Sat, 02 May 2015 18:45:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-239</guid>
+		<description><![CDATA[Olá Ruan,
+
+Existe alguma possibilidade de colocar o .media-body em baixo da imagem?
+E dentro do .media-body, posso usar buttons, progress?
+
+Parabéns pelos artigos.
+Abs]]></description>
+		<content:encoded><![CDATA[<p>Olá Ruan,</p>
+<p>Existe alguma possibilidade de colocar o .media-body em baixo da imagem?<br />
+E dentro do .media-body, posso usar buttons, progress?</p>
+<p>Parabéns pelos artigos.<br />
+Abs</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

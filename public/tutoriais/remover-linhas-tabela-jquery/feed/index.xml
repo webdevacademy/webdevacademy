@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Como Remover Linhas de uma Tabela com jQuery</title>
+	<atom:link href="/tutoriais/remover-linhas-tabela-jquery/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/remover-linhas-tabela-jquery/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Gladson Reis</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-718</link>
+		<dc:creator><![CDATA[Gladson Reis]]></dc:creator>
+		<pubDate>Thu, 11 Jan 2018 11:24:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-718</guid>
+		<description><![CDATA[Ola bom dia ! Nao achei o demo, poderia me enviar ?]]></description>
+		<content:encoded><![CDATA[<p>Ola bom dia ! Nao achei o demo, poderia me enviar ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Pedro Henrique Wolf Brito</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-90</link>
+		<dc:creator><![CDATA[Pedro Henrique Wolf Brito]]></dc:creator>
+		<pubDate>Tue, 23 Aug 2016 13:40:59 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-90</guid>
+		<description><![CDATA[Estou tentando fazer uma pesquisa, basicamente ver se uma string contem em outra com JavaScript, se essa consulta dar certo ok, caso contrário capturar o index da linha e deleta-la, isso roda dentro de um for, mas infelizmente ele apaga sempre a linha que encontra o texto e para de rodar o for.
+Segue a função abaixo:
+
+function pesquisaProduto() {
+            alert(&#039;entrou&#039;);
+            var texto = document.getElementById(&#039;buscaTabelaProdutos&#039;).value;
+            var tabela = document.getElementById(&#039;tableProdutos&#039;);
+            var tds = tabela.getElementsByClassName(&#039;tdDesc&#039;);
+            alert(tds.length);
+            for (i = 0; i &#060; tds.length; i++) {
+                var valor = tds[i].firstChild.nodeValue;
+                if(valor.indexOf(texto)==-1){
+                    //texto  encontrado nao deletar linha
+                    alert(&#039;nao achou&#039;);
+                    tabela.deleteRow(i);
+                }else{
+                    alert(&#039;achou&#039;);
+                }
+            }
+        }]]></description>
+		<content:encoded><![CDATA[<p>Estou tentando fazer uma pesquisa, basicamente ver se uma string contem em outra com JavaScript, se essa consulta dar certo ok, caso contrário capturar o index da linha e deleta-la, isso roda dentro de um for, mas infelizmente ele apaga sempre a linha que encontra o texto e para de rodar o for.<br />
+Segue a função abaixo:</p>
+<p>function pesquisaProduto() {<br />
+            alert(&#8216;entrou&#8217;);<br />
+            var texto = document.getElementById(&#8216;buscaTabelaProdutos&#8217;).value;<br />
+            var tabela = document.getElementById(&#8216;tableProdutos&#8217;);<br />
+            var tds = tabela.getElementsByClassName(&#8216;tdDesc&#8217;);<br />
+            alert(tds.length);<br />
+            for (i = 0; i &lt; tds.length; i++) {<br />
+                var valor = tds[i].firstChild.nodeValue;<br />
+                if(valor.indexOf(texto)==-1){<br />
+                    //texto  encontrado nao deletar linha<br />
+                    alert(&#039;nao achou&#039;);<br />
+                    tabela.deleteRow(i);<br />
+                }else{<br />
+                    alert(&#039;achou&#039;);<br />
+                }<br />
+            }<br />
+        }</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Adriano Augusto</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-89</link>
+		<dc:creator><![CDATA[Adriano Augusto]]></dc:creator>
+		<pubDate>Tue, 19 Jul 2016 21:25:37 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-89</guid>
+		<description><![CDATA[Parabens, funciona!
+
+abs]]></description>
+		<content:encoded><![CDATA[<p>Parabens, funciona!</p>
+<p>abs</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Elias</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-88</link>
+		<dc:creator><![CDATA[Elias]]></dc:creator>
+		<pubDate>Tue, 07 Jun 2016 21:42:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-88</guid>
+		<description><![CDATA[Como faço para pegar o id que está na tr ?]]></description>
+		<content:encoded><![CDATA[<p>Como faço para pegar o id que está na tr ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: David</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-87</link>
+		<dc:creator><![CDATA[David]]></dc:creator>
+		<pubDate>Mon, 25 Apr 2016 01:55:56 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-87</guid>
+		<description><![CDATA[Show!]]></description>
+		<content:encoded><![CDATA[<p>Show!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: emersom</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-86</link>
+		<dc:creator><![CDATA[emersom]]></dc:creator>
+		<pubDate>Sat, 16 Apr 2016 14:14:19 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-86</guid>
+		<description><![CDATA[otima publicação]]></description>
+		<content:encoded><![CDATA[<p>otima publicação</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Jayro</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-85</link>
+		<dc:creator><![CDATA[Jayro]]></dc:creator>
+		<pubDate>Wed, 02 Mar 2016 18:50:33 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-85</guid>
+		<description><![CDATA[Boa tarde Ruan,
+
+Parabéns pelo trabalho!
+Eu estou com a mesma dificuldade informada pelo Rodrigo.
+Você teria algum exemplo para que eu possa ter um norte e resolver.
+
+Abração!]]></description>
+		<content:encoded><![CDATA[<p>Boa tarde Ruan,</p>
+<p>Parabéns pelo trabalho!<br />
+Eu estou com a mesma dificuldade informada pelo Rodrigo.<br />
+Você teria algum exemplo para que eu possa ter um norte e resolver.</p>
+<p>Abração!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-84</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2015 01:44:28 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-84</guid>
+		<description><![CDATA[Valeu, Rodrigo!
+
+Essa remoção é só de front-end mesmo.
+
+Quando enviar os dados, você vai precisar ter alguma função no backend para verificar quem foi removido. 
+
+Uma sugestão seria percorrer o array anterior e comparar com o novo. E, então, fazer o delete nos que &quot;sobraram&quot;.
+
+O ideal é ter o ID de cada registro nas linhas da tabela. Assim você pode fazer essa sincronização pelo ID.
+
+Bom vai depender da linguagem que tu estás usando, também.]]></description>
+		<content:encoded><![CDATA[<p>Valeu, Rodrigo!</p>
+<p>Essa remoção é só de front-end mesmo.</p>
+<p>Quando enviar os dados, você vai precisar ter alguma função no backend para verificar quem foi removido. </p>
+<p>Uma sugestão seria percorrer o array anterior e comparar com o novo. E, então, fazer o delete nos que &#8220;sobraram&#8221;.</p>
+<p>O ideal é ter o ID de cada registro nas linhas da tabela. Assim você pode fazer essa sincronização pelo ID.</p>
+<p>Bom vai depender da linguagem que tu estás usando, também.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Rodrigo</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-83</link>
+		<dc:creator><![CDATA[Rodrigo]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2015 04:14:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-83</guid>
+		<description><![CDATA[Parabéns Ruan, ótimo post.
+Só me tire uma dúvida:
+A remoção da linha na tabela funciona muito bem, entretanto se eu enviar os dados da tabela para outro lugar (banco de dados por exemplo), eu percebo que a linha realmente não foi excluída do array, ele simplesmente sumiu da tabela eliminando a tr, mas no array ele continua.
+Você pode me ajudar como remover esse registro também do array, pensei em usar o :eq(), mas não quero dizer o índice do array, quero q elimine o índice da linha correspondente que o botão &#039;remove&#039; está.
+
+Desde já agradeço, vlw cara.]]></description>
+		<content:encoded><![CDATA[<p>Parabéns Ruan, ótimo post.<br />
+Só me tire uma dúvida:<br />
+A remoção da linha na tabela funciona muito bem, entretanto se eu enviar os dados da tabela para outro lugar (banco de dados por exemplo), eu percebo que a linha realmente não foi excluída do array, ele simplesmente sumiu da tabela eliminando a tr, mas no array ele continua.<br />
+Você pode me ajudar como remover esse registro também do array, pensei em usar o :eq(), mas não quero dizer o índice do array, quero q elimine o índice da linha correspondente que o botão &#8216;remove&#8217; está.</p>
+<p>Desde já agradeço, vlw cara.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/remover-linhas-tabela-jquery/#comment-82</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 03 Sep 2015 16:02:35 +0000</pubDate>
+		<guid isPermaLink="false">/?p=37#comment-82</guid>
+		<description><![CDATA[Muito obrigado, Elton!
+
+Fico feliz que o tutorial foi útil pra vc.
+
+Abs!]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Elton!</p>
+<p>Fico feliz que o tutorial foi útil pra vc.</p>
+<p>Abs!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

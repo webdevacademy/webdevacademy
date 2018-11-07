@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: CRUD com Bootstrap, PHP &#038; MySQL – Parte II</title>
+	<atom:link href="/tutoriais/crud-bootstrap-php-mysql-parte2/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/crud-bootstrap-php-mysql-parte2/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Lorena Mendes</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-716</link>
+		<dc:creator><![CDATA[Lorena Mendes]]></dc:creator>
+		<pubDate>Sat, 06 Jan 2018 20:29:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-716</guid>
+		<description><![CDATA[Muito obrigada!]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigada!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-715</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2018 20:37:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-715</guid>
+		<description><![CDATA[Você deve importar o Popper.js antes do JS do Bootstrap, e depois do JS do jQuery, no arquivo footer.php.
+
+Aqui tem um exemplo:
+http://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template]]></description>
+		<content:encoded><![CDATA[<p>Você deve importar o Popper.js antes do JS do Bootstrap, e depois do JS do jQuery, no arquivo footer.php.</p>
+<p>Aqui tem um exemplo:<br />
+<a href="http://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template" rel="nofollow">http://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Lorena Mendes</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-714</link>
+		<dc:creator><![CDATA[Lorena Mendes]]></dc:creator>
+		<pubDate>Thu, 04 Jan 2018 17:22:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-714</guid>
+		<description><![CDATA[Ruan, eu tive um problema semelhante ao do Rodrigo. Eu instalei o Popper, como faço para utilizá-lo? Desde já, obrigada e parabéns pelos excelentes posts.]]></description>
+		<content:encoded><![CDATA[<p>Ruan, eu tive um problema semelhante ao do Rodrigo. Eu instalei o Popper, como faço para utilizá-lo? Desde já, obrigada e parabéns pelos excelentes posts.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-694</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-694</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-693</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-693</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-692</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-692</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-691</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-691</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-690</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-690</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-689</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-689</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte2/#comment-688</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Thu, 14 Dec 2017 16:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1277#comment-688</guid>
+		<description><![CDATA[alguém ai conseguiu utilizar outra versão do bootstrap ?]]></description>
+		<content:encoded><![CDATA[<p>alguém ai conseguiu utilizar outra versão do bootstrap ?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

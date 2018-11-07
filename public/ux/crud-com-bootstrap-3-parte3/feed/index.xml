@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Criando Telas de CRUD com Bootstrap 3 – Parte III</title>
+	<atom:link href="/ux/crud-com-bootstrap-3-parte3/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/crud-com-bootstrap-3-parte3/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Rodrigo</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/#comment-282</link>
+		<dc:creator><![CDATA[Rodrigo]]></dc:creator>
+		<pubDate>Tue, 01 Mar 2016 21:37:20 +0000</pubDate>
+		<guid isPermaLink="false">/?p=619#comment-282</guid>
+		<description><![CDATA[Sua didática é excelente, Ruan! Muito obrigado pela dedicação. Facilita bastante do lado de cá.]]></description>
+		<content:encoded><![CDATA[<p>Sua didática é excelente, Ruan! Muito obrigado pela dedicação. Facilita bastante do lado de cá.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/#comment-281</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Mon, 07 Dec 2015 20:34:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=619#comment-281</guid>
+		<description><![CDATA[Usando só o Bootstrap, não.
+
+O Bootstrap é um framework de front-end, apenas. Para criar templates, você precisa de um back end.
+É possível usar o Bootstrap dentro do JSP, ou mesmo PHP, para fazer os templates, e ir chamando as partes com includes.
+
+Alías, essa é a forma correta de fazer.]]></description>
+		<content:encoded><![CDATA[<p>Usando só o Bootstrap, não.</p>
+<p>O Bootstrap é um framework de front-end, apenas. Para criar templates, você precisa de um back end.<br />
+É possível usar o Bootstrap dentro do JSP, ou mesmo PHP, para fazer os templates, e ir chamando as partes com includes.</p>
+<p>Alías, essa é a forma correta de fazer.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Thiago</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/#comment-280</link>
+		<dc:creator><![CDATA[Thiago]]></dc:creator>
+		<pubDate>Sun, 06 Dec 2015 17:44:01 +0000</pubDate>
+		<guid isPermaLink="false">/?p=619#comment-280</guid>
+		<description><![CDATA[Boa tarde, existe a possibilidade de criar um template no bootstrap e as paginas só utilizarem ele com a tag de include, como por exemplo no jsf ?]]></description>
+		<content:encoded><![CDATA[<p>Boa tarde, existe a possibilidade de criar um template no bootstrap e as paginas só utilizarem ele com a tag de include, como por exemplo no jsf ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/#comment-279</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Thu, 09 Jul 2015 15:15:09 +0000</pubDate>
+		<guid isPermaLink="false">/?p=619#comment-279</guid>
+		<description><![CDATA[Muito obrigado, Leandro!
+Já estou escrevendo alguns novos.
+
+Sds.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Leandro!<br />
+Já estou escrevendo alguns novos.</p>
+<p>Sds.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Leandro</title>
+		<link>/ux/crud-com-bootstrap-3-parte3/#comment-278</link>
+		<dc:creator><![CDATA[Leandro]]></dc:creator>
+		<pubDate>Tue, 07 Jul 2015 17:30:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=619#comment-278</guid>
+		<description><![CDATA[Muito bom os tutoriais! Me ajudou d+ a entender como o bootstrap pode ser produtivo.
+Quando teremos os próximos tutoriais?
+Obrigado,
+Leandro.]]></description>
+		<content:encoded><![CDATA[<p>Muito bom os tutoriais! Me ajudou d+ a entender como o bootstrap pode ser produtivo.<br />
+Quando teremos os próximos tutoriais?<br />
+Obrigado,<br />
+Leandro.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

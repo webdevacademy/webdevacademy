@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Bootstrap: Criando Layouts e Grids</title>
+	<atom:link href="/tutoriais/bootstrap-layouts-sistema-grids/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/bootstrap-layouts-sistema-grids/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Cristiano</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-219</link>
+		<dc:creator><![CDATA[Cristiano]]></dc:creator>
+		<pubDate>Sat, 18 Feb 2017 11:05:03 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-219</guid>
+		<description><![CDATA[Ola Ruan Carvalho....
+
+Gostaria de pedir que desse continuidade ao tutorial que ficou espetacular, muito bem explicado e de facil entendimento você nasceu para ensinar, então pesso carecidamente que me avise quando for publicar mais sobre o assunto...]]></description>
+		<content:encoded><![CDATA[<p>Ola Ruan Carvalho&#8230;.</p>
+<p>Gostaria de pedir que desse continuidade ao tutorial que ficou espetacular, muito bem explicado e de facil entendimento você nasceu para ensinar, então pesso carecidamente que me avise quando for publicar mais sobre o assunto&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Denner Souza Martins</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-218</link>
+		<dc:creator><![CDATA[Denner Souza Martins]]></dc:creator>
+		<pubDate>Thu, 19 Jan 2017 12:40:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-218</guid>
+		<description><![CDATA[Conseguiu resolver esse problema da altura ?]]></description>
+		<content:encoded><![CDATA[<p>Conseguiu resolver esse problema da altura ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-217</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 23 Nov 2016 15:31:05 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-217</guid>
+		<description><![CDATA[Obrigado, Frederico!]]></description>
+		<content:encoded><![CDATA[<p>Obrigado, Frederico!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Pablo</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-216</link>
+		<dc:creator><![CDATA[Pablo]]></dc:creator>
+		<pubDate>Thu, 17 Nov 2016 20:43:17 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-216</guid>
+		<description><![CDATA[Utilize col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1, isso fará ter um espaço de cada lado.]]></description>
+		<content:encoded><![CDATA[<p>Utilize col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1, isso fará ter um espaço de cada lado.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Frederico Setra</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-215</link>
+		<dc:creator><![CDATA[Frederico Setra]]></dc:creator>
+		<pubDate>Thu, 17 Nov 2016 12:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-215</guid>
+		<description><![CDATA[Parabens pela explicação, nunca tinha visto nada sobre bootstrap e estou com uma clara visão do assunto agora. Parabens]]></description>
+		<content:encoded><![CDATA[<p>Parabens pela explicação, nunca tinha visto nada sobre bootstrap e estou com uma clara visão do assunto agora. Parabens</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Julio</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-214</link>
+		<dc:creator><![CDATA[Julio]]></dc:creator>
+		<pubDate>Tue, 11 Oct 2016 14:33:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-214</guid>
+		<description><![CDATA[Parabéns! Muito bom o post!]]></description>
+		<content:encoded><![CDATA[<p>Parabéns! Muito bom o post!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Paulo (Sidewalk) Vicente</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-213</link>
+		<dc:creator><![CDATA[Paulo (Sidewalk) Vicente]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2016 14:59:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-213</guid>
+		<description><![CDATA[Foi muito útil o seu tutorial . Obrigado , Ruan]]></description>
+		<content:encoded><![CDATA[<p>Foi muito útil o seu tutorial . Obrigado , Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Luan Piovesan</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-212</link>
+		<dc:creator><![CDATA[Luan Piovesan]]></dc:creator>
+		<pubDate>Wed, 24 Aug 2016 21:17:49 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-212</guid>
+		<description><![CDATA[Olá, boa tarde!
+       No caso se eu colocar imagens dentro do grid ocupando 4 por 4 por 4. Essas imagens não deveriam ter o mesmo tamanho?]]></description>
+		<content:encoded><![CDATA[<p>Olá, boa tarde!<br />
+       No caso se eu colocar imagens dentro do grid ocupando 4 por 4 por 4. Essas imagens não deveriam ter o mesmo tamanho?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-211</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 27 May 2016 01:32:14 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-211</guid>
+		<description><![CDATA[Valeu, Adilson!]]></description>
+		<content:encoded><![CDATA[<p>Valeu, Adilson!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: AUGUSTO CEZAR PINHEIRO DE ARAUJO</title>
+		<link>/tutoriais/bootstrap-layouts-sistema-grids/#comment-210</link>
+		<dc:creator><![CDATA[AUGUSTO CEZAR PINHEIRO DE ARAUJO]]></dc:creator>
+		<pubDate>Tue, 17 May 2016 02:39:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=63#comment-210</guid>
+		<description><![CDATA[Showww]]></description>
+		<content:encoded><![CDATA[<p>Showww</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

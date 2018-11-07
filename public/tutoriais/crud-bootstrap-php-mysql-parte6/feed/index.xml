@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: CRUD com Bootstrap, PHP &#038; MySQL – Parte VI</title>
+	<atom:link href="/tutoriais/crud-bootstrap-php-mysql-parte6/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/crud-bootstrap-php-mysql-parte6/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-722</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 14:48:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-722</guid>
+		<description><![CDATA[Boa tarde Ruan !
+
+Dificilmente faço comentários agradecendo ou criticando algo na internet, mas dessa vez não posso deixar passar. Obrigado pelo esforço colocado nesse tutorial e parabéns pela simplicidade e objetividade na explicação do conteúdo !]]></description>
+		<content:encoded><![CDATA[<p>Boa tarde Ruan !</p>
+<p>Dificilmente faço comentários agradecendo ou criticando algo na internet, mas dessa vez não posso deixar passar. Obrigado pelo esforço colocado nesse tutorial e parabéns pela simplicidade e objetividade na explicação do conteúdo !</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Thyago Felipe</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-721</link>
+		<dc:creator><![CDATA[Thyago Felipe]]></dc:creator>
+		<pubDate>Fri, 26 Jan 2018 07:06:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-721</guid>
+		<description><![CDATA[Como inserir, editar e mostrar imagem (foto de perfil)?]]></description>
+		<content:encoded><![CDATA[<p>Como inserir, editar e mostrar imagem (foto de perfil)?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Thyago Felipe</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-720</link>
+		<dc:creator><![CDATA[Thyago Felipe]]></dc:creator>
+		<pubDate>Fri, 19 Jan 2018 07:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-720</guid>
+		<description><![CDATA[Fantástico o tutorial e essa estruturação, meus parabéns! Vou adaptar ao meu projeto e caso conquiste um retorno financeiro positivo, entrarei em contato para lhe beneficiar com uma remuneração adequada!]]></description>
+		<content:encoded><![CDATA[<p>Fantástico o tutorial e essa estruturação, meus parabéns! Vou adaptar ao meu projeto e caso conquiste um retorno financeiro positivo, entrarei em contato para lhe beneficiar com uma remuneração adequada!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Rafael Rodrigues Fraga</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-712</link>
+		<dc:creator><![CDATA[Rafael Rodrigues Fraga]]></dc:creator>
+		<pubDate>Sun, 17 Dec 2017 02:57:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-712</guid>
+		<description><![CDATA[Mano, preciso de uma ajudinha. Deu tudo certo, tudinho.... Até a parte do modal. Quando eu vou clicar em Sim, ele não exclui. Eu referenciei o main.js como dito na aula 2, fiz tudo nessa aula aqui, mas uando eu clico em sim no Modal, ele nao exclui.
+
+Oq pode ta dando errado? Se quiser, eu posso postar o codigo. A proposito, excelente tutorial]]></description>
+		<content:encoded><![CDATA[<p>Mano, preciso de uma ajudinha. Deu tudo certo, tudinho&#8230;. Até a parte do modal. Quando eu vou clicar em Sim, ele não exclui. Eu referenciei o main.js como dito na aula 2, fiz tudo nessa aula aqui, mas uando eu clico em sim no Modal, ele nao exclui.</p>
+<p>Oq pode ta dando errado? Se quiser, eu posso postar o codigo. A proposito, excelente tutorial</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-711</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 16:39:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-711</guid>
+		<description><![CDATA[Quem que postou lá no 152.250.251.22:8080/crud
+gostaria de saber então o motivo de está aceitando dados em branco
+e também minha dúvida abaixo, referente ao campo celular]]></description>
+		<content:encoded><![CDATA[<p>Quem que postou lá no 152.250.251.22:8080/crud<br />
+gostaria de saber então o motivo de está aceitando dados em branco<br />
+e também minha dúvida abaixo, referente ao campo celular</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-710</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 09:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-710</guid>
+		<description><![CDATA[Quem quiser ver a falha
+152.250.251.22:8080/crud
+
+
+Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel... E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros ...
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?]]></description>
+		<content:encoded><![CDATA[<p>Quem quiser ver a falha<br />
+152.250.251.22:8080/crud</p>
+<p>Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel&#8230; E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros &#8230;<br />
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-709</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 09:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-709</guid>
+		<description><![CDATA[Quem quiser ver a falha
+152.250.251.22:8080/crud
+
+
+Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel... E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros ...
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?]]></description>
+		<content:encoded><![CDATA[<p>Quem quiser ver a falha<br />
+152.250.251.22:8080/crud</p>
+<p>Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel&#8230; E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros &#8230;<br />
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-708</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 09:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-708</guid>
+		<description><![CDATA[Quem quiser ver a falha
+152.250.251.22:8080/crud
+
+
+Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel... E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros ...
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?]]></description>
+		<content:encoded><![CDATA[<p>Quem quiser ver a falha<br />
+152.250.251.22:8080/crud</p>
+<p>Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel&#8230; E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros &#8230;<br />
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-707</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 09:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-707</guid>
+		<description><![CDATA[Quem quiser ver a falha
+152.250.251.22:8080/crud
+
+
+Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel... E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros ...
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?]]></description>
+		<content:encoded><![CDATA[<p>Quem quiser ver a falha<br />
+152.250.251.22:8080/crud</p>
+<p>Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel&#8230; E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros &#8230;<br />
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-706</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 09:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-706</guid>
+		<description><![CDATA[Quem quiser ver a falha
+152.250.251.22:8080/crud
+
+
+Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel... E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros ...
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?]]></description>
+		<content:encoded><![CDATA[<p>Quem quiser ver a falha<br />
+152.250.251.22:8080/crud</p>
+<p>Olá, esta funcional de boas, mas minha tabela de celular está com problemas, eu já fiz de tudo e sempre que digito o celular o mesmo aparece o mesmo número sempre,( 2147483647), eu já mudei no MySQL e nas configurações para celular, celularcel&#8230; E não adianta vem sempre o mesmo número após digitar , não vem preenchido e sim após eu digitar o valor , após salvar ele vem esse número acima em todos os registros &#8230;<br />
+E no db está esse número também, muito estranho, conseguem me ajudar PF ?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

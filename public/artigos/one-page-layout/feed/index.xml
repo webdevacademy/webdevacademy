@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: One Page Layout&#8230; O Que É? E Quando Usar?</title>
+	<atom:link href="/artigos/one-page-layout/feed/" rel="self" type="application/rss+xml" />
+	<link>/artigos/one-page-layout/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Geovane85594</title>
+		<link>/artigos/one-page-layout/#comment-729</link>
+		<dc:creator><![CDATA[Geovane85594]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2018 17:16:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=858#comment-729</guid>
+		<description><![CDATA[perfeito, obrigado]]></description>
+		<content:encoded><![CDATA[<p>perfeito, obrigado</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Andrey Librelon</title>
+		<link>/artigos/one-page-layout/#comment-371</link>
+		<dc:creator><![CDATA[Andrey Librelon]]></dc:creator>
+		<pubDate>Tue, 10 Jan 2017 22:28:10 +0000</pubDate>
+		<guid isPermaLink="false">/?p=858#comment-371</guid>
+		<description><![CDATA[Garimpando é que se acha. Obrigado por compartilhar!]]></description>
+		<content:encoded><![CDATA[<p>Garimpando é que se acha. Obrigado por compartilhar!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Romario</title>
+		<link>/artigos/one-page-layout/#comment-370</link>
+		<dc:creator><![CDATA[Romario]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2015 20:40:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=858#comment-370</guid>
+		<description><![CDATA[Ótima dica professor, agora podia montar uma estrutura dessas pra gente em um novo artigo.
+Obrigado]]></description>
+		<content:encoded><![CDATA[<p>Ótima dica professor, agora podia montar uma estrutura dessas pra gente em um novo artigo.<br />
+Obrigado</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

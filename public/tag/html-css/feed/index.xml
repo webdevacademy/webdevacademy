@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>HTML &amp; CSS &#8211; Web Dev Academy</title>
+	<atom:link href="/tag/html-css/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>As 3 Meta Tags Essenciais para o Design Responsivo</title>
+		<link>/artigos/meta-tags-design-responsivo/</link>
+		<comments>/artigos/meta-tags-design-responsivo/#comments</comments>
+		<pubDate>Fri, 26 Feb 2016 12:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[HTML & CSS]]></category>
+
+		<guid isPermaLink="false">/?p=1035</guid>
+		<description><![CDATA[<p>Neste artigo, você vai entender para que servem cada uma das meta tags que são usadas em páginas com design responsivo, principalmente a de viewport.</p>
+<p>O post <a rel="nofollow" href="/artigos/meta-tags-design-responsivo/">As 3 Meta Tags Essenciais para o Design Responsivo</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/meta-tags-design-responsivo/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1035</post-id>	</item>
+		<item>
+		<title>One Page Layout&#8230; O Que É? E Quando Usar?</title>
+		<link>/artigos/one-page-layout/</link>
+		<comments>/artigos/one-page-layout/#comments</comments>
+		<pubDate>Tue, 01 Sep 2015 12:00:12 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[HTML & CSS]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">/?p=858</guid>
+		<description><![CDATA[<p>Neste artigo, você vai conhecer o One Page Layout, uma técnica de layouts que pode ser muito útil quando bem aplicada. Vai ver também quando você pode usá-lo e quando não deveria.</p>
+<p>O post <a rel="nofollow" href="/artigos/one-page-layout/">One Page Layout&#8230; O Que É? E Quando Usar?</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/one-page-layout/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">858</post-id>	</item>
+	</channel>
+</rss>

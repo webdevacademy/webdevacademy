@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Bootstrap: Template de Layout Simples</title>
+	<atom:link href="/ux/bootstrap-template-layout-simples/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/bootstrap-template-layout-simples/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: alnmaker</title>
+		<link>/ux/bootstrap-template-layout-simples/#comment-238</link>
+		<dc:creator><![CDATA[alnmaker]]></dc:creator>
+		<pubDate>Sun, 22 Oct 2017 21:41:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=304#comment-238</guid>
+		<description><![CDATA[Gostei muito do seu tutorial, eu que estou iniciando para um projeto de tcc de outra area estou me adequando muito bem.]]></description>
+		<content:encoded><![CDATA[<p>Gostei muito do seu tutorial, eu que estou iniciando para um projeto de tcc de outra area estou me adequando muito bem.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

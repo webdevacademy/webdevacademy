@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: As Ferramentas Básicas do Desenvolvedor Web</title>
+	<atom:link href="/artigos/ferramentas-basicas-web-dev/feed/" rel="self" type="application/rss+xml" />
+	<link>/artigos/ferramentas-basicas-web-dev/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Diego</title>
+		<link>/artigos/ferramentas-basicas-web-dev/#comment-326</link>
+		<dc:creator><![CDATA[Diego]]></dc:creator>
+		<pubDate>Tue, 14 Nov 2017 13:22:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1089#comment-326</guid>
+		<description><![CDATA[Ótimo conteúdo!! não conhecia ainda o Git Bash, vou dar uma olhada pra ver se é bom!!!
+
+valeu pelas dicas! :D]]></description>
+		<content:encoded><![CDATA[<p>Ótimo conteúdo!! não conhecia ainda o Git Bash, vou dar uma olhada pra ver se é bom!!!</p>
+<p>valeu pelas dicas! 😀</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

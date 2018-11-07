@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Tooling &#8211; Web Dev Academy</title>
+	<atom:link href="/tag/tooling/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>As Ferramentas Básicas do Desenvolvedor Web</title>
+		<link>/artigos/ferramentas-basicas-web-dev/</link>
+		<comments>/artigos/ferramentas-basicas-web-dev/#comments</comments>
+		<pubDate>Wed, 09 Apr 2014 12:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Artigos]]></category>
+		<category><![CDATA[Tooling]]></category>
+
+		<guid isPermaLink="false">/?p=1089</guid>
+		<description><![CDATA[<p>Neste artigo, você vai conhecer as ferramentas básicas e essenciais para começar a trabalhar com desenvolvimento web.</p>
+<p>O post <a rel="nofollow" href="/artigos/ferramentas-basicas-web-dev/">As Ferramentas Básicas do Desenvolvedor Web</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/artigos/ferramentas-basicas-web-dev/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">1089</post-id>	</item>
+		<item>
+		<title>Como Configurar um Servidor Local para Desenvolvimento Web</title>
+		<link>/tutoriais/instalar-configurar-servidor-local/</link>
+		<comments>/tutoriais/instalar-configurar-servidor-local/#comments</comments>
+		<pubDate>Tue, 21 Jan 2014 12:00:38 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Tooling]]></category>
+
+		<guid isPermaLink="false">/?p=175</guid>
+		<description><![CDATA[<p>Neste tutorial, você vai aprender a configurar uma instalação local do Wordpress, para desenvolver e testar os sites que você for construir. Usaremos o XAMPP como servidor em um Windows, mas serve para Linux, também.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/instalar-configurar-servidor-local/">Como Configurar um Servidor Local para Desenvolvimento Web</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/instalar-configurar-servidor-local/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">175</post-id>	</item>
+	</channel>
+</rss>

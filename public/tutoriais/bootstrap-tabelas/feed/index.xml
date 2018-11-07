@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Bootstrap: Como Criar Tabelas</title>
+	<atom:link href="/tutoriais/bootstrap-tabelas/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/bootstrap-tabelas/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Robson</title>
+		<link>/tutoriais/bootstrap-tabelas/#comment-373</link>
+		<dc:creator><![CDATA[Robson]]></dc:creator>
+		<pubDate>Tue, 07 Mar 2017 13:30:03 +0000</pubDate>
+		<guid isPermaLink="false">/?p=900#comment-373</guid>
+		<description><![CDATA[MUITO BOM MESMO! EXCELENTE MATERIAL E MUITO BEM EXPLICADO!]]></description>
+		<content:encoded><![CDATA[<p>MUITO BOM MESMO! EXCELENTE MATERIAL E MUITO BEM EXPLICADO!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Amilton - Fatec Taubaté</title>
+		<link>/tutoriais/bootstrap-tabelas/#comment-372</link>
+		<dc:creator><![CDATA[Amilton - Fatec Taubaté]]></dc:creator>
+		<pubDate>Fri, 06 Jan 2017 19:02:46 +0000</pubDate>
+		<guid isPermaLink="false">/?p=900#comment-372</guid>
+		<description><![CDATA[Parabéns pelo excelente material !!! 
+É o melhor que já vi sobre Bootstrap !!!]]></description>
+		<content:encoded><![CDATA[<p>Parabéns pelo excelente material !!!<br />
+É o melhor que já vi sobre Bootstrap !!!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

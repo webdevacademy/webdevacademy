@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>SQL &#8211; Web Dev Academy</title>
+	<atom:link href="/tag/sql/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 03 Aug 2018 10:48:30 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+<site xmlns="com-wordpress:feed-additions:1">64555414</site>	<item>
+		<title>Migrando as Páginas do Drupal para o WordPress</title>
+		<link>/tutoriais/migrar-paginas-drupal-wordpress/</link>
+		<comments>/tutoriais/migrar-paginas-drupal-wordpress/#respond</comments>
+		<pubDate>Tue, 11 Feb 2014 12:00:15 +0000</pubDate>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+				<category><![CDATA[Tutoriais]]></category>
+		<category><![CDATA[Drupal]]></category>
+		<category><![CDATA[SQL]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">/?p=181</guid>
+		<description><![CDATA[<p>Em um dos meus projetos, tive que migrar um site de um cliente que foi feito em Drupal 6, para o Wordpress 3. Veja, neste post, uma forma de automatizar a importação e não ter que copiar manualmente cada página.</p>
+<p>O post <a rel="nofollow" href="/tutoriais/migrar-paginas-drupal-wordpress/">Migrando as Páginas do Drupal para o WordPress</a> apareceu primeiro em <a rel="nofollow" href="/">Web Dev Academy</a>.</p>
+]]></description>
+		<wfw:commentRss>/tutoriais/migrar-paginas-drupal-wordpress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">181</post-id>	</item>
+	</channel>
+</rss>

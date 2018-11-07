@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Criando Telas de CRUD com Bootstrap 3 &#8211; Parte II</title>
+	<atom:link href="/ux/crud-com-bootstrap-3-parte2/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/crud-com-bootstrap-3-parte2/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Diego Pereira</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-713</link>
+		<dc:creator><![CDATA[Diego Pereira]]></dc:creator>
+		<pubDate>Fri, 22 Dec 2017 11:44:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-713</guid>
+		<description><![CDATA[Realizei tudo certinho, já fiz a página com conexão no banco etc, página de view e add, já estão ok, passado tudo para .php, e estão adicionando e visualizando os dados dentro do mysql, mas o edit.php estou com dificuldade...
+
+segue parte do form... e no topo da página chamo o conexão.php que é onde tem os dados do db, e também um functions.php que possui como atualiza os dados no db
+
+  &#060;form action=&#034;edit.php?id=&quot; method=&quot;post&quot;&#062;
+  
+        
+            Nome
+            &#060;input type=&#034;text&#034; class=&#034;form-control&#034; id=&#034;Nome&#034; value=&#034;&quot; placeholder=&quot;Digite o valor&quot;&#062;
+        
+      
+            CPF/CNPJ
+            &#060;input type=&#034;text&#034; class=&#034;form-control&#034; id=&#034;CPF/CNPJ&#034; value=&#034;&quot; placeholder=&quot;Digite o valor&quot;&#062;
+        
+      
+            Data Nascimento
+            &#060;input type=&#034;text&#034; class=&#034;form-control&#034; id=&#034;Data Nascimento&#034; value=&#034;&quot; placeholder=&quot;Digite o valor&quot;&#062;
+        
+      
+            CEP
+            &#060;input type=&#034;text&#034; class=&#034;form-control&#034; id=&#034;CEP&#034; value=&#034;&quot; placeholder=&quot;Digite o valor&quot;&#062;
+        
+    
+
+      
+          Atualizar
+        &lt;a href=&quot;index.php&quot; rel=&quot;nofollow&quot;&gt;Cancelar&lt;/a&gt;
+      
+    
+
+  ]]></description>
+		<content:encoded><![CDATA[<p>Realizei tudo certinho, já fiz a página com conexão no banco etc, página de view e add, já estão ok, passado tudo para .php, e estão adicionando e visualizando os dados dentro do mysql, mas o edit.php estou com dificuldade&#8230;</p>
+<p>segue parte do form&#8230; e no topo da página chamo o conexão.php que é onde tem os dados do db, e também um functions.php que possui como atualiza os dados no db</p>
+<p>  &lt;form action=&quot;edit.php?id=&#8221; method=&#8221;post&#8221;&gt;</p>
+<p>            Nome<br />
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Nome&quot; value=&quot;&#8221; placeholder=&#8221;Digite o valor&#8221;&gt;</p>
+<p>            CPF/CNPJ<br />
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;CPF/CNPJ&quot; value=&quot;&#8221; placeholder=&#8221;Digite o valor&#8221;&gt;</p>
+<p>            Data Nascimento<br />
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;Data Nascimento&quot; value=&quot;&#8221; placeholder=&#8221;Digite o valor&#8221;&gt;</p>
+<p>            CEP<br />
+            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;CEP&quot; value=&quot;&#8221; placeholder=&#8221;Digite o valor&#8221;&gt;</p>
+<p>          Atualizar<br />
+        <a href="index.php" rel="nofollow">Cancelar</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Carlos Jr</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-277</link>
+		<dc:creator><![CDATA[Carlos Jr]]></dc:creator>
+		<pubDate>Thu, 27 Apr 2017 03:30:46 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-277</guid>
+		<description><![CDATA[Cara muito obrigado teu código me ajudou muito !! continue sempre !! não desista dos teus sonhos e de ajudas as pessoas!]]></description>
+		<content:encoded><![CDATA[<p>Cara muito obrigado teu código me ajudou muito !! continue sempre !! não desista dos teus sonhos e de ajudas as pessoas!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: ANTONIO CARLOS LOURENÇO</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-276</link>
+		<dc:creator><![CDATA[ANTONIO CARLOS LOURENÇO]]></dc:creator>
+		<pubDate>Wed, 04 Jan 2017 13:27:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-276</guid>
+		<description><![CDATA[Bom dia, excelente trabalho. Tem como enviar o código.]]></description>
+		<content:encoded><![CDATA[<p>Bom dia, excelente trabalho. Tem como enviar o código.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: João Henrique</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-275</link>
+		<dc:creator><![CDATA[João Henrique]]></dc:creator>
+		<pubDate>Thu, 07 Jul 2016 16:16:06 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-275</guid>
+		<description><![CDATA[Precisava desse comentário, o falta do que fazer........affff]]></description>
+		<content:encoded><![CDATA[<p>Precisava desse comentário, o falta do que fazer&#8230;&#8230;..affff</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-274</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Tue, 07 Jun 2016 18:59:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-274</guid>
+		<description><![CDATA[Se for essa a dúvida, mesmo, o que o Angelo colocou está certo. Funcionaria.
+
+Também pode usar a classe .col-*-push-* para fazer isso. (Ex: class=&quot;col-md-8 col-md-push-2&quot;)]]></description>
+		<content:encoded><![CDATA[<p>Se for essa a dúvida, mesmo, o que o Angelo colocou está certo. Funcionaria.</p>
+<p>Também pode usar a classe .col-*-push-* para fazer isso. (Ex: class=&#8221;col-md-8 col-md-push-2&#8243;)</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Angelo</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-273</link>
+		<dc:creator><![CDATA[Angelo]]></dc:creator>
+		<pubDate>Tue, 07 Jun 2016 18:48:03 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-273</guid>
+		<description><![CDATA[Você tem que informar quanto de grid ela ocupa. se você tem uma div que vale 8 no grid, e quer deixar ela no meio, você devera colocar outros 2 de cada lado para fechar 12. Assim 2 + 8 + 2 = 12. E sua div ficaria no meio do grid. Exemplo prático. 
+
+              
+              
+              
+]]></description>
+		<content:encoded><![CDATA[<p>Você tem que informar quanto de grid ela ocupa. se você tem uma div que vale 8 no grid, e quer deixar ela no meio, você devera colocar outros 2 de cada lado para fechar 12. Assim 2 + 8 + 2 = 12. E sua div ficaria no meio do grid. Exemplo prático. </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-272</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Mon, 18 Apr 2016 22:50:35 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-272</guid>
+		<description><![CDATA[Não entendi sua pergunta.]]></description>
+		<content:encoded><![CDATA[<p>Não entendi sua pergunta.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: André Rodrigues</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-271</link>
+		<dc:creator><![CDATA[André Rodrigues]]></dc:creator>
+		<pubDate>Tue, 12 Apr 2016 14:55:41 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-271</guid>
+		<description><![CDATA[Como faço para deixar a div no meio da grid?]]></description>
+		<content:encoded><![CDATA[<p>Como faço para deixar a div no meio da grid?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-270</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2015 23:15:07 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-270</guid>
+		<description><![CDATA[A conexão com Banco de Dados é feita com uma linguagem de back end (ou server-side). Como PHP, ASP.NET, Java, etc...
+
+O Bootstrap não acessa BD, ele é apenas front-end. Para fazer esse CRUD conectar com o BD você pode usar PHP com MySQL, por exemplo.
+
+Vou procurar elaborar um tutorial ensinando a fazer essa conexão com PHP.]]></description>
+		<content:encoded><![CDATA[<p>A conexão com Banco de Dados é feita com uma linguagem de back end (ou server-side). Como PHP, ASP.NET, Java, etc&#8230;</p>
+<p>O Bootstrap não acessa BD, ele é apenas front-end. Para fazer esse CRUD conectar com o BD você pode usar PHP com MySQL, por exemplo.</p>
+<p>Vou procurar elaborar um tutorial ensinando a fazer essa conexão com PHP.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Monique</title>
+		<link>/ux/crud-com-bootstrap-3-parte2/#comment-269</link>
+		<dc:creator><![CDATA[Monique]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2015 22:58:17 +0000</pubDate>
+		<guid isPermaLink="false">/?p=562#comment-269</guid>
+		<description><![CDATA[Vc tem alguma material explicando? Poderia indicar ?]]></description>
+		<content:encoded><![CDATA[<p>Vc tem alguma material explicando? Poderia indicar ?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

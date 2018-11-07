@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Bootstrap 3: Como Começar</title>
+	<atom:link href="/tutoriais/bootstrap-como-comecar/feed/" rel="self" type="application/rss+xml" />
+	<link>/tutoriais/bootstrap-como-comecar/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: Mateus</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-80</link>
+		<dc:creator><![CDATA[Mateus]]></dc:creator>
+		<pubDate>Fri, 21 Apr 2017 13:10:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-80</guid>
+		<description><![CDATA[Massa]]></description>
+		<content:encoded><![CDATA[<p>Massa</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Renato</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-79</link>
+		<dc:creator><![CDATA[Renato]]></dc:creator>
+		<pubDate>Thu, 23 Feb 2017 01:30:36 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-79</guid>
+		<description><![CDATA[Amigo, obrigado pelos tutoriais.
+Estou começando a &quot;brincar&quot; com php e html e não estou conseguindo instalar o bootstrap corretamente.
+Estou usando o Netbeans 8.2 com Composer. Meu arquivo composer.json traz o seguinte:
+&quot;require&quot;: {
+        &quot;twbs/bootstrap&quot;: &quot;3.3.*&quot;
+}
+Depois de rodar os comandos de install e update, o arquivo customizer-variables.html que fica na pasta vendor/twbs/bootstrap/docs/_includes vem com vários erros, como nesta linha:
+
+O compiler aponta erro em @gray-base.
+
+Pesquisei de várias formas no google e não consegui encontrar uma boa referência disso. Tentei fazer a instalação manual também, apenas copiando os arquivos para as pastas, como no seu tutorial, mas deu o mesmo problema.
+
+Desculpe se minha dúvida é muito trivial, mas agradeço se puder responde-la.
+
+Abraço]]></description>
+		<content:encoded><![CDATA[<p>Amigo, obrigado pelos tutoriais.<br />
+Estou começando a &#8220;brincar&#8221; com php e html e não estou conseguindo instalar o bootstrap corretamente.<br />
+Estou usando o Netbeans 8.2 com Composer. Meu arquivo composer.json traz o seguinte:<br />
+&#8220;require&#8221;: {<br />
+        &#8220;twbs/bootstrap&#8221;: &#8220;3.3.*&#8221;<br />
+}<br />
+Depois de rodar os comandos de install e update, o arquivo customizer-variables.html que fica na pasta vendor/twbs/bootstrap/docs/_includes vem com vários erros, como nesta linha:</p>
+<p>O compiler aponta erro em @gray-base.</p>
+<p>Pesquisei de várias formas no google e não consegui encontrar uma boa referência disso. Tentei fazer a instalação manual também, apenas copiando os arquivos para as pastas, como no seu tutorial, mas deu o mesmo problema.</p>
+<p>Desculpe se minha dúvida é muito trivial, mas agradeço se puder responde-la.</p>
+<p>Abraço</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-78</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 02 Dec 2016 14:26:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-78</guid>
+		<description><![CDATA[Provavelmente tá faltando algumas regras de validação nos campos.
+Mas, tem que verificar cada campo. Tenta ir adicionando um por vez, pra ver qual que está deixando passar.]]></description>
+		<content:encoded><![CDATA[<p>Provavelmente tá faltando algumas regras de validação nos campos.<br />
+Mas, tem que verificar cada campo. Tenta ir adicionando um por vez, pra ver qual que está deixando passar.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Karina</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-77</link>
+		<dc:creator><![CDATA[Karina]]></dc:creator>
+		<pubDate>Fri, 02 Dec 2016 14:04:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-77</guid>
+		<description><![CDATA[Ruan o plugin validator.js https://1000hz.github.io/bootstrap-validator/ implementei no meu form, que aquele tipo wizard, passo a passo, o usurário  só vai para a próxima página se preenche a atual, tem vários fieldset -&#062; form-group coloquei na tag form : data-toggle=&quot; validator&quot; no script chamando o arquivo validator.js mas no final o botão não está validando, deixa o usuário passar para o próximo passo. Sabe dizer o que está faltando para implementar?
+
+Obrigada.]]></description>
+		<content:encoded><![CDATA[<p>Ruan o plugin validator.js <a href="https://1000hz.github.io/bootstrap-validator/" rel="nofollow">https://1000hz.github.io/bootstrap-validator/</a> implementei no meu form, que aquele tipo wizard, passo a passo, o usurário  só vai para a próxima página se preenche a atual, tem vários fieldset -&gt; form-group coloquei na tag form : data-toggle=&#8221; validator&#8221; no script chamando o arquivo validator.js mas no final o botão não está validando, deixa o usuário passar para o próximo passo. Sabe dizer o que está faltando para implementar?</p>
+<p>Obrigada.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-76</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2016 21:09:19 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-76</guid>
+		<description><![CDATA[Obrigado, Daniel!
+
+É possível usar com Angular, sem problemas. O Bootstrap depende do jQuery para fazer os componentes funcionarem (Modal, Carousel, Tabs, etc.)
+Se não for usar esses componentes, pode tirar o jQuery, que o visual e o grid system funcionarão normalmente.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Obrigado, Daniel!</p>
+<p>É possível usar com Angular, sem problemas. O Bootstrap depende do jQuery para fazer os componentes funcionarem (Modal, Carousel, Tabs, etc.)<br />
+Se não for usar esses componentes, pode tirar o jQuery, que o visual e o grid system funcionarão normalmente.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Daniel Tavares</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-75</link>
+		<dc:creator><![CDATA[Daniel Tavares]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2016 20:52:28 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-75</guid>
+		<description><![CDATA[Parabéns pelos videos tutoriais. Tudo muito bem explicado e direto ao ponto.
+Contudo tenho um pergunta: Sou obrigado a trabalhar com JQuery? Não poderia utilizar o BootStrap com Angular?
+
+Grato desde já.]]></description>
+		<content:encoded><![CDATA[<p>Parabéns pelos videos tutoriais. Tudo muito bem explicado e direto ao ponto.<br />
+Contudo tenho um pergunta: Sou obrigado a trabalhar com JQuery? Não poderia utilizar o BootStrap com Angular?</p>
+<p>Grato desde já.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-74</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2016 18:45:08 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-74</guid>
+		<description><![CDATA[Muito obrigado, Wagner!
+
+Abs.]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Wagner!</p>
+<p>Abs.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Wagner Junior</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-73</link>
+		<dc:creator><![CDATA[Wagner Junior]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2016 02:05:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-73</guid>
+		<description><![CDATA[Ruan, você está de parabéns. Sempre achei que não iria entender o bootstrap, pois vários materiais contem explicações exaustivas, com a sua didática ficou muito mais fácil aprender.]]></description>
+		<content:encoded><![CDATA[<p>Ruan, você está de parabéns. Sempre achei que não iria entender o bootstrap, pois vários materiais contem explicações exaustivas, com a sua didática ficou muito mais fácil aprender.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-72</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2016 15:57:17 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-72</guid>
+		<description><![CDATA[Muito obrigado, Antonio!]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Antonio!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/tutoriais/bootstrap-como-comecar/#comment-71</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Wed, 05 Oct 2016 15:56:54 +0000</pubDate>
+		<guid isPermaLink="false">/?p=32#comment-71</guid>
+		<description><![CDATA[Muito obrigado, Paulo!
+A intenção é essa mesmo... ir direto ao ponto e ajudar a entender o assunto. Por isso, pretendo adicionar sempre mais tutoriais, apesar do tempo limitado, e quem sabe, escrever alguns livros/ebooks seguindo esse mesmo formato.
+
+Fico muito feliz que tenha sido útil pra você.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Muito obrigado, Paulo!<br />
+A intenção é essa mesmo&#8230; ir direto ao ponto e ajudar a entender o assunto. Por isso, pretendo adicionar sempre mais tutoriais, apesar do tempo limitado, e quem sabe, escrever alguns livros/ebooks seguindo esse mesmo formato.</p>
+<p>Fico muito feliz que tenha sido útil pra você.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

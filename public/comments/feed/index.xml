@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre Web Dev Academy</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Comentário sobre Bootstrap 3: Criando Imagens Responsivas por Web atividade extra 04 &#8211; Professor Edson Maia</title>
+		<link>/ux/bootstrap-imagens-responsivas/#comment-733</link>
+		<dc:creator><![CDATA[Web atividade extra 04 &#8211; Professor Edson Maia]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2018 00:09:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=425#comment-733</guid>
+		<description><![CDATA[[&#8230;] /ux/bootstrap-imagens-responsivas/ [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] <a href="/ux/bootstrap-imagens-responsivas/" rel="nofollow">/ux/bootstrap-imagens-responsivas/</a> [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre Criando Telas de CRUD com Bootstrap 3 &#8211; Parte I por alexfernandess</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-730</link>
+		<dc:creator><![CDATA[alexfernandess]]></dc:creator>
+		<pubDate>Sat, 03 Feb 2018 02:04:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-730</guid>
+		<description><![CDATA[Caraca, acredito que meu erro também esteja na falta deste arquivo. Minha navbar não aparece nem a pau... :&#124;]]></description>
+		<content:encoded><![CDATA[<p>Caraca, acredito que meu erro também esteja na falta deste arquivo. Minha navbar não aparece nem a pau&#8230; 😐</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre One Page Layout&#8230; O Que É? E Quando Usar? por Geovane85594</title>
+		<link>/artigos/one-page-layout/#comment-729</link>
+		<dc:creator><![CDATA[Geovane85594]]></dc:creator>
+		<pubDate>Fri, 02 Feb 2018 17:16:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=858#comment-729</guid>
+		<description><![CDATA[perfeito, obrigado]]></description>
+		<content:encoded><![CDATA[<p>perfeito, obrigado</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre Bootstrap 4: Como Começar por Emilio Córdova</title>
+		<link>/tutoriais/bootstrap-4-como-comecar/#comment-727</link>
+		<dc:creator><![CDATA[Emilio Córdova]]></dc:creator>
+		<pubDate>Tue, 30 Jan 2018 18:15:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=2575#comment-727</guid>
+		<description><![CDATA[Muito bom. Para um iniciante esta ótimo.]]></description>
+		<content:encoded><![CDATA[<p>Muito bom. Para um iniciante esta ótimo.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre CRUD com Bootstrap, PHP &#038; MySQL – Parte IV por 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-726</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 18:04:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-726</guid>
+		<description><![CDATA[Mais uma vez, obrigado !!!
+
+Beginner sendo beginner.....]]></description>
+		<content:encoded><![CDATA[<p>Mais uma vez, obrigado !!!</p>
+<p>Beginner sendo beginner&#8230;..</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre Criando Telas de CRUD com Bootstrap 3 – Parte V por Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte5/#comment-725</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 17:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=759#comment-725</guid>
+		<description><![CDATA[Acho que você não vai conseguir isso com o bootstrap, porque não dá pra colocar &quot;colunas ilimitadas&quot; no Grid System. Você vai ficar limitado a 12.
+
+Use uma tabela normal pra fazer isso.
+
+Para criar as colunas em resultados de consulta (SELECT, etc.), você deve fazer um loop nos resultados, e criar as colunas com eles. Senão, vai ficar um embaixo do outro mesmo.
+
+O Grid System é para layouts e posicionamento. E não para exibir resultados de busca.
+
+Abs.
+Ruan]]></description>
+		<content:encoded><![CDATA[<p>Acho que você não vai conseguir isso com o bootstrap, porque não dá pra colocar &#8220;colunas ilimitadas&#8221; no Grid System. Você vai ficar limitado a 12.</p>
+<p>Use uma tabela normal pra fazer isso.</p>
+<p>Para criar as colunas em resultados de consulta (SELECT, etc.), você deve fazer um loop nos resultados, e criar as colunas com eles. Senão, vai ficar um embaixo do outro mesmo.</p>
+<p>O Grid System é para layouts e posicionamento. E não para exibir resultados de busca.</p>
+<p>Abs.<br />
+Ruan</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre CRUD com Bootstrap, PHP &#038; MySQL – Parte IV por Ruan Carvalho</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-724</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 17:37:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-724</guid>
+		<description><![CDATA[Você não implementou a função update() no database.php, por isso o erro &quot;Call to undefined function&quot;
+
+Essa função está nesse mesmo tutorial.]]></description>
+		<content:encoded><![CDATA[<p>Você não implementou a função update() no database.php, por isso o erro &#8220;Call to undefined function&#8221;</p>
+<p>Essa função está nesse mesmo tutorial.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre CRUD com Bootstrap, PHP &#038; MySQL – Parte IV por 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte4/#comment-723</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 15:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1465#comment-723</guid>
+		<description><![CDATA[Opa Iuri ! Também estou usando o tutorial do Ruan para me basear, mas estou esbarrando em uma questão que talvez você saiba. Quando tento editar, estou recebendo o erro: --&#062; Fatal error: Call to undefined function update() in C:xampp2htdocsCRUD2customersfunctions.php on line 52 format(&quot;Y-m-d H:i:s&quot;);
+
+      update(&#039;customers&#039;, $id, $customer);
+      header(&#039;location: index.php&#039;);
+    } else {
+
+      global $customer;
+      $customer = find(&#039;customers&#039;, $id);
+    } 
+  } else {
+    header(&#039;location: index.php&#039;);
+  }
+}
+
+
+OBS&#062;: a linha 52 tem esse código --&#062; update(&#039;customers&#039;, $id, $customer); &#060;--
+
+Desde já obrigado !]]></description>
+		<content:encoded><![CDATA[<p>Opa Iuri ! Também estou usando o tutorial do Ruan para me basear, mas estou esbarrando em uma questão que talvez você saiba. Quando tento editar, estou recebendo o erro: &#8211;&gt; Fatal error: Call to undefined function update() in C:xampp2htdocsCRUD2customersfunctions.php on line 52 format(&#8220;Y-m-d H:i:s&#8221;);</p>
+<p>      update(&#8216;customers&#8217;, $id, $customer);<br />
+      header(&#8216;location: index.php&#8217;);<br />
+    } else {</p>
+<p>      global $customer;<br />
+      $customer = find(&#8216;customers&#8217;, $id);<br />
+    }<br />
+  } else {<br />
+    header(&#8216;location: index.php&#8217;);<br />
+  }<br />
+}</p>
+<p>OBS&gt;: a linha 52 tem esse código &#8211;&gt; update(&#8216;customers&#8217;, $id, $customer); &lt;&#8211;</p>
+<p>Desde já obrigado !</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre CRUD com Bootstrap, PHP &#038; MySQL – Parte VI por 123 testando</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-722</link>
+		<dc:creator><![CDATA[123 testando]]></dc:creator>
+		<pubDate>Sat, 27 Jan 2018 14:48:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-722</guid>
+		<description><![CDATA[Boa tarde Ruan !
+
+Dificilmente faço comentários agradecendo ou criticando algo na internet, mas dessa vez não posso deixar passar. Obrigado pelo esforço colocado nesse tutorial e parabéns pela simplicidade e objetividade na explicação do conteúdo !]]></description>
+		<content:encoded><![CDATA[<p>Boa tarde Ruan !</p>
+<p>Dificilmente faço comentários agradecendo ou criticando algo na internet, mas dessa vez não posso deixar passar. Obrigado pelo esforço colocado nesse tutorial e parabéns pela simplicidade e objetividade na explicação do conteúdo !</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comentário sobre CRUD com Bootstrap, PHP &#038; MySQL – Parte VI por Thyago Felipe</title>
+		<link>/tutoriais/crud-bootstrap-php-mysql-parte6/#comment-721</link>
+		<dc:creator><![CDATA[Thyago Felipe]]></dc:creator>
+		<pubDate>Fri, 26 Jan 2018 07:06:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1625#comment-721</guid>
+		<description><![CDATA[Como inserir, editar e mostrar imagem (foto de perfil)?]]></description>
+		<content:encoded><![CDATA[<p>Como inserir, editar e mostrar imagem (foto de perfil)?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+
+	>
+<channel>
+	<title>Comentários sobre: Criando Telas de CRUD com Bootstrap 3 &#8211; Parte I</title>
+	<atom:link href="/ux/crud-com-bootstrap-3-parte1/feed/" rel="self" type="application/rss+xml" />
+	<link>/ux/crud-com-bootstrap-3-parte1/</link>
+	<description>Artigos e Tutoriais sobre Desenvolvimento Web</description>
+	<lastBuildDate>Fri, 08 Jun 2018 00:09:26 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Por: alexfernandess</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-730</link>
+		<dc:creator><![CDATA[alexfernandess]]></dc:creator>
+		<pubDate>Sat, 03 Feb 2018 02:04:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-730</guid>
+		<description><![CDATA[Caraca, acredito que meu erro também esteja na falta deste arquivo. Minha navbar não aparece nem a pau... :&#124;]]></description>
+		<content:encoded><![CDATA[<p>Caraca, acredito que meu erro também esteja na falta deste arquivo. Minha navbar não aparece nem a pau&#8230; 😐</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-265</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Fri, 25 Nov 2016 20:11:48 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-265</guid>
+		<description><![CDATA[É só criar o arquivo na pasta /css, e colocar um padding-top de 50px, no body.]]></description>
+		<content:encoded><![CDATA[<p>É só criar o arquivo na pasta /css, e colocar um padding-top de 50px, no body.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Jessé</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-264</link>
+		<dc:creator><![CDATA[Jessé]]></dc:creator>
+		<pubDate>Fri, 25 Nov 2016 18:22:55 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-264</guid>
+		<description><![CDATA[Como vc conseguiu resolver esse problema? onde conseguiu o style.css?]]></description>
+		<content:encoded><![CDATA[<p>Como vc conseguiu resolver esse problema? onde conseguiu o style.css?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: ivonei</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-263</link>
+		<dc:creator><![CDATA[ivonei]]></dc:creator>
+		<pubDate>Thu, 03 Nov 2016 03:03:27 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-263</guid>
+		<description><![CDATA[Boa noite procurei muitas horas na internet por um sistema assim, gostaria muito e aprender fazer tenho algumas duvidas na construção podem me ajuda?]]></description>
+		<content:encoded><![CDATA[<p>Boa noite procurei muitas horas na internet por um sistema assim, gostaria muito e aprender fazer tenho algumas duvidas na construção podem me ajuda?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: vanderhacher</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-262</link>
+		<dc:creator><![CDATA[vanderhacher]]></dc:creator>
+		<pubDate>Fri, 16 Sep 2016 00:35:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-262</guid>
+		<description><![CDATA[coloque o hr em cima do h3 que resolve
+
+
+ Template Inicial]]></description>
+		<content:encoded><![CDATA[<p>coloque o hr em cima do h3 que resolve</p>
+<p> Template Inicial</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Geison</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-261</link>
+		<dc:creator><![CDATA[Geison]]></dc:creator>
+		<pubDate>Fri, 05 Aug 2016 12:02:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-261</guid>
+		<description><![CDATA[Resolvido. Falta o arquivo style.css  na pasta css.]]></description>
+		<content:encoded><![CDATA[<p>Resolvido. Falta o arquivo style.css  na pasta css.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Geison</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-260</link>
+		<dc:creator><![CDATA[Geison]]></dc:creator>
+		<pubDate>Thu, 04 Aug 2016 16:33:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-260</guid>
+		<description><![CDATA[Seguindo exatamente o codigo mostrado, estou com o mesmo problema, a frase &quot;Template Inicial&quot; fica embaixo e no meio da navbar]]></description>
+		<content:encoded><![CDATA[<p>Seguindo exatamente o codigo mostrado, estou com o mesmo problema, a frase &#8220;Template Inicial&#8221; fica embaixo e no meio da navbar</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Tiago</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-259</link>
+		<dc:creator><![CDATA[Tiago]]></dc:creator>
+		<pubDate>Tue, 28 Jun 2016 00:21:52 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-259</guid>
+		<description><![CDATA[Utilize  na criação da barra de navegação que seu problema sera resolvido.]]></description>
+		<content:encoded><![CDATA[<p>Utilize  na criação da barra de navegação que seu problema sera resolvido.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Otávio</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-258</link>
+		<dc:creator><![CDATA[Otávio]]></dc:creator>
+		<pubDate>Sun, 26 Jun 2016 02:08:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-258</guid>
+		<description><![CDATA[Amigo, tudo bom? 
+Estou tendo problemas com essa parte do código:
+
+ Template Inicial
+
+
+O &quot;h3 template inicial&quot; aparece em baixo da nav bar. O que fazer?]]></description>
+		<content:encoded><![CDATA[<p>Amigo, tudo bom?<br />
+Estou tendo problemas com essa parte do código:</p>
+<p> Template Inicial</p>
+<p>O &#8220;h3 template inicial&#8221; aparece em baixo da nav bar. O que fazer?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ruan Carvalho</title>
+		<link>/ux/crud-com-bootstrap-3-parte1/#comment-257</link>
+		<dc:creator><![CDATA[Ruan Carvalho]]></dc:creator>
+		<pubDate>Mon, 13 Jun 2016 14:26:54 +0000</pubDate>
+		<guid isPermaLink="false">/?p=493#comment-257</guid>
+		<description><![CDATA[Vou criar um repositorio no GitHub com todo o código.]]></description>
+		<content:encoded><![CDATA[<p>Vou criar um repositorio no GitHub com todo o código.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
