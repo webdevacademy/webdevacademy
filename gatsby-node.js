@@ -1,68 +1,60 @@
-const _ = require('lodash')
-const Promise = require('bluebird')
-const path = require('path')
-const { createFilePath } = require('gatsby-source-filesystem')
+const _ = require(`lodash`)
+const Promise = require(`bluebird`)
+const path = require(`path`)
+const slash = require(`slash`)
 
+// Implement the Gatsby API “createPages”. This is
+// called after the Gatsby bootstrap is finished so you have
+// access to any information necessary to programmatically
+// create pages.
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve('./src/templates/blog-post.js')
-    resolve(
-      graphql(
-        `
-          {
-            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
-              edges {
-                node {
-                  fields {
-                    slug
-                  }
-                  frontmatter {
-                    title
-                  }
-                }
+    // The “graphql” function allows us to run arbitrary
+    // queries against the local Contentful graphql schema. Think of
+    // it like the site has a built-in database constructed
+    // from the fetched data that you can run queries against.
+    graphql(
+      `
+        {
+          allContentfulPost(limit: 10) {
+            edges {
+              node {
+                id
+                slug
               }
             }
           }
-        `
-      ).then(result => {
-        if (result.errors) {
-          console.log(result.errors)
-          reject(result.errors)
         }
+      `
+    )
+    .then(result => {
+      if (result.errors) {
+        reject(result.errors)
+      }
 
-        // Create blog posts pages.
-        const posts = result.data.allMarkdownRemark.edges;
-
-        _.each(posts, (post, index) => {
-          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-          const next = index === 0 ? null : posts[index - 1].node;
-
-          createPage({
-            path: post.node.fields.slug,
-            component: blogPost,
-            context: {
-              slug: post.node.fields.slug,
-              previous,
-              next,
-            },
-          })
+      // Create Product pages
+      const productTemplate = path.resolve(`./src/templates/blog-post.js`)
+      // We want to create a detailed page for each
+      // product node. We'll just use the Contentful id for the slug.
+      _.each(result.data.allContentfulPost.edges, edge => {
+        // Gatsby uses Redux to manage its internal state.
+        // Plugins and sites can use functions like "createPage"
+        // to interact with Gatsby.
+        createPage({
+          // Each page is required to have a `path` as well
+          // as a template component. The `context` is
+          // optional but is often necessary so the template
+          // can query data specific to each page.
+          path: `/${edge.node.slug}/`,
+          component: slash(productTemplate),
+          context: {
+            id: edge.node.id,
+            slug: edge.node.slug,
+          },
         })
       })
-    )
+    })    
+    resolve()
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
 }

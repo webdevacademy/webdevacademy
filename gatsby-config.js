@@ -22,7 +22,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 640,
             },
           },
           {
@@ -45,19 +45,19 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Web Dev Academy`,
-        short_name: `WDA`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/assets/wda-icon.png`,
-      },
-    },
+    // `gatsby-plugin-feed`,
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Web Dev Academy`,
+    //     short_name: `WDA`,
+    //     start_url: `/`,
+    //     background_color: `#ffffff`,
+    //     theme_color: `#663399`,
+    //     display: `minimal-ui`,
+    //     icon: `src/assets/wda-icon.png`,
+    //   },
+    // },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
@@ -67,5 +67,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `o9g3zswuoir7`,
+        accessToken: `5d2f538881b7804df43918e06453cd937b83492bf45898f15e4f5fcc0cdf1d75`,
+      },
+    },
   ],
 }

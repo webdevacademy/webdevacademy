@@ -1,42 +1,70 @@
 import React from 'react'
-import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap'
-import Link from 'gatsby-link'
-import graphql from 'graphql'
+import { Link, graphql } from 'gatsby'
+import get from 'lodash/get'
+import Helmet from 'react-helmet'
 
-const IndexPage = ({ data }) => {
-  const posts = data.allMarkdownRemark.edges.filter(post => !post.node.frontmatter.hidden && post.node.frontmatter.contentType === 'blog')
-  return (
-    <Container>
-      <div className="card-columns">
-      {posts.map(({ node: post }) => (
-        <Card style={{marginBottom: 10}} key={post.id}>
-          <CardBody>
-            <CardTitle><Link to={post.frontmatter.path}>{post.frontmatter.title}</Link></CardTitle>
-            <CardSubtitle style={{marginBottom: 10}}>{post.frontmatter.date}</CardSubtitle>
-            <CardText>{post.excerpt}</CardText>
-          </CardBody>
-        </Card>
-    ))}
-      </div>
-    </Container>
-  )
+import { Container, Row, Card, CardText, CardBody, CardTitle, CardSubtitle, Jumbotron } from 'reactstrap'
+
+import Layout from '../components/layout'
+
+class Home extends React.Component {
+  render() {
+    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    const siteDescription = get(
+      this,
+      'props.data.site.siteMetadata.description'
+    )
+    const posts = get(this, 'props.data.allContentfulPost.edges')
+    const placeholder = 'http://placehold.it/800x480&text=:(';
+
+    return (
+      <Layout location={this.props.location}>
+        <Helmet
+          htmlAttributes={{ lang: 'en' }}
+          meta={[{ name: 'description', content: siteDescription }]}
+          title={siteTitle}
+        />
+        <Row className="posts" tag="section">
+          {posts.map(({ node }) => {
+            const title = get(node, 'frontmatter.title') || node.title
+            return (
+              <article key={node.id} className="col-sm-6 col-md-4">
+                <Card className="mb-4">
+                  <Link to={node.slug}>
+                    <img className="card-img-top" src={node.image || placeholder} alt={node.title} />
+                    <CardBody>
+                      <CardTitle className="text-dark">{title}</CardTitle>
+                    </CardBody>
+                  </Link>
+                {/* <p dangerouslySetInnerHTML={{ __html: node.description.description }} /> */}
+                </Card>
+              </article>
+            )
+          })}
+        </Row>
+      </Layout>
+    )
+  }
 }
 
-export default IndexPage
+export default Home
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+  query {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
+    allContentfulPost {
       edges {
         node {
-          excerpt(pruneLength: 400)
           id
-          frontmatter {
-            title
-            contentType
-            date(formatString: "MMMM DD, YYYY")
-            path
-            hidden
+          title
+          slug
+          description {
+            description
           }
         }
       }
