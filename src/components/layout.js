@@ -7,7 +7,8 @@ import Footer from './footer'
 
 // main site style
 import 'prismjs/themes/prism-twilight.css'
-import '../assets/index.scss'
+import '../assets/style.css'
+import '../assets/custom.css'
 
 class Template extends React.Component {
   render() {
