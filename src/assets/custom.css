@@ -54,7 +54,8 @@ p.posts-navigation {
   padding: 0;	
 }
 
-.post-header {
+.post .post-header,
+.page .post-header {
 	border: none;
 }
 
@@ -70,7 +71,8 @@ p.posts-navigation {
 	content: none;
 }
 
-.post-content {
+.single .post-content,
+.page .post-content {
 	padding: 0 10% 10%;
 	text-align: justify;
 }

@@ -19,6 +19,9 @@ class Page extends React.Component {
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${page.title} | ${siteTitle}`}
+          bodyAttributes={{
+            'class': 'page'
+          }}
         />
         <div className="wrapper section medium-padding">
           <div className="section-inner">
