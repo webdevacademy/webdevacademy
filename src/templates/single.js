@@ -16,40 +16,31 @@ class Single extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Helmet
-          htmlAttributes={{ lang: 'en' }}
+          htmlAttributes={{ lang: 'pt-br' }}
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.title} | ${siteTitle}`}
-        />
-        <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
-        <article dangerouslySetInnerHTML={{ __html: post.content }} />
-        <hr />
-
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
+          bodyAttributes={{
+            'class': 'single'
           }}
-        >
-          <li>
-            {
-              previous &&
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.title}
-              </Link>
-            }
-          </li>
-          <li>
-            {
-              next &&
-              <Link to={next.fields.slug} rel="next">
-                {next.title} →
-              </Link>
-            }
-          </li>
-        </ul>
+        />
+
+        <div className="wrapper section medium-padding">
+          <main className="section-inner clear" role="main">
+            <div className="content clear center" id="content">
+              <article id={post.id} className="post type-post hentry clear">
+		            <header className="post-header">
+                  <h1 className="post-title entry-title">
+                    <Link to={location.pathname} rel="bookmark"
+                      dangerouslySetInnerHTML={{ __html: post.title }} />
+                  </h1>
+                </header>
+                <div className="post-content clear"
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                />                
+	            </article>
+		        </div>
+          </main>
+        </div>        
       </Layout>
     )
   }

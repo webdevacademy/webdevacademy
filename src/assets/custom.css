@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+a {
+	box-shadow: none;
+}
+
+.header,
+.search-toggle {
+	display: none;
+}
+
+.main-navigation li::before {
+	content: none;
+}
+
+.main-navigation li > a {
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: capitalize;
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: 0px;
+	padding: 28px 27px;
+}
+
+.main-navigation li.menu-item-home > a {
+	color: white;
+	font-weight: 300;
+	font-size: 1.6em;
+	margin-right: 2em;
+	padding: 22px 0;
+}
+
+.site-title {
+  font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+.site-description {
+	display:none;
+}
+
+.tag-archive-meta {
+  text-align: justify;
+}
+
+.tag-archive-meta p {
+  line-height: 2.4em;
+}
+
+p.posts-navigation {
+	margin-top: 1em;
+  padding: 0;	
+}
+
+.post .post-header,
+.page .post-header {
+	border: none;
+}
+
+.post-header .post-title {
+	color: #2b3542;
+	font-family:  'Titillium Web', sans-serif;
+}
+
+.page .post-header::after,
+.page .post-header::before,
+.post .post-header::after, 
+.post .post-header::before {
+	content: none;
+}
+
+.single .post-content,
+.page .post-content {
+	padding: 0 10% 10%;
+	text-align: justify;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6,
+.widget-title {
+	font-family:  'Titillium Web', sans-serif;
+}
+
+.post-content hr {
+  height: 2px;
+  width: 100%;
+}
+
+.single .post-title {
+  text-align: left;
+}
+
+img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright, .alignright img {
+	border: none;
+	padding: 0;
+}
+
+.post-content pre code { 
+  font-size: 100%;
+  line-height: 1.3em;
+}
+
+.entry-author::before,
+.entry-author::after {
+	content: none;
+}
+
+.single .featured-media {
+	margin-bottom: 5%;
+}
+
+.page-header {
+	margin-bottom: 0;
+}
