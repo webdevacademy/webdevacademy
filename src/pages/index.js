@@ -14,7 +14,7 @@ class Home extends React.Component {
       this,
       'props.data.site.siteMetadata.description'
     )
-    const posts = get(this, 'props.data.allContentfulPost.edges')
+    const posts = get(this, 'props.data.allWordpressPost.edges')
     const placeholder = 'http://placehold.it/800x480&text=:(';
 
     return (
@@ -27,13 +27,17 @@ class Home extends React.Component {
         <Row className="posts" tag="section">
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.title
+            const url = `/${node.categories[0].slug}/${node.slug}`;
+
             return (
               <article key={node.id} className="col-sm-6 col-md-4">
                 <Card className="mb-4">
-                  <Link to={node.slug}>
+                  <Link to={url}>
                     <img className="card-img-top" src={node.image || placeholder} alt={node.title} />
                     <CardBody>
-                      <CardTitle className="text-dark">{title}</CardTitle>
+                      <CardTitle className="text-dark" 
+                        dangerouslySetInnerHTML={{ __html: title }} >
+                      </CardTitle>
                     </CardBody>
                   </Link>
                 {/* <p dangerouslySetInnerHTML={{ __html: node.description.description }} /> */}
@@ -57,15 +61,15 @@ export const pageQuery = graphql`
         description
       }
     }
-    allContentfulPost {
+    allWordpressPost {
       edges {
         node {
           id
-          title
           slug
-          description {
-            description
-          }
+          title
+          categories {
+            slug
+          }   
         }
       }
     }
