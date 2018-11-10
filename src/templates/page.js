@@ -11,8 +11,6 @@ class Page extends React.Component {
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = page.excerpt
 
-    console.log(this.props);
-
     return (
       <Layout location={this.props.location}>
         <Helmet

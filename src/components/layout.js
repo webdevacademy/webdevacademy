@@ -1,6 +1,4 @@
 import React, { Fragment } from 'react'
-import { Link } from 'gatsby'
-import { Container, Row} from 'reactstrap'
 
 import Header from './header'
 import Footer from './footer'
