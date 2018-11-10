@@ -54,7 +54,7 @@ p.posts-navigation {
   padding: 0;	
 }
 
-.post .post-header {
+.post-header {
 	border: none;
 }
 
@@ -64,12 +64,13 @@ p.posts-navigation {
 }
 
 .page .post-header::after,
+.page .post-header::before,
 .post .post-header::after, 
 .post .post-header::before {
 	content: none;
 }
 
-.single .post-content {
+.post-content {
 	padding: 0 10% 10%;
 	text-align: justify;
 }

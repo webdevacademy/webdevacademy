@@ -8,12 +8,12 @@ class Footer extends React.Component {
 
   renderColumn(title) {
     return (
-      <div class="column one-third medium-padding">
-        <div class="widgets">
-          <div class="widget">
-            <div class="widget-content clear">
-              <h3 class="widget-title">{ title }</h3>
-              <div class="textwidget">
+      <div className="column one-third medium-padding">
+        <div className="widgets">
+          <div className="widget">
+            <div className="widget-content clear">
+              <h3 className="widget-title">{ title }</h3>
+              <div className="textwidget">
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ class Footer extends React.Component {
     return (
       <Fragment>
         <footer className="footer bg-graphite" id="footer">
-          <div class="section-inner row clear" role="complementary">
+          <div className="section-inner row clear" role="complementary">
             { this.renderColumn('Sobre a Academy') }
             { this.renderColumn() }
             { this.renderColumn() }
@@ -50,8 +50,8 @@ class Footer extends React.Component {
               </a>
             </p>
 
-            <p class="credits-right fright">
-              <a class="tothetop" title="Para o topo" href="#">Para Cima &uarr;</a>
+            <p className="credits-right fright">
+              <a className="tothetop" title="Para o topo" href="#">Para Cima &uarr;</a>
             </p>
           </div>
         </div>
