@@ -1,15 +1,14 @@
 import React from 'react'
+import PropTypes from "prop-types"
 import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
 
-class BlogPostTemplate extends React.Component {
+class Single extends React.Component {
   render() {
-    console.log(this.props);
-
-    const post = this.props.data.contentfulPost
+    const post = this.props.data.wordpressPost
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
@@ -21,8 +20,8 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.title} | ${siteTitle}`}
         />
-        <h1>{post.title}</h1>
-        <article dangerouslySetInnerHTML={{ __html: post.body.childMarkdownRemark.html }} />
+        <h1 dangerouslySetInnerHTML={{ __html: post.title }} />
+        <article dangerouslySetInnerHTML={{ __html: post.content }} />
         <hr />
 
         <ul
@@ -56,19 +55,20 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+Single.propTypes = {
+  data: PropTypes.object.isRequired,
+  edges: PropTypes.array,
+}
+
+export default Single
 
 export const pageQuery = graphql`
-  query {
-    contentfulPost(slug: { eq: "bootstrap-como-comecar" }) {
+  query($id: String!) {
+    wordpressPost(id: { eq: $id }) {
       id
       title
       slug
-      body {
-        childMarkdownRemark {
-          html
-        }
-      }
+      content
     }
   }
 `

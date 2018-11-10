@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: 'Web Dev Academy',
@@ -68,11 +72,22 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: "gatsby-source-wordpress",
       options: {
-        spaceId: `o9g3zswuoir7`,
-        accessToken: `5d2f538881b7804df43918e06453cd937b83492bf45898f15e4f5fcc0cdf1d75`,
-      },
-    },
+        baseUrl: process.env.WORDPRESS_URL,
+        protocol: "https",
+        hostingWPCOM: true,
+        useACF: false,
+        auth: {
+          wpcom_app_clientSecret: process.env.WORDPRESS_CLIENT_SECRET,
+          wpcom_app_clientId: process.env.WORDPRESS_CLIENT_ID,
+          wpcom_user: process.env.WORDPRESS_USER,
+          wpcom_pass: process.env.WORDPRESS_PASSWD,
+        },
+        normalizer: function({ entities }) {
+          return entities
+        },
+      }
+    }
   ],
 }
