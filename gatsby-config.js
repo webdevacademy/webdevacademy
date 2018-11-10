@@ -72,13 +72,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `o9g3zswuoir7`,
-        accessToken: `5d2f538881b7804df43918e06453cd937b83492bf45898f15e4f5fcc0cdf1d75`,
-      },
-    },
-    {
       resolve: "gatsby-source-wordpress",
       options: {
         baseUrl: process.env.WORDPRESS_URL,

@@ -25,7 +25,6 @@
     "gatsby-remark-prismjs": "^3.0.0",
     "gatsby-remark-responsive-iframe": "^2.0.5",
     "gatsby-remark-smartypants": "^2.0.5",
-    "gatsby-source-contentful": "^2.0.6",
     "gatsby-source-filesystem": "^2.0.2",
     "gatsby-source-wordpress": "^3.0.13",
     "gatsby-transformer-remark": "^2.1.6",
