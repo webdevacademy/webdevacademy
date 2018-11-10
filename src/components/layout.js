@@ -15,7 +15,9 @@ class Template extends React.Component {
     return (
       <Fragment>
         <Header location />
-        {children}
+        <div className="wrapper section medium-padding clear">
+          {children}
+        </div>
         <Footer />
       </Fragment>
     )

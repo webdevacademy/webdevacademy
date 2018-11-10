@@ -14,21 +14,20 @@ const NotFoundPage = () => (
         'class': 'page single'
       }}
     />
-    <div className="wrapper section medium-padding">
-      <div className="section-inner">
-        <div className="content center clear" id="content">
-          <section className="clear">
-            <header className="post-header">
-              <h1 className="post-title entry-title">Opa! Página não encontrada.</h1>
-            </header>
-            <div className="post-content clear">
-              <p>
-                Parece que nada foi encontrado neste endereço.<br />
-                Você pode tentar ir para a <Link to={'/'}>Página Inicial</Link> ou prefere fazer uma busca?
-            </p>
-            </div>
-          </section>
-        </div>
+    
+    <div className="section-inner">
+      <div className="content center clear" id="content">
+        <section className="clear">
+          <header className="post-header">
+            <h1 className="post-title entry-title">Opa! Página não encontrada.</h1>
+          </header>
+          <div className="post-content clear">
+            <p>
+              Parece que nada foi encontrado neste endereço.<br />
+              Você pode tentar ir para a <Link to={'/'}>Página Inicial</Link> ou prefere fazer uma busca?
+          </p>
+          </div>
+        </section>
       </div>
     </div>
   </Layout>

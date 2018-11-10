@@ -24,23 +24,21 @@ class Single extends React.Component {
           }}
         />
 
-        <div className="wrapper section medium-padding">
-          <main className="section-inner clear" role="main">
-            <div className="content clear center" id="content">
-              <article id={post.id} className="post type-post hentry clear">
-		            <header className="post-header">
-                  <h1 className="post-title entry-title">
-                    <Link to={this.props.location.pathname} rel="bookmark"
-                      dangerouslySetInnerHTML={{ __html: post.title }} />
-                  </h1>
-                </header>
-                <div className="post-content clear"
-                  dangerouslySetInnerHTML={{ __html: post.content }}
-                />                
-	            </article>
-		        </div>
-          </main>
-        </div>        
+        <main className="section-inner clear" role="main">
+          <div className="content clear center" id="content">
+            <article id={post.id} className="post type-post hentry clear">
+              <header className="post-header">
+                <h1 className="post-title entry-title">
+                  <Link to={this.props.location.pathname} rel="bookmark"
+                    dangerouslySetInnerHTML={{ __html: post.title }} />
+                </h1>
+              </header>
+              <div className="post-content clear"
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />                
+            </article>
+          </div>
+        </main>        
       </Layout>
     )
   }

@@ -21,20 +21,19 @@ class Page extends React.Component {
             'class': 'page'
           }}
         />
-        <div className="wrapper section medium-padding">
-          <div className="section-inner">
-            <div className="content center clear" id="content">
-              <article id="post-80" className="page type-page hentry clear">
-                <header className="post-header">
-                  <h1 className="post-title entry-title"
-                    dangerouslySetInnerHTML={{ __html: page.title }} />
-                </header>
-                <div className="post-content clear"
-                  dangerouslySetInnerHTML={{ __html: page.content }} />
-              </article>
-            </div>
+        
+        <div className="section-inner">
+          <div className="content center clear" id="content">
+            <article id="post-80" className="page type-page hentry clear">
+              <header className="post-header">
+                <h1 className="post-title entry-title"
+                  dangerouslySetInnerHTML={{ __html: page.title }} />
+              </header>
+              <div className="post-content clear"
+                dangerouslySetInnerHTML={{ __html: page.content }} />
+            </article>
           </div>
-        </div>
+        </div>        
       </Layout>
     )
   }
