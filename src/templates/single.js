@@ -30,7 +30,7 @@ class Single extends React.Component {
               <article id={post.id} className="post type-post hentry clear">
 		            <header className="post-header">
                   <h1 className="post-title entry-title">
-                    <Link to={location.pathname} rel="bookmark"
+                    <Link to={this.props.location.pathname} rel="bookmark"
                       dangerouslySetInnerHTML={{ __html: post.title }} />
                   </h1>
                 </header>
