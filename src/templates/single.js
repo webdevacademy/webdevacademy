@@ -5,6 +5,7 @@ import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
+import 'prismjs/themes/prism-twilight.css'
 
 class Single extends React.Component {
   render() {

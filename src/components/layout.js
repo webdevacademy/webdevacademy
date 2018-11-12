@@ -3,11 +3,6 @@ import React, { Fragment } from 'react'
 import Header from './header'
 import Footer from './footer'
 
-// main site style
-import 'prismjs/themes/prism-twilight.css'
-import '../assets/style.css'
-import '../assets/custom.css'
-
 class Template extends React.Component {
   render() {
     const { location, children } = this.props

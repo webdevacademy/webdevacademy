@@ -42,7 +42,7 @@ class Home extends React.Component {
               return (
                 <div className="post-container post-loaded fade-in" key={node.id} >
                   <article id={node.id} className="post has-post-thumbnail hentry clear">
-                    <div class="featured-media">
+                    <div className="featured-media">
                       <Link to={url} rel="bookmark">
                         <img src={thumbnail} alt={node.title} />
                       </Link>
