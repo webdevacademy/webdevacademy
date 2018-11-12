@@ -9,13 +9,19 @@ exports.createPages = ({ graphql, actions }) => {
     graphql(
       `
         {
-          allWordpressPage {
+          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
             edges {
               node {
                 id
-                slug
-                status
-                template
+                frontmatter {
+                  slug
+                  categories {
+                    slug
+                  }
+                  tags {
+                    slug
+                  }
+                }
               }
             }
           }
@@ -28,69 +34,79 @@ exports.createPages = ({ graphql, actions }) => {
         reject(result.errors)
       }
 
-      // Create Page pages.
-      const pageTemplate = path.resolve("./src/templates/page.js")
-      // We want to create a detailed page for each
-      // page node. We'll just use the WordPress Slug for the slug.
-      // The Page ID is prefixed with 'PAGE_'
-      _.each(result.data.allWordpressPage.edges, edge => {
-        // Gatsby uses Redux to manage its internal state.
-        // Plugins and sites can use functions like "createPage"
-        // to interact with Gatsby.
+      const postTemplate = path.resolve("./src/templates/single.js")
+      
+      _.each(result.data.allMarkdownRemark.edges, edge => {
         createPage({
-          // Each page is required to have a `path` as well
-          // as a template component. The `context` is
-          // optional but is often necessary so the template
-          // can query data specific to each page.
-          path: `/${edge.node.slug}/`,
-          component: slash(pageTemplate),
+          path: `/${edge.node.frontmatter.categories[0].slug}/${edge.node.frontmatter.slug}/`,
+          component: slash(postTemplate),
           context: {
             id: edge.node.id,
           },
         })
       })
-    }) // end allWordpressPage
+
+      const posts = result.data.allMarkdownRemark.edges;
+      
+      const tagTemplate = path.resolve("src/templates/tag.js");      
+      let tags = [];      
+      _.each(posts, edge => {
+        if (_.get(edge, "node.frontmatter.tags")) {
+          _.each(edge.node.frontmatter.tags, tag => {
+            tags = tags.concat(tag.slug);            
+          });
+        }
+      });
+      
+      tags = _.uniq(tags);
+
+      tags.forEach(tag => {
+        createPage({
+          path: `/tag/${_.kebabCase(tag)}/`,
+          component: tagTemplate,
+          context: {
+            tag,
+            title: tag,
+          },
+        });
+      });
+    }) // end allMarkdownRemark for Posts
 
     .then(() => {
       graphql(
         `
-          {
-            allWordpressPost {
-              edges {
-                node {
-                  id
+        {
+          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/pages/"}}) {
+            edges {
+              node {
+                id
+                frontmatter {
                   slug
-                  status
-                  template
-                  format
-                  categories {
-                    slug
-                  }
                 }
               }
             }
           }
-        `
+        }
+      `
       ).then(result => {
         if (result.errors) {
           console.log(result.errors)
           reject(result.errors)
         }
-        const postTemplate = path.resolve("./src/templates/single.js")
-        // We want to create a detailed page for each
-        // post node. We'll just use the WordPress Slug for the slug.
-        // The Post ID is prefixed with 'POST_'
-        _.each(result.data.allWordpressPost.edges, edge => {
+        const pageTemplate = path.resolve("./src/templates/page.js")
+
+        _.each(result.data.allMarkdownRemark.edges, edge => {        
           createPage({
-            path: `/${edge.node.categories[0].slug}/${edge.node.slug}/`,
-            component: slash(postTemplate),
+            path: `/${edge.node.frontmatter.slug}/`,
+            component: slash(pageTemplate),
             context: {
               id: edge.node.id,
             },
           })
         })
+
         resolve()
       })
-    }) // end allWordpressPost
+    }) // end allMarkdownRemark for Pages
   })
 }

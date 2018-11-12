@@ -12,15 +12,15 @@ class Home extends React.Component {
       this,
       'props.data.site.siteMetadata.description'
     )
-    const posts = get(this, 'props.data.allWordpressPost.edges')
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
     const placeholder = 'http://placehold.it/480x252&text=:(';
 
     return (
       <Layout location={this.props.location}>
         <Helmet
-          htmlAttributes={{ lang: 'en' }}
+          htmlAttributes={{ lang: 'pt-br' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={siteTitle}
+          title={`${siteTitle}` | `${siteDescription}`}
           bodyAttributes={{
             'class': 'home blog hfeed no-featured-image date-hidden'
           }}
@@ -36,8 +36,8 @@ class Home extends React.Component {
             </div>
 
             {posts.map(({ node }) => {
-              const thumbnail = node.featured_media ? node.featured_media.source_url : placeholder;
-              const url = `/${node.categories[0].slug}/${node.slug}`;
+              const thumbnail = node.frontmatter.featured_media || placeholder;
+              const url = `/${node.frontmatter.categories[0].slug}/${node.frontmatter.slug}`;
 
               return (
                 <div className="post-container post-loaded fade-in" key={node.id} >
@@ -50,7 +50,7 @@ class Home extends React.Component {
                     <header className="post-header">
                       <h1 className="post-title entry-title">
                         <Link to={url} rel="bookmark" 
-                          dangerouslySetInnerHTML={{ __html: node.title }} />
+                          dangerouslySetInnerHTML={{ __html: node.frontmatter.title }} />
                       </h1>
                     </header>
                   </article>
@@ -74,18 +74,18 @@ export const pageQuery = graphql`
         description
       }
     }
-    allWordpressPost {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
       edges {
         node {
           id
-          slug
-          title
-          categories {
+          frontmatter {
             slug
-          }   
-          featured_media {
-            source_url
-          }
+            title
+            categories {
+              slug
+            }   
+            featured_media
+          }          
         }
       }
     }

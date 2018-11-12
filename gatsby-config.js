@@ -15,7 +15,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/posts`,
+        name: 'posts',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/pages`,
         name: 'pages',
       },
     },
@@ -71,23 +78,5 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    {
-      resolve: "gatsby-source-wordpress",
-      options: {
-        baseUrl: process.env.WORDPRESS_URL,
-        protocol: "https",
-        hostingWPCOM: true,
-        useACF: false,
-        auth: {
-          wpcom_app_clientSecret: process.env.WORDPRESS_CLIENT_SECRET,
-          wpcom_app_clientId: process.env.WORDPRESS_CLIENT_ID,
-          wpcom_user: process.env.WORDPRESS_USER,
-          wpcom_pass: process.env.WORDPRESS_PASSWD,
-        },
-        normalizer: function({ entities }) {
-          return entities
-        },
-      }
-    }
   ],
 }
