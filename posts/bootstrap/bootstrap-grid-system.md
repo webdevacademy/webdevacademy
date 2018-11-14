@@ -1,8 +1,8 @@
 ---
-title: "Bootstrap 4: Como Começar"
-slug: "bootstrap-como-comecar"
-path: "/tutoriais/bootstrap-como-comecar"
-date: "2018-01-22T06:00:14+00:00"
+title: "Bootstrap 4: Entendendo o Grid System"
+slug: "bootstrap-grid-system"
+path: "/tutoriais/bootstrap-grid-system"
+date: "2018-02-22T06:00:14+00:00"
 categories: [
   slug: 'tutoriais'
 ]
@@ -23,7 +23,7 @@ Ao final, você vai ter um ambiente com o Bootstrap 4 funcionando, e pronto para
 
 ## Antes de Começar
 
-Este tutorial foi feito para a versão 4 do Bootstrap. Se você estiver precisando aprender a versão 3, você deve seguir o [tutorial neste link](http://webdevacademy.com.br/tutoriais/bootstrap-como-comecar/).
+Este tutorial foi feito para a versão 4 do Bootstrap. Se você estiver precisando aprender a versão 3, você deve seguir o [tutorial neste link](http://webdevacademy.com.br/tutoriais/bootstrap-grid-system/).
 
 Eu vou assumir que você já tem um instalado o Node.js e o NPM, um terminal/linha de comando (como o Git Bash, PowerShell, Bash, etc.) e um bom editor de Textos (VS Code, Atom ou Sublime).
 

@@ -9,13 +9,19 @@ import Layout from '../components/layout'
 const Tags = ({ pageContext, data }) => {
   const { tag, title } = pageContext;
   const posts = data.allMarkdownRemark.edges;
-
+  
   return (
     <Layout>
       <header className="page-header section-inner">
         <h1 className="page-title">{ title }</h1>
         <div className="tag-archive-meta"></div>
       </header>
+      <div className="tagcloud section-inner" style={{paddingBottom: '3em'}}>
+        <a href="#" className="tag-cloud-link" aria-label="alec baldwin (1 item)">TODOS</a>
+        <a href="#" className="tag-cloud-link" aria-label="animated (1 item)">INICIANTE</a>
+        <a href="#" className="tag-cloud-link" aria-label="animated (1 item)">INTERMEDIARIO</a>
+        <a href="#" className="tag-cloud-link" aria-label="apple (2 items)">AVANÇADO</a>
+      </div>
 
       <div className="content section-inner" id="content">      
       {posts.map(({ node }) => {

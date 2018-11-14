@@ -20,7 +20,7 @@ class Home extends React.Component {
         <Helmet
           htmlAttributes={{ lang: 'pt-br' }}
           meta={[{ name: 'description', content: siteDescription }]}
-          title={`${siteTitle}` | `${siteDescription}`}
+          title={`${siteTitle} | ${siteDescription}`}
           bodyAttributes={{
             'class': 'home blog hfeed no-featured-image date-hidden'
           }}
@@ -37,7 +37,7 @@ class Home extends React.Component {
 
             {posts.map(({ node }) => {
               const thumbnail = node.frontmatter.featured_media || placeholder;
-              const url = `/${node.frontmatter.categories[0].slug}/${node.frontmatter.slug}`;
+              const url = `/${node.frontmatter.path}`;
 
               return (
                 <div className="post-container post-loaded fade-in" key={node.id} >
@@ -74,18 +74,19 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC}
+      filter: {fileAbsolutePath: {regex: "/tags/"}}
+    ){
       edges {
         node {
           id
           frontmatter {
             slug
             title
-            categories {
-              slug
-            }   
             featured_media
-          }          
+            path
+          }
         }
       }
     }
