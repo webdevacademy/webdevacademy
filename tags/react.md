@@ -2,7 +2,7 @@
 title: "Aprenda React"
 slug: "react"
 path: "/tag/react"
-date: "2018-02-12T06:00:14+00:00"
+date: "2018-01-12T06:00:14+00:00"
 tags: [
   slug: 'react',
   slug: 'iniciante',
