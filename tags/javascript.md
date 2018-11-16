@@ -2,7 +2,7 @@
 title: "Aprenda JavaScript"
 slug: "javascript"
 path: "/tag/javascript"
-date: "2016-01-12T06:00:14+00:00"
+date: "2017-06-12T06:00:14+00:00"
 tags: [
   slug: 'javascript',
   slug: 'iniciante',

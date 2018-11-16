@@ -26,22 +26,22 @@ class Header extends React.Component {
                   <Link to={'/'}>Web Dev Academy</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to={"/tag/html-css/"}>HTML &amp; CSS</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to={"/tag/javascript/"}>JavaScript</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to={"/tag/bootstrap/"}>Bootstrap</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to={"/tag/php/"}>PHP</Link>
-                </li>
-                <li className="menu-item">
-                  <Link to={"/tag/wordpress/"}>WordPress</Link>
+                  <Link to={"/comece-aqui"}>Comece Aqui</Link>
                 </li>
                 <li className="menu-item">
                   <Link to={"/sobre"}>Sobre</Link>
+                </li>
+                <li className="menu-item">
+                  <Link to={"/cursos"}>Cursos</Link>
+                </li>
+                <li className="menu-item">
+                  <Link to={"/artigos"}>Artigos</Link>
+                </li>
+                <li className="menu-item">
+                  <Link to={"/downloads"}>Downloads</Link>
+                </li>
+                <li className="menu-item">
+                  <Link to={"/videos"}>Videos</Link>
                 </li>
               </ul>			
             </div>

@@ -10,9 +10,13 @@ import 'prismjs/themes/prism-twilight.css'
 class Single extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const tagUrl = post.frontmatter.tags ? post.frontmatter.tags[0].slug : String.empty;
+
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const siteDescription = post.excerpt
+    const siteDescription = post.excerpt ? post.excerpt : String.empty;
     const { previous, next } = this.props.pageContext
+
+    console.log(post)
 
     return (
       <Layout location={this.props.location}>
@@ -33,6 +37,7 @@ class Single extends React.Component {
                   <Link to={this.props.location.pathname} rel="bookmark"
                     dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
                 </h1>
+                <div><Link to={`/tag/${tagUrl}`}>Voltar</Link></div>
               </header>
               <div className="post-content clear"
                 dangerouslySetInnerHTML={{ __html: post.html }}
@@ -59,13 +64,16 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
+        tags {
+          slug
+        }
       }
       html
     }
     site {
       siteMetadata {
         title
-        description
+        description        
       }
     }
   }
