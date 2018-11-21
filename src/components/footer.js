@@ -13,7 +13,41 @@ class Footer extends React.Component {
           <div className="widget">
             <div className="widget-content clear">
               <h3 className="widget-title">{ title }</h3>
-              <div className="textwidget">
+              <div class="textwidget">
+                <p>
+                  <em>Baskerville 2</em> is a beautiful, responsive, 
+                  grid-style theme.
+                </p>
+                <p>
+                  <em>Baskerville 2</em> is based on <em>Baskerville</em>, 
+                  which was developed by <a href="http://www.andersnoren.se/" 
+                  target="_blank">Anders Norén</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  renderColumn(title) {
+    return (
+      <div className="column one-third medium-padding">
+        <div className="widgets">
+          <div className="widget">
+            <div className="widget-content clear">
+              <h3 className="widget-title">{title}</h3>
+              <div class="textwidget">
+                <p>
+                  Aqui na <em>Web Dev Academy</em> você pode aprender 
+                  sobre Desenvolvimento de Websites e de Sistemas Web.
+                </p>
+                <p>
+                  <em>Baskerville 2</em> is based on <em>Baskerville</em>,
+                  which was developed por <a href="http://twitter.com/ruancarvalho"
+                    target="_blank">Ruan Carvalho</a>.
+                </p>
               </div>
             </div>
           </div>

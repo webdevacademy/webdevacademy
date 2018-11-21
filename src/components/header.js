@@ -38,7 +38,7 @@ class Header extends React.Component {
                   <Link to={"/artigos"}>Artigos</Link>
                 </li>
                 <li className="menu-item">
-                  <Link to={"/downloads"}>Downloads</Link>
+                  <Link to={"/tools"}>Ferramentas</Link>
                 </li>
                 <li className="menu-item">
                   <Link to={"/videos"}>Videos</Link>
