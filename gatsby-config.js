@@ -8,7 +8,17 @@ module.exports = {
     author: 'Ruan Carvalho',
     description: 'Artigos e Tutoriais sobre Desenvolvimento Web',
     siteUrl: 'https://webdevacademy.com.br',
-    disqus: 'webdevacademycombr'
+    disqus: 'webdevacademycombr',
+    menuLinks: [
+      {
+        name:'Tutoriais',
+        link:'/tutoriais'
+      },
+      {
+        name:'Artigos',
+        link:'/artigos'
+      },
+    ]
   },
   pathPrefix: '/webdevacademy',
   plugins: [
