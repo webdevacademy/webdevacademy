@@ -1,0 +1,74 @@
+Arguments: 
+  /home/ruancarvalho/.nvm/versions/node/v12.2.0/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/ruancarvalho/.nvm/versions/node/v12.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ruancarvalho/webdevacademy/website/package.json: Unexpected token } in JSON at position 1228
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "webdevacademy",
+    "description": "Web Dev Academy Website",
+    "version": "2.0.0-alpha.1",
+    "author": "Ruan Carvalho <ruan@webdevacademy.com.br>",
+    "bugs": {
+      "url": "https://github.com/webdevacademy/webdevacademy/issues"
+    },
+    "dependencies": {
+      "gatsby": "^2.5.3",
+      "gatsby-image": "^2.1.0",
+      "gatsby-plugin-manifest": "^2.1.1",
+      "gatsby-plugin-offline": "^2.1.1",
+      "gatsby-plugin-react-helmet": "^3.0.12",
+      "gatsby-plugin-sharp": "^2.0.37",
+      "gatsby-source-filesystem": "^2.0.36",
+      "gatsby-transformer-sharp": "^2.1.19",
+      "prop-types": "^15.7.2",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-helmet": "^5.2.1"
+    },
+    "devDependencies": {
+      "prettier": "^1.17.1"
+    },
+    "homepage": "https://webdevacademy.com.br",
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "MIT",
+    "main": "n/a",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/webdevacademy/webdevacademy.git"
+    },
+    "scripts": {
+      "build": "gatsby build",
+      "develop": "gatsby develop",
+      "format": "prettier --write src/**/*.{js,jsx}",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
