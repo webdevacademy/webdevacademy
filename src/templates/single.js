@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/layout'
+import Sidebar from '../components/sidebar'
 import 'prismjs/themes/prism-twilight.css'
 
 class Single extends React.Component {
@@ -30,7 +31,7 @@ class Single extends React.Component {
         />
 
         <main className="section-inner clear" role="main">
-          <div className="content clear center" id="content">
+          <div className="content clear fleft" id="content">
             <article id={post.id} className="post type-post hentry clear">
               <header className="post-header">
                 <h1 className="post-title entry-title">
@@ -44,6 +45,8 @@ class Single extends React.Component {
               />                
             </article>
           </div>
+
+          <Sidebar />
         </main>        
       </Layout>
     )

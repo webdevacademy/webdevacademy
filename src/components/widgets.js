@@ -12,7 +12,7 @@ export const TextWidget = (title, content) => (
 )
 
 export const SearchWidget = (title) => (
-  <div id="search-2" className="widget widget_search">
+  <div className="widget widget_search">
     <div className="widget-content clear">
       <h3 className="widget-title">{ title }</h3>
       <form role="search" method="get" className="search-form" action="">
