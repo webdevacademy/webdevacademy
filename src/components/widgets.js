@@ -16,12 +16,12 @@ export const SearchWidget = (title) => (
     <div className="widget-content clear">
       <h3 className="widget-title">{ title }</h3>
       <form role="search" method="get" className="search-form" action="">
-				<label>
-					<span className="screen-reader-text">Pesquisar por:</span>
-					<input type="search" className="search-field" name="s" />
-				</label>
-				<input type="submit" className="search-submit" value="Pesquisar" />
-			</form>
+        <label>
+          <span className="screen-reader-text">Pesquisar por:</span>
+          <input type="search" className="search-field" name="s" />
+        </label>
+        <input type="submit" className="search-submit" value="Pesquisar" />
+      </form>
     </div>
   </div>
 )

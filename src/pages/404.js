@@ -19,7 +19,9 @@ const NotFoundPage = () => (
       <div className="content center clear" id="content">
         <section className="clear">
           <header className="post-header">
-            <h1 className="post-title entry-title">Opa! Página não encontrada.</h1>
+            <h1 className="post-title entry-title">
+              Opa! Página não encontrada. =(
+            </h1>
           </header>
           <div className="post-content clear">
             <p>
