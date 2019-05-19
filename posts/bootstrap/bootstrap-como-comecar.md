@@ -6,7 +6,7 @@ date: "2018-01-22T06:00:14+00:00"
 categories: [
   slug: 'tutoriais'
 ]
-tags: [ "Bootstrap" ]
+tags: [ 'Bootstrap' ]
 featured_media: 'https://res.cloudinary.com/webdevacademy/image/upload/c_scale,w_480/v1516676760/bootstrap/webdevacademy-bootstrap-4.png'
 ---
 

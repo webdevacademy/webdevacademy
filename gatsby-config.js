@@ -41,13 +41,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/tags`,
-        name: 'tags',
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -92,12 +85,18 @@ module.exports = {
     // },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: 'gatsby-plugin-typography',
-    //   options: {
-    //     pathToConfigModule: 'src/utils/typography',
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'webdevacademy',
+        short_name: 'wda',
+        start_url: '/',
+        background_color: '#F2F2F2',
+        theme_color: '#1D1D1D',
+        display: 'minimal-ui',
+        icon: 'src/assets/favicon.jpg',
+      },
+    },
     'gatsby-plugin-sass',
   ],
 }

@@ -5,22 +5,22 @@ const Footer = () => (
   <Fragment>
     <footer className="footer bg-graphite" id="footer">
       <div className="section-inner row clear" role="complementary">
-        <div class="column column-1 one-third medium-padding">
-          <div class="widgets">
+        <div className="column column-1 one-third medium-padding">
+          <div className="widgets">
             <TextWidget title="Sobre a Academy">
               Aqui na Web Dev Academy você pode aprender sobre Frontend, Backend e Desenvolvimento Web
             </TextWidget>
           </div>
         </div>
         
-        <div class="column column-2 one-third medium-padding">
-          <div class="widgets">
+        <div className="column column-2 one-third medium-padding">
+          <div className="widgets">
             <TagCloudWidget title="Tópicos" />
           </div>
         </div>
         
-        <div class="column column-3 one-third medium-padding">
-          <div class="widgets">
+        <div className="column column-3 one-third medium-padding">
+          <div className="widgets">
             <SearchWidget title="Pesquisar" />
           </div>
         </div>

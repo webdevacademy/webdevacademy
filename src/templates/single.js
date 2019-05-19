@@ -67,9 +67,7 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
-        tags {
-          slug
-        }
+        tags
       }
       html
     }

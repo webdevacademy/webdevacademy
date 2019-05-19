@@ -18,9 +18,6 @@ exports.createPages = ({ graphql, actions }) => {
                   categories {
                     slug
                   }
-                  tags {
-                    slug
-                  }
                 }
               }
             }

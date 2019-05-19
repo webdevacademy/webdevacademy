@@ -61,11 +61,7 @@ export const pageQuery = graphql`
       filter: {
         fileAbsolutePath: {regex: "/posts/"},  
         frontmatter: {
-          tags: {
-            elemMatch: {
-              slug: {in: [$tag]}
-            }
-          }
+          tags: elemMatch: {in: [$tag]}
         }      
       }
     )
@@ -81,9 +77,7 @@ export const pageQuery = graphql`
             categories {
               slug
             }
-            tags {
-              slug
-            }
+            tags
             path
           }
         }
