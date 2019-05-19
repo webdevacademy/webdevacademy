@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C700%7CRoboto%3A400%2C400italic%2C700%2C700italic%2C300%7CPacifico%3A400&subset=latin%2Clatin-ext');
 
 a {
 	box-shadow: none;
@@ -34,11 +34,11 @@ a {
 
 .site-title {
   font-family: 'Titillium Web', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .site-description {
-	display:none;
+	/* display:none; */
 }
 
 .tag-archive-meta {
@@ -54,25 +54,22 @@ p.posts-navigation {
   padding: 0;	
 }
 
-.post .post-header,
-.page .post-header {
+.post .post-header {
 	border: none;
 }
 
-.post-header .post-title {
+.post .post-header .post-title {
 	color: #2b3542;
 	font-family:  'Titillium Web', sans-serif;
 }
 
 .page .post-header::after,
-.page .post-header::before,
 .post .post-header::after, 
 .post .post-header::before {
 	content: none;
 }
 
-.single .post-content,
-.page .post-content {
+.single .post-content {
 	padding: 0 10% 10%;
 	text-align: justify;
 }
@@ -96,6 +93,10 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
 	padding: 0;
 }
 
+.post-content pre { 
+  font-size: .9em;
+}
+
 .post-content pre code { 
   font-size: 100%;
   line-height: 1.3em;
@@ -111,5 +112,11 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
 }
 
 .page-header {
-	margin-bottom: 0;
+	margin-bottom:60px;
+}
+
+@media (max-width: 1440px) {
+	.page-header {
+		margin-bottom:0px;
+	}
 }

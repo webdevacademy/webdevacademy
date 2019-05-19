@@ -18,6 +18,10 @@ module.exports = {
         name:'Artigos',
         link:'/artigos'
       },
+      {
+        name:'Desafios',
+        link:'/desafios'
+      },
     ]
   },
   pathPrefix: '/webdevacademy',

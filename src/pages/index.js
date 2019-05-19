@@ -26,6 +26,14 @@ class Home extends React.Component {
           }}
         />
 
+        <div className="medium-marging bg-dark" style={{ 
+          height: '360px', 
+          marginBottom: '60px',
+          marginTop: '-60px',
+        }}>
+          
+        </div>
+
         <main className="content section-inner" id="content" role="main">
           <section className="posts" id="posts">
             <div className="spinner-container">
@@ -33,6 +41,10 @@ class Home extends React.Component {
                 <div className="double-bounce1"></div>
                 <div className="double-bounce2"></div>
               </div>
+            </div>
+
+            <div class="page-header section-inner">
+              <h1 class="page-title">Mais Recentes...</h1>
             </div>
 
             {posts.map(({ node }) => {
@@ -76,7 +88,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC}
-      filter: {fileAbsolutePath: {regex: "/tags/"}}
+      filter: {fileAbsolutePath: {regex: "/posts/"}}
     ){
       edges {
         node {
