@@ -14,6 +14,7 @@ exports.createPages = ({ graphql, actions }) => {
               node {
                 id
                 frontmatter {
+                  title
                   slug
                   categories {
                     slug
@@ -32,18 +33,34 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       const postTemplate = path.resolve("./src/templates/single.js")
-      
-      _.each(result.data.allMarkdownRemark.edges, edge => {
+      const posts = result.data.allMarkdownRemark.edges
+
+      posts.forEach(({ node }, index) => {
         createPage({
-          path: `/${edge.node.frontmatter.categories[0].slug}/${edge.node.frontmatter.slug}/`,
+          path: `/${node.frontmatter.categories[0].slug}/${node.frontmatter.slug}/`,
           component: slash(postTemplate),
           context: {
-            id: edge.node.id,
-          },
+            id: node.id, 
+            slug: node.frontmatter.slug,
+            prev: index === 0 ? null : posts[index - 1],
+            next: index === result.length - 1 ? null : posts[index + 1],
+          }, // additional data can be passed via context
         })
       })
+      
+      // _.each(result.data.allMarkdownRemark.edges, edge => {
+      //   createPage({
+      //     path: `/${edge.node.frontmatter.categories[0].slug}/${edge.node.frontmatter.slug}/`,
+      //     component: slash(postTemplate),
+      //     context: {
+      //       id: edge.node.id, 
+      //       slug: edge.node.fields.slug,
+      //       prev: index === 0 ? null : posts[index - 1],
+      //       next: index === result.length - 1 ? null : posts[index + 1],
 
-      const posts = result.data.allMarkdownRemark.edges;
+      //     },
+      //   })
+      // })
       
       const tagTemplate = path.resolve("src/templates/tag.js");      
       let tags = [];      

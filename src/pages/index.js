@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import Content from '../templates/content';
 
 const Home = (props) => {
   const posts = props.data.allMarkdownRemark.edges
@@ -42,28 +43,9 @@ const Home = (props) => {
             <h1 className="page-title">Mais Recentes...</h1>
           </div>
 
-          {posts.map(({ node }) => {
-            const thumbnail = node.frontmatter.featured_media || '';
-            const url = `${node.frontmatter.path}`;
-
-            return (
-              <div className="post-container post-loaded fade-in" key={node.id} >
-                <article id={node.id} className="post has-post-thumbnail hentry clear">
-                  <div className="featured-media">
-                    <Link to={url} rel="bookmark">
-                      <img src={thumbnail} alt={node.title} />
-                    </Link>
-                  </div>
-                  <header className="post-header">
-                    <h1 className="post-title entry-title">
-                      <Link to={url} rel="bookmark" 
-                        dangerouslySetInnerHTML={{ __html: node.frontmatter.title }} />
-                    </h1>
-                  </header>
-                </article>
-              </div>
-            )
-          })}
+          {posts.map(({ node }) => (
+            <Content data={ node } key={ node.id } single={ false } /> 
+          ))}            
         </section>
       </main>
     </Layout>
