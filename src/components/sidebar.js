@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react'
-import { SearchWidget } from './widgets';
+import { SearchWidget, TagCloudWidget } from './widgets';
 
 const Sidebar = () => (
   <aside className="sidebar fright" role="complementary">
-    { SearchWidget("Pesquisar") }
+    <SearchWidget />
+    <TagCloudWidget title="Tópicos" />
 	</aside>
 )
 

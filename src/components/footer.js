@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { SearchWidget, TextWidget } from './widgets'
+import { SearchWidget, TagCloudWidget, TextWidget } from './widgets'
 
 const Footer = () => (
   <Fragment>
@@ -7,19 +7,21 @@ const Footer = () => (
       <div className="section-inner row clear" role="complementary">
         <div class="column column-1 one-third medium-padding">
           <div class="widgets">
-            { TextWidget('Sobre a Academy', 'Aqui na Web Dev Academy você pode aprender sobre Frontend, Backend e Desenvolvimento Web') }
+            <TextWidget title="Sobre a Academy">
+              Aqui na Web Dev Academy você pode aprender sobre Frontend, Backend e Desenvolvimento Web
+            </TextWidget>
           </div>
         </div>
         
         <div class="column column-2 one-third medium-padding">
           <div class="widgets">
-            { TextWidget('Tópicos') }
+            <TagCloudWidget title="Tópicos" />
           </div>
         </div>
         
         <div class="column column-3 one-third medium-padding">
           <div class="widgets">
-            { SearchWidget('Pesquisar...') }
+            <SearchWidget title="Pesquisar" />
           </div>
         </div>
       </div>
