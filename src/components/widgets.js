@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from 'gatsby'
 
-import kebabCase from "lodash/kebabCase"
+import toLower from "lodash/toLower"
 
 export const SearchWidget = (props) => (
   <div className="widget widget_search">
@@ -43,7 +43,7 @@ export const TagCloudWidget = (props) => (
           }
           <div className="tagcloud">
             {data.allMarkdownRemark.group.map(tag => (
-              <Link to={`/tag/${kebabCase(tag.fieldValue)}`} className="tag-cloud-link" key={tag.fieldValue}>
+              <Link to={`/tag/${toLower(tag.fieldValue)}`} className="tag-cloud-link" key={tag.fieldValue}>
                 {tag.fieldValue}
               </Link>
             ))}

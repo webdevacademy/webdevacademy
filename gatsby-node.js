@@ -36,14 +36,14 @@ exports.createPages = ({ graphql, actions }) => {
 
       posts.forEach(({ node }, index) => {
         createPage({
-          path: `/${_.kebabCase(node.frontmatter.categories[0])}/${node.frontmatter.slug}/`,
+          path: `/${_.toLower(node.frontmatter.categories[0])}/${node.frontmatter.slug}/`,
           component: slash(postTemplate),
           context: {
             id: node.id, 
             slug: node.frontmatter.slug,
             prev: index === 0 ? null : posts[index - 1],
             next: index === result.length - 1 ? null : posts[index + 1],
-          }, // additional data can be passed via context
+          },
         })
       })
 
@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       categories.forEach(category => {
         createPage({
-          path: `/${_.kebabCase(category)}/`,
+          path: `/${_.toLower(category)}/`,
           component: categoryTemplate,
           context: {
             category,
@@ -83,7 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       tags.forEach(tag => {
         createPage({
-          path: `/tag/${_.kebabCase(tag)}/`,
+          path: `/tag/${_.toLower(tag)}/`,
           component: tagTemplate,
           context: {
             tag,

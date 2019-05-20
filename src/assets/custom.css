@@ -63,6 +63,18 @@ p.posts-navigation {
 	font-family:  'Titillium Web', sans-serif;
 }
 
+.post-content p,
+.post-content blockquote,
+.post-content ul,
+.post-content ol,
+.post-content address,
+.post-content dl,
+.post-content .wp-caption,
+.post-content pre {
+	margin-bottom: 1.1em;
+	margin-top: 1.1em;
+}
+
 .page .post-header::after,
 .post .post-header::after, 
 .post .post-header::before {
@@ -101,6 +113,15 @@ img.alignleft, .alignleft img, img.aligncenter, .aligncenter img, img.alignright
   font-size: 100%;
   line-height: 1.3em;
 }
+
+.post-content :not(pre) > code[class="language-text"] {
+	background: #eee;
+	border-radius: 3px;
+	color: #444;
+	padding: 5px;
+	text-shadow: none;
+}
+
 
 .entry-author::before,
 .entry-author::after {

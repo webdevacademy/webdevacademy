@@ -21,24 +21,8 @@ const Home = (props) => {
         }}
       />
 
-      <div className="medium-marging bg-dark" style={{ 
-        height: '360px', 
-        marginBottom: '60px',
-        marginTop: '-60px',
-      }}>
-        
-      </div>
-
       <main className="content section-inner" id="content" role="main">
         <section className="posts" id="posts">
-          
-          <div className="spinner-container">
-            <div id="spinner">
-              <div className="double-bounce1"></div>
-              <div className="double-bounce2"></div>
-            </div>
-          </div>
-
           <div className="page-header section-inner">
             <h1 className="page-title">Mais Recentes...</h1>
           </div>

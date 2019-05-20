@@ -3,9 +3,10 @@ import PropTypes from "prop-types"
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 
+import 'prismjs/themes/prism-okaidia.css'
+
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
-import 'prismjs/themes/prism-twilight.css'
 import PostsNavigation from '../components/postnav';
 
 /**
@@ -18,8 +19,6 @@ const Single = (props) => {
   const siteTitle = props.data.site.siteMetadata.title
   const siteDescription = post.excerpt ? post.excerpt : String.empty;
   const { prev, next } = props.pageContext
-
-  console.log('---- Single', props.pageContext)
 
   return (
     <Layout location={props.location}>
