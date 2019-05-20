@@ -1,5 +1,5 @@
 ---
-id: 37
+pid: "37"
 title: Como Remover Linhas de uma Tabela com jQuery
 slug: remover-linhas-tabela-jquery
 path: /tutoriais/remover-linhas-tabela-jquery/

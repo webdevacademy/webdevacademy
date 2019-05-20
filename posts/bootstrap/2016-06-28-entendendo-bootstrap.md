@@ -1,4 +1,5 @@
 ---
+pid: "1376"
 title: "Entendendo o Bootstrap"
 slug: "bootstrap-introducao"
 path: "/artigos/bootstrap-introducao"

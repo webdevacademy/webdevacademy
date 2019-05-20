@@ -1,4 +1,5 @@
 ---
+pid: "40"
 title: Como Adicionar Linhas em uma Tabela com jQuery
 slug: "adicionar-linhas-tabela-jquery"
 path: "/tutoriais/adicionar-linhas-tabela-jquery"

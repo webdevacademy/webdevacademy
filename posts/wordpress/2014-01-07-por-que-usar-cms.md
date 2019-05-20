@@ -1,4 +1,5 @@
 ---
+pid: "171"
 contentType: post
 title: Por Quê Você Deveria Estar Usando um CMS
 date: "2014-01-07T08:00:00+00:00"

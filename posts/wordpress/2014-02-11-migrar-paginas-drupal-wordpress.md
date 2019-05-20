@@ -1,5 +1,5 @@
 ---
-id: 181
+pid: "181"
 title: Migrando as Páginas do Drupal para o WordPress
 date: 2014-02-11T08:00:15+00:00
 author: Ruan Carvalho
