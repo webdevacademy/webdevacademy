@@ -51,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdevacademy/webdevacademy.git"
+    "url": "git+https://github.com/webdevacademy/website.git"
   },
   "scripts": {
     "build": "gatsby build",
