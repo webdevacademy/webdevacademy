@@ -44,7 +44,7 @@ const Home = (props) => {
           </div>
 
           {posts.map(({ node }) => (
-            <Content data={ node } key={ node.id } single={ false } /> 
+            <Content data={ node } key={ node.id } /> 
           ))}            
         </section>
       </main>
@@ -75,6 +75,7 @@ export const postsQuery = graphql`
             title
             featured_media
             path
+            categories
           }
         }
       }

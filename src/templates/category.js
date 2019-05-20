@@ -20,20 +20,22 @@ const Category = (props) => {
           'class': 'archive category hfeed no-featured-image'
         }}
       />
-      <header className="page-header section-inner">
-        <h1 className="page-title">{ category }</h1>
-        <div className="tag-archive-meta"></div>
-      </header>
+      <section className="posts" id="posts">
+        <header className="page-header section-inner">
+          <h1 className="page-title">{ category }</h1>
+          <div className="tag-archive-meta"></div>
+        </header>
 
-      {/* <div className="tagcloud section-inner" style={{paddingBottom: '3em'}}>
-        <a href="#" className="tag-cloud-link" aria-label="All(1 item)">All</a>
-      </div> */}
+        {/* <div className="tagcloud section-inner" style={{paddingBottom: '3em'}}>
+          <a href="#" className="tag-cloud-link" aria-label="All(1 item)">All</a>
+        </div> */}
 
-      <div className="content section-inner" id="content">
-        {posts.map(({ node }) => (
-          <Content data={node} key={node.id} /> 
-        ))}
-      </div>
+        <div className="content section-inner" id="content">
+          {posts.map(({ node }) => (
+            <Content data={node} key={node.id} /> 
+            ))}
+        </div>
+      </section>
     </Layout>
   );
 };

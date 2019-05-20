@@ -8,8 +8,11 @@ import { Link } from 'gatsby'
  */
 const Content = (props) => {
   const content = props.data
-  const thumbnail = content.frontmatter.featured_media || '';
-  const url = `${content.frontmatter.path}`;
+  const thumbnail = content.frontmatter.featured_media || ''
+  const url = `${content.frontmatter.path}`
+  const category = content.frontmatter.categories[0] || ''
+
+  console.log(props);
   
   return (
     <div className="post-container post-loaded fade-in">
@@ -25,6 +28,11 @@ const Content = (props) => {
               dangerouslySetInnerHTML={{ __html: content.frontmatter.title }} />
           </h1>
         </header>
+        <div className="post-meta clear">
+          <Link to={url} rel="bookmark" className="post-date" >
+            <i className="fa fa-folder"></i>{category}
+          </Link>          
+        </div>
       </article>
     </div>
   )

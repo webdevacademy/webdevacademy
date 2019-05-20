@@ -20,16 +20,18 @@ const Tag = (props) => {
           'class': 'archive tag hfeed no-featured-image'
         }}
       />
-      <header className="page-header section-inner">
-        <h1 className="page-title">{ tag }</h1>
-        <div className="tag-archive-meta"></div>
-      </header>
+      <section className="posts" id="posts">
+        <header className="page-header section-inner">
+          <h1 className="page-title">{ tag }</h1>
+          <div className="tag-archive-meta"></div>
+        </header>
 
-      <div className="content section-inner" id="content">
-        {posts.map(({ node }) => (
-          <Content data={node} key={node.id} /> 
-        ))}
-      </div>
+        <div className="content section-inner" id="content">
+          {posts.map(({ node }) => (
+            <Content data={node} key={node.id} /> 
+            ))}
+        </div>
+      </section>
     </Layout>
   );
 };
