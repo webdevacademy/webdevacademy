@@ -22,9 +22,7 @@ dsq_thread_id:
 dsq_needs_sync:
   - "1"
 featured_media: "https://res.cloudinary.com/webdevacademy/image/upload/c_scale,w_480/v1516676760/bootstrap/webdevacademy-bootstrap-4.png"
-categories: [
-  slug: "tutoriais"
-]
+categories: [ 'Tutoriais' ]
 tags: [ 'Bootstrap' ]
 ---
 O Bootstrap já traz, por padrão, alguns estilos para deixar as tabelas HTML bem estilizadas, e também com espaçamentos bem definidos.

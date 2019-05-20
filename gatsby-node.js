@@ -16,9 +16,8 @@ exports.createPages = ({ graphql, actions }) => {
                 frontmatter {
                   title
                   slug
-                  categories {
-                    slug
-                  }
+                  categories
+                  tags
                 }
               }
             }
@@ -37,7 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       posts.forEach(({ node }, index) => {
         createPage({
-          path: `/${node.frontmatter.categories[0].slug}/${node.frontmatter.slug}/`,
+          path: `/${_.kebabCase(node.frontmatter.categories[0])}/${node.frontmatter.slug}/`,
           component: slash(postTemplate),
           context: {
             id: node.id, 
@@ -47,28 +46,36 @@ exports.createPages = ({ graphql, actions }) => {
           }, // additional data can be passed via context
         })
       })
-      
-      // _.each(result.data.allMarkdownRemark.edges, edge => {
-      //   createPage({
-      //     path: `/${edge.node.frontmatter.categories[0].slug}/${edge.node.frontmatter.slug}/`,
-      //     component: slash(postTemplate),
-      //     context: {
-      //       id: edge.node.id, 
-      //       slug: edge.node.fields.slug,
-      //       prev: index === 0 ? null : posts[index - 1],
-      //       next: index === result.length - 1 ? null : posts[index + 1],
 
-      //     },
-      //   })
-      // })
+      const categoryTemplate = path.resolve('src/templates/category.js');
+      let categories = [];
+      _.each(posts, edge => {
+        if (_.get(edge, 'node.frontmatter.categories')) {    
+          categories = categories.concat(edge.node.frontmatter.categories);
+        } else {
+          categories = categories.concat('Default');
+        }
+      });
+
+      categories = _.uniq(categories);
+
+      categories.forEach(category => {
+        createPage({
+          path: `/${_.kebabCase(category)}/`,
+          component: categoryTemplate,
+          context: {
+            category,
+          },
+        });
+      });
       
-      const tagTemplate = path.resolve("src/templates/tag.js");      
+      const tagTemplate = path.resolve('src/templates/tag.js');      
       let tags = [];      
       _.each(posts, edge => {
-        if (_.get(edge, "node.frontmatter.tags")) {
-          _.each(edge.node.frontmatter.tags, tag => {
-            tags = tags.concat(tag.slug);            
-          });
+        if (_.get(edge, 'node.frontmatter.tags')) {
+          tags = tags.concat(edge.node.frontmatter.tags);            
+        } else {
+          tags = tags.concat('Default');      
         }
       });
       
@@ -80,7 +87,6 @@ exports.createPages = ({ graphql, actions }) => {
           component: tagTemplate,
           context: {
             tag,
-            title: tag,
           },
         });
       });
