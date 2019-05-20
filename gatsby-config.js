@@ -98,5 +98,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `webdevacademycombr`
+      }
+    },
   ],
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from "prop-types"
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
+import Disqus from 'gatsby-plugin-disqus'
 
 import 'prismjs/themes/prism-okaidia.css'
 
@@ -17,8 +18,9 @@ import PostsNavigation from '../components/postnav';
 const Single = (props) => {
   const post = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
+  const siteUrl = props.data.site.siteMetadata.siteUrl
   const siteDescription = post.excerpt ? post.excerpt : String.empty;
-  const { prev, next } = props.pageContext
+  const { prev, next } = props.pageContext 
 
   return (
     <Layout location={props.location}>
@@ -44,6 +46,9 @@ const Single = (props) => {
               dangerouslySetInnerHTML={{ __html: post.html }}
             /> 
             <PostsNavigation prev={prev && prev.node} next={next && next.node} />
+            <Disqus identifier={post.frontmatter.pid.toString()}
+              title={post.frontmatter.title}
+              url={`${siteUrl}${post.frontmatter.path}`} />
           </article>
         </div>
 
@@ -65,6 +70,8 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       frontmatter {
+        pid
+        path
         slug
         title
         tags
@@ -74,7 +81,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        description        
+        description
+        siteUrl      
       }
     }
   }
