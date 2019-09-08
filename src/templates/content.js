@@ -11,8 +11,6 @@ const Content = (props) => {
   const thumbnail = content.frontmatter.featured_media || ''
   const url = `${content.frontmatter.path}`
   const category = content.frontmatter.categories[0] || ''
-
-  console.log(props);
   
   return (
     <div className="post-container post-loaded fade-in">
