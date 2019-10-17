@@ -582,7 +582,7 @@ a,
  */
 
 .main-navigation {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9em;
 	text-align: center;
 }
@@ -937,7 +937,7 @@ a,
 
 .post-header .post-title {
 	color: #2b3542;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.25em;
 	font-weight: 700;
 	line-height: 120%;
@@ -1026,7 +1026,7 @@ a,
 .post-content h5,
 .post-content h6 {
 	color: #333;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-weight: 700;
 	margin: 50px 0 30px;
 }
@@ -1130,7 +1130,7 @@ a,
 }
 
 .post-content cite {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9rem;
 	font-weight: bold;
 	line-height: 140%;
@@ -1480,7 +1480,7 @@ img.alignright,
 .widget-content fieldset legend {
 	background: #13c4a5;
 	color: #fff;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9rem;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -1563,7 +1563,7 @@ img.alignright,
 	border: none;
 	border-radius: 3px;
 	color: #fff;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9rem;
 	line-height: 1;
 	margin: 0;
@@ -2325,7 +2325,7 @@ img.alignright,
 .posts .format-quote .post-content cite {
 	color: #fff;
 	display: block;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 0.6em;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -2637,7 +2637,7 @@ body.single .content.center {
 
 .entry-author .author-title {
 	color: #fff;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.1em;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -2725,7 +2725,7 @@ div#disqus_thread {
 
 .comments-title-container {
 	border-bottom: 1px solid #eee;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	margin-bottom: 40px;
 	padding-bottom: 20px;
 }
@@ -2822,7 +2822,7 @@ div#disqus_thread {
 
 .comment-author .fn {
 	display: block;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 8px;
@@ -2882,7 +2882,7 @@ div#disqus_thread {
 .comment-content h4,
 .comment-content h5,
 .comment-content h6 {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	margin: 50px 0 20px;
@@ -3073,7 +3073,7 @@ div#disqus_thread {
 
 .pingbacks-title {
 	color: #2b3542;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.25em;
 	margin-bottom: 20px;
 }
@@ -3127,7 +3127,7 @@ div#respond {
 
 .comment-reply-title {
 	color: #2b3542;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.75em;
 	font-weight: 700;
 }
@@ -3282,7 +3282,7 @@ p.form-submit {
 	border: none;
 	border-radius: 3px;
 	color: #fff;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9em;
 	font-weight: 400;
 	margin: 0;
@@ -3392,7 +3392,7 @@ p.form-submit {
 }
 
 .author-info h4 {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1.5em;
 	font-weight: 700;
 	margin-bottom: 10px;
@@ -3409,7 +3409,7 @@ p.form-submit {
 }
 
 .author-info h5 {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	margin-bottom: 25px;
 	text-align: center;
 }
@@ -3465,7 +3465,7 @@ p.form-submit {
 .page-title {
 	border-bottom: 2px solid #ccc;
 	display: inline-block;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9em;
 	font-weight: 700;
 	padding-bottom: 4px;
@@ -3620,7 +3620,7 @@ p.form-submit {
 /* Widgets --------------------------------------- */
 
 .widget-title {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .9em;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -3858,7 +3858,7 @@ p.form-submit {
 
 #wp-calendar caption {
 	color: #666;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 1rem;
 	padding-bottom: 20px;
 	text-transform: capitalize;
@@ -4061,7 +4061,7 @@ div.gr_custom_container {
 
 #content #menu_widget .updated-at {
 	color: #999;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: 0.9em;
 }
 
@@ -4071,7 +4071,7 @@ div.gr_custom_container {
 }
 
 #content #menu_widget caption {
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: inherit;
 }
 
@@ -4185,7 +4185,7 @@ div.gr_custom_container {
 
 #infinite-footer .container {
 	background: transparent;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -4275,7 +4275,7 @@ div.gr_custom_container {
 
 .credits p {
 	color: #767676;
-	font-family: "Roboto Slab", sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	font-size: .8rem;
 	font-weight: 700;
 	letter-spacing: 1px;

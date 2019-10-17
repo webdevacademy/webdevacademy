@@ -22,11 +22,8 @@ const Header = ({siteTitle, menuLinks}) => (
                 <Link to={link.link}>{link.name}</Link>
               </li>
             )}
-            <li className="menu-item" key="youtube">
-              <a href="https://youtube.com/c/webdevacademy" target="_blank">YouTube</a>
-            </li>
             <li className="menu-item" key="github">
-              <a href="https://github.com/webdevacademy" target="_blank">Github</a>
+              <a href="https://github.com/webdevacademy/forum/issues" target="_blank">Forum</a>
             </li>
           </ul>
         </div>

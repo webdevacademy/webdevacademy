@@ -29,9 +29,10 @@ const Footer = () => (
 
     <div className="credits section bg-dark small-padding">
       <div className="credits-inner section-inner clear">
-
         <p className="credits-left fleft">
-          Built with <a href="http://gatsbyjs.com/" target="_blank">Gatsby</a> 
+          <a href="#">Desde 2014</a> 
+          <span className="sep"> | </span>
+          Feito com <a href="http://gatsbyjs.com/" target="_blank">Gatsby</a> 
           &nbsp;&amp; <a href="http://netlify.com/" target="_blank">Netlify</a>
           <span className="sep"> | </span>
           Theme:&nbsp;
