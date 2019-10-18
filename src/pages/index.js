@@ -27,11 +27,11 @@ const Home = (props) => {
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
             className="validate page-header section-inner bg-white" 
             target="_blank" 
-            novalidate>
+            noValidate>
           <div id="mc_embed_signup_scroll" className="post-content">
             <h2>Receba Tutoriais por Email</h2>
             <div className="mc-field-group">
-              <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Digite seu e-mail..."/>
+              <input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Digite seu e-mail..."/>
             </div>
             {/* <div className="mc-field-group">
               <label for="mce-FNAME">Name </label>
@@ -41,9 +41,10 @@ const Home = (props) => {
               <div className="response" id="mce-error-response" style={{ 'display': 'none' }}></div>
               <div className="response" id="mce-success-response" style={{ 'display': 'none' }}></div>
             </div>
-            <div style={{ 'position': 'absolute', 'left': '-5000px' }} aria-hidden="true"><input type="text" name="b_e0789ae860c6bf83f9be80aa8_1d34bdc447" tabindex="-1" value="" /></div>
+            <div style={{ 'position': 'absolute', 'left': '-5000px' }} aria-hidden="true">
+              <input type="text" name="b_e0789ae860c6bf83f9be80aa8_1d34bdc447" tabIndex="-1" defaultValue="" /></div>
             <div className="clear">
-              <input type="submit" value="Quero Receber!" name="subscribe" id="mc-embedded-subscribe" className="button" />
+              <button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button">Quero Receber!</button>
             </div>
           </div>
         </form>
