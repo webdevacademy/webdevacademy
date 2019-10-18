@@ -21,6 +21,35 @@ const Home = (props) => {
         }}
       />
 
+      <section id="mc_embed_signup" className="content">
+        <form 
+            action="https://webdevacademy.us4.list-manage.com/subscribe/post?u=e0789ae860c6bf83f9be80aa8&amp;id=1d34bdc447" 
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+            className="validate page-header section-inner bg-white" 
+            target="_blank" 
+            noValidate>
+          <div id="mc_embed_signup_scroll" className="post-content">
+            <h2>Receba Tutoriais por Email</h2>
+            <div className="mc-field-group">
+              <input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" placeholder="Digite seu e-mail..."/>
+            </div>
+            {/* <div className="mc-field-group">
+              <label for="mce-FNAME">Name </label>
+              <input type="text" value="" name="FNAME" className="required" id="mce-FNAME" />
+            </div> */}
+            <div id="mce-responses" className="clear">
+              <div className="response" id="mce-error-response" style={{ 'display': 'none' }}></div>
+              <div className="response" id="mce-success-response" style={{ 'display': 'none' }}></div>
+            </div>
+            <div style={{ 'position': 'absolute', 'left': '-5000px' }} aria-hidden="true">
+              <input type="text" name="b_e0789ae860c6bf83f9be80aa8_1d34bdc447" tabIndex="-1" defaultValue="" /></div>
+            <div className="clear">
+              <button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button">Quero Receber!</button>
+            </div>
+          </div>
+        </form>
+      </section>
+
       <main className="content section-inner" id="content" role="main">
         <section className="posts" id="posts">
           <div className="page-header section-inner">

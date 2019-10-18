@@ -21,6 +21,7 @@ const Single = (props) => {
   const siteUrl = props.data.site.siteMetadata.siteUrl
   const siteDescription = post.excerpt ? post.excerpt : String.empty;
   const { prev, next } = props.pageContext 
+  const hasVideo = post.frontmatter.video || false;
 
   return (
     <Layout location={props.location}>
@@ -36,6 +37,15 @@ const Single = (props) => {
       <main className="section-inner clear" role="main">
         <div className="content clear fleft" id="content">
           <article id={post.id} className="post type-post hentry clear">
+            {hasVideo &&
+              <div className="featured-media" style={{'marginBottom': '-5%'}}>
+                <iframe width="100%" height="432" 
+                  src={post.frontmatter.video} frameborder="0" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+            }
             <header className="post-header">
               <h1 className="post-title entry-title">
                 <Link to={props.location.pathname} rel="bookmark"
@@ -75,6 +85,7 @@ export const pageQuery = graphql`
         slug
         title
         tags
+        video
       }
       html
     }

@@ -10,6 +10,7 @@ class Page extends React.Component {
     const page = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = ''
+    const hasVideo = page.frontmatter.video || false;
 
     return (
       <Layout location={this.props.location}>
@@ -18,13 +19,22 @@ class Page extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${page.frontmatter.title} | ${siteTitle}`}
           bodyAttributes={{
-            'class': 'page'
+            'class': 'page-template page-template-template-nosidebar page-template-template-nosidebar-php page single single-post'
           }}
         />
         
         <div className="section-inner">
-          <div className="content center clear" id="content">
-            <article id="post-80" className="page type-page hentry clear">
+          <div className="content center">
+            <article className="post">
+              {hasVideo &&
+                <div className="featured-media" style={{ 'marginBottom': '-5%' }}>
+                  <iframe width="100%" height="531"
+                    src={page.frontmatter.video} frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+              }
               <header className="post-header">
                 <h1 className="post-title entry-title"
                   dangerouslySetInnerHTML={{ __html: page.frontmatter.title }} />
@@ -48,6 +58,7 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
+        video
       }
       html
     }
