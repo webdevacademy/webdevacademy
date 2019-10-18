@@ -18,17 +18,18 @@ class Page extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${page.frontmatter.title} | ${siteTitle}`}
           bodyAttributes={{
-            'class': 'page'
+            'class': 'page-template page-template-template-nosidebar page-template-template-nosidebar-php page single single-post'
           }}
         />
         
         <div className="section-inner">
-          <div className="content center clear" id="content">
-            <article id="post-80" className="page type-page hentry clear">
+          <div className="content center">
+            <article className="post">
               <header className="post-header">
                 <h1 className="post-title entry-title"
                   dangerouslySetInnerHTML={{ __html: page.frontmatter.title }} />
               </header>
+              <div className="featured-media"></div>
               <div className="post-content clear"
                 dangerouslySetInnerHTML={{ __html: page.html }} />
             </article>
