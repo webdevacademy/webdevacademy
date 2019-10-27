@@ -11,16 +11,16 @@ module.exports = {
     disqus: 'webdevacademycombr',
     menuLinks: [
       {
+        name:'Comece Aqui',
+        link:'/comece-aqui'
+      },
+      {
         name:'Tutoriais',
         link:'/tutoriais'
       },
       {
         name:'Artigos',
         link:'/artigos'
-      },
-      {
-        name:'Desafios',
-        link:'/desafios'
       },
     ]
   },

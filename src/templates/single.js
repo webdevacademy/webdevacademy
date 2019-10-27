@@ -62,7 +62,7 @@ const Single = (props) => {
           </article>
         </div>
 
-        <Sidebar />
+        <Sidebar data={post} />
       </main>        
     </Layout>
   )
@@ -86,6 +86,7 @@ export const pageQuery = graphql`
         title
         tags
         video
+        menus
       }
       html
     }

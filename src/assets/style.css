@@ -1190,7 +1190,7 @@ pre {
 .post-content kbd,
 .post-content code {
 	border-radius: 3px;
-	padding: 5px;
+	padding: 0px;
 }
 
 .post-content dl {

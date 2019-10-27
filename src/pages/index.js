@@ -26,8 +26,7 @@ const Home = (props) => {
             action="https://webdevacademy.us4.list-manage.com/subscribe/post?u=e0789ae860c6bf83f9be80aa8&amp;id=1d34bdc447" 
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
             className="validate page-header section-inner bg-white" 
-            target="_blank" 
-            noValidate>
+            target="_blank">
           <div id="mc_embed_signup_scroll" className="post-content">
             <h2>Receba Tutoriais por Email</h2>
             <div className="mc-field-group">
