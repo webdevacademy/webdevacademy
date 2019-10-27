@@ -58,7 +58,7 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
-        video
+        
       }
       html
     }

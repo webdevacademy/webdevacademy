@@ -3,8 +3,16 @@ module.exports = {
     'id': 101,
     'title': 'Algoritmos com JS',
     'items': [
-      { 'id': 123, 'title': 'asd', 'url': '#' },
-      { 'id': 124, 'title': 'zxc', 'url': '#' },
+      { 'id': 123, 'title': 'Binary Search', 'url': '#' },
+    ]
+  },
+  'datastructures-100': {
+    'id': 101,
+    'title': 'Estruturas de Dados com JS',
+    'items': [
+      { 'id': 124, 'title': 'Array', 'url': '/artigos/array-js' },
+      { 'id': 124, 'title': 'Stack || Pilha', 'url': '/artigos/stack-js' },
+      { 'id': 123, 'title': 'Queue || Fila', 'url': '/artigos/queue-js' },
     ]
   },
   'binarysearch-100': {
