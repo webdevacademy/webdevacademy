@@ -7,12 +7,13 @@ module.exports = {
     ]
   },
   'datastructures-100': {
-    'id': 101,
+    'id': 'ds100',
     'title': 'Estruturas de Dados com JS',
     'items': [
-      { 'id': 124, 'title': 'Array', 'url': '/artigos/array-js' },
-      { 'id': 124, 'title': 'Stack || Pilha', 'url': '/artigos/stack-js' },
-      { 'id': 123, 'title': 'Queue || Fila', 'url': '/artigos/queue-js' },
+      { 'id': 'ds101', 'title': 'Array', 'url': '/artigos/array-js' },
+      { 'id': 'ds102', 'title': 'Stack || Pilha', 'url': '/artigos/stack-js' },
+      { 'id': 'ds103', 'title': 'Queue || Fila', 'url': '/artigos/queue-js' },
+      { 'id': 'ds104', 'title': 'Linked List || Lista Encadeada', 'url': '/artigos/linked-list-js' },
     ]
   },
   'binarysearch-100': {

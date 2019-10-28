@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
                   slug
                   categories
                   tags
+                  video
                 }
               }
             }

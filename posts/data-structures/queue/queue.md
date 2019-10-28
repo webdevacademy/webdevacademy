@@ -11,6 +11,7 @@ featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v157201625
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['queue-100', 'queue-200', datastructures-100]
+video: ""
 ---
 
 A estrutura **Queue** (leia-se: kíu) - em português: **Fila** - é uma estrutuda de dados básica que implementa a regra First-In, First-Out (**FIFO**). Elas são um pouco mais complexas que as [Stacks](/artigos/stack-js).
