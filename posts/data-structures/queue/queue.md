@@ -7,7 +7,7 @@ excerpt: Neste tutorial, você vai aprender como começar um projeto com Bootstr
 contentType: post
 path: /artigos/queue-js/
 slug: queue-js
-featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572016259/algorithms/queue-js.png
+featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['queue-100', 'queue-200', datastructures-100]

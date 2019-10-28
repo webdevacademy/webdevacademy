@@ -12,19 +12,23 @@ Estes tópicos foram baseados nas exigências de entrevistas que fiz na Amazon e
 
 <div class="tagcloud clear">
   <a class="tag-cloud-link" href="/tag/html-css">HTML &amp; CSS</a>
-  <a class="tag-cloud-link" href="/tag/javascript">JavaScript</a>  
+  <a class="tag-cloud-link" href="/tag/javascript">JavaScript</a>
+</div>
+<br />
+<div class="tagcloud clear">
   <a class="tag-cloud-link" href="#">Git & Github</a>
   <a class="tag-cloud-link" href="#">Orientação a Objetos</a>
   <a class="tag-cloud-link" href="#">Design Patterns</a>
 </div>
 
 ----
-### Estruturas de Dados
+### Estruturas de Dados Básicas
+
 <div class="tagcloud clear">  
   <a class="tag-cloud-link" href="#">Arrays</a>
-  <a class="tag-cloud-link" href="#">Queues</a>
-  <a class="tag-cloud-link" href="#">Stacks</a>
-  <a class="tag-cloud-link" href="#">Linked Lists</a>
+  <a class="tag-cloud-link" href="/artigos/queue-js">Queues</a>
+  <a class="tag-cloud-link" href="/artigos/stack-js">Stacks</a>
+  <a class="tag-cloud-link" href="/artigos/linked-list-js">Linked Lists</a>
   <a class="tag-cloud-link" href="#">Hash Tables</a>
   <a class="tag-cloud-link" href="#">Trees</a>
   <a class="tag-cloud-link" href="#">Graphs</a>

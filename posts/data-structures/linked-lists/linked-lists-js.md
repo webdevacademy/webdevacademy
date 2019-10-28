@@ -7,62 +7,66 @@ excerpt: Neste tutorial, você vai aprender como começar um projeto com Bootstr
 contentType: post
 path: /artigos/linked-list-js/
 slug: linked-list-js
-featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572016259/algorithms/linked-list-js.png
+featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['linked-list-100', 'linked-list-200', datastructures-100]
 video: ""
 ---
 
+Unlike the array, we are not able to access a random element in a singly-linked list in constant time. 
+
+If we want to get the ith element, we have to traverse from the head node one by one. 
+
+It takes us O(N) time on average to visit an element by index, where N is the length of the linked list.
 
 ----
 
-## Estrutura de um Node
+## Estrutura de um Node para a Linked List
+
+Cada node de uma lista encadeada deve ter um valor e um link para o próximo node. A lista vai guardar um conjunto desses nodes, em sequência:
 
 ```js
-/**
- * Initialize your data structure here.
- */
 const TNode = function(value = null, next = null) {
   this.next = next;
   this.val = value;
 }
 ```
+Para instanciar um node da lista:
 
 ```js
-let item = new TNode(10);
+let item = new TNode();
 ```
 ----
 
-## Estrutura de uma Linked List
+## Estrutura de uma Linked List simples
 
 ```js
-/**
- * Initialize your data structure here.
- */
 const TLinkedList = function() {
   this.head = null;
   this.size = 0;
   this.tail = null;
 };
 ```
-
+Para instanciar uma lista vazia:
 ```js
 let list = new TLinkedList();
 ```
 
 ----
 
-## Estrutura de uma Linked List
+## Busca em uma Linked List - Search
 
 ```js
 /**
  * Get the value of the index-th node in the linked list. 
  * If the index is invalid, return -1. 
+ * 
  * @param {number} index
+ * @param {boolean} asObject
  * @return {number}
  */
-MyLinkedList.prototype.get = function(index, asObject = false) {
+TLinkedList.prototype.get = function(index, asObject = false) {
   if (!this.head) return -1;
 
   let item = this.head;
@@ -80,69 +84,85 @@ MyLinkedList.prototype.get = function(index, asObject = false) {
 };
 ```
 
+----
+
+## Inserção no Início da Lista
+
 ```js
 /**
- * Add a node of value val before the first element of the linked list. 
- * After the insertion, the new node will be the first node of the linked list. 
+ * Add a node of value val before the first element of 
+ * the linked list. 
+ * 
+ * After the insertion, the new node will be the first 
+ * node of the linked list. 
+ * 
  * @param {number} val
  * @return {void}
  */
-MyLinkedList.prototype.addAtHead = function(val) {
-    let item = new MyListNode(val)
-    
-    item.next = this.head;
-  
-    if (this.head !== null) {
-        this.head.prev = item
-    } else {
-      this.tail = item;
-    }
-    
-    this.head = item;
-    item.prev = null;
-};
+TLinkedList.prototype.addAtHead = function(val) {
+  let item = new TNode(val)    
+  item.next = this.head;
 
-/**
- * Append a node of value val to the last element of the linked list. 
- * @param {number} val
- * @return {void}
- */
-MyLinkedList.prototype.addAtTail = function(val) {
-    let item = new MyListNode(val)
-       
-    if (this.tail !== null) {        
-      this.tail.next = item;        
-      item.prev = this.tail;
-    } else {
-        
-    }
-    
+  if (this.head === null) {
     this.tail = item;
+  }
+  
+  this.head = item;
 };
 
+```
+
+----
+
+## Inserção no Final da Lista
+
+```js
+TLinkedList.prototype.addAtTail = function(value) {
+  let item = new TNode(value)
+    
+  if (this.tail === null) {
+    this.head = item;
+  }  else {
+    this.tail.next = item;
+  }
+  
+  this.tail = item;
+};
+```
+
+----
+
+## Inserção em Alguma Posição
+
+```js
 /**
  * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. 
  * @param {number} index 
  * @param {number} val
  * @return {void}
  */
-MyLinkedList.prototype.addAtIndex = function(index, val) {
-  let tmp = this.get(index-1, true);
-  if (!tmp) return null;
+TLinkedList.prototype.addAtIndex = function(index, val) {
+  let current = this.get(index-1, true);
+  if (!current) return null;
   
+  let item = new TNode(val, current.next, current)
   
-  let item = new MyListNode(val, tmp.next, tmp)
-  
-  tmp.next.prev = item;
-  tmp.next = item;
+  current.next.prev = item;
+  current.next = item;
 };
+```
 
+----
+
+## Remoção
+
+```js
 /**
  * Delete the index-th node in the linked list, if the index is valid. 
  * @param {number} index
  * @return {void}
  */
-MyLinkedList.prototype.deleteAtIndex = function(index) {
+TLinkedList.prototype.deleteAtIndex = function(index) {
   let tmp = this.get(index, true);
   if (!tmp) return null;
   
@@ -152,14 +172,4 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
   previous.next = tmp.next;
   next.prev = tmp.prev;
 };
-
-/** 
- * Your MyLinkedList object will be instantiated and called as such:
- * var obj = new MyLinkedList()
- * var param_1 = obj.get(index)
- * obj.addAtHead(val)
- * obj.addAtTail(val)
- * obj.addAtIndex(index,val)
- * obj.deleteAtIndex(index)
- */
 ```
