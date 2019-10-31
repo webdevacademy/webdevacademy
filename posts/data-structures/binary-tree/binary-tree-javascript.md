@@ -1,18 +1,24 @@
 ---
 pid: "20191030"
-title: 'Binary Tree com JS'
-date: '2019-10-30T06:00:14+00:00'
+title: 'Binary Tree com JavaScript'
+date: '2019-10-30'
 author: Ruan Carvalho
 excerpt: ''
 contentType: post
 path: /artigos/binary-tree-javascript
 slug: binary-tree-javascript
-featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg
+featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572540340/data-structures/binary-tree-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['binary-tree-100', 'binary-tree-200', datastructures-100]
 video: ""
 ---
+
+Uma ***Binary Tree*** (árvore binária) é uma estrutura de dados de árvore em que cada ***node*** (nó) tem no máximo dois filhos.
+
+A ordem dos itens não é definida, ao contrário da ***binary search tree*** (árvore binária de busca), onde os _nodes_ são ordenados.
+
+----
 
 ## Exemplo de Node para Binary Tree
 

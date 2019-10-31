@@ -1,13 +1,13 @@
 ---
 pid: "20191031"
-title: 'Binary Tree com JS: in-order'
-date: '2019-10-31T08:00:14+00:00'
+title: 'Binary Tree: Percurso in-order'
+date: '2019-10-31'
 author: Ruan Carvalho
 excerpt: ''
 contentType: post
-path: /artigos/inorder-javascript
-slug: inorder-javascript
-featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg
+path: /artigos/binary-tree-inorder-javascript
+slug: binary-tree-inorder-javascript
+featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572540340/data-structures/binary-tree-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['binary-tree-100', 'binary-tree-200', datastructures-100]
@@ -24,11 +24,25 @@ A forma mais comum de percorrer uma árvore é com recursão. Este é o método 
 
 ```js
 const inorder = function(root) {
-  if (!root) return null;
 
-  inorder(root.left);
-  console.log(root.value)
-  inorder(root.right);
+  // funcao auxiliar para percorrer de forma recursiva
+  const traverse = function(node, list) {
+    if (!node) return;
+      
+    if (node.left !== null) {
+      traverse(node.left, list);
+    }
+    
+    list.push(node.value);
+    
+    if (node.right !== null) {
+      traverse(node.right, list);
+    }
+  }
+
+  let output = [];
+  traverse(root, output);
+  return output;
 }
 ```
 
@@ -42,22 +56,24 @@ const inorder = function(root) {
 
 ## Exemplo Iterativo
 
+Outra forma de percorrer é de forma iterativa, usando uma [Stack](/artigos/stack-js) (pilha) para ajudar a guardar os nodes.
+
 ```js
 const inorder = function(root) {
   if (!root) return [];
   
   const output = [];
-  const nodes = [];
+  const stack = [];
   let current = root;
     
-  while (current !== null || nodes.length > 0) {
+  while (current !== null || stack.length > 0) {
        
     while (current !== null) {
-      nodes.push(current);
+      stack.push(current);
       current = current.left;
     }
         
-    current = nodes.pop();
+    current = stack.pop();
     output.push(current.value);
     
     current = current.right;

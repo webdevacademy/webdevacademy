@@ -7,14 +7,14 @@ module.exports = {
     ]
   },
   'binary-tree-100': {
-    'id': 102,
+    'id': 'bt100',
     'title': 'Binary Tree com JS',
     'items': [
-      { 'id': 12, 'title': 'Entendendo a Binary Tree', 'url': '#' },
-      { 'id': 12, 'title': 'Implementação com JS', 'url': '/artigos/binary-tree-javascript' },
-      { 'id': 12, 'title': 'Percurso in-order', 'url': '/artigos/inorder-javascript' },
-      { 'id': 12, 'title': 'A função pre-order', 'url': '#' },
-      { 'id': 12, 'title': 'A função post-order', 'url': '#' },
+      { 'id': 'bt101', 'title': 'Implementação com JS', 'url': '/artigos/binary-tree-javascript' },
+      { 'id': 'bt102', 'title': 'Percurso in-order', 'url': '/artigos/binary-tree-inorder-javascript' },
+      { 'id': 'bt103', 'title': 'Percurso pre-order', 'url': '/artigos/binary-tree-preorder-javascript' },
+      { 'id': 'bt104', 'title': 'Percurso post-order', 'url': '/artigos/binary-tree-postorder-javascript' },
+      { 'id': 'bt105', 'title': 'Breadth-First Search (BFS)', 'url': '/artigos/binary-tree-bfs-javascript' },
     ]
   },
   'datastructures-100': {

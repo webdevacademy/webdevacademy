@@ -9,7 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
     graphql(
       `
         {
-          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}) {
+          allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts/"}}, sort: {order: ASC, fields: frontmatter___date}) {
             edges {
               node {
                 id
