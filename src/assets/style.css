@@ -2569,8 +2569,14 @@ body.single .content.center {
 	margin-top: 12px;
 }
 
-.post-navigation div:first-child a {
-	margin-top: 0;
+.post-navigation .nav-links {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+}
+
+.post-navigation .nav-previous {
+	flex: 1;
 }
 
 .post-navigation .nav-previous a:before,
