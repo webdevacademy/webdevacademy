@@ -6,6 +6,17 @@ module.exports = {
       { 'id': 123, 'title': 'Binary Search', 'url': '#' },
     ]
   },
+  'binary-tree-100': {
+    'id': 102,
+    'title': 'Binary Tree com JS',
+    'items': [
+      { 'id': 12, 'title': 'Entendendo a Binary Tree', 'url': '#' },
+      { 'id': 12, 'title': 'Implementação com JS', 'url': '/artigos/binary-tree-javascript' },
+      { 'id': 12, 'title': 'Percurso in-order', 'url': '/artigos/inorder-javascript' },
+      { 'id': 12, 'title': 'A função pre-order', 'url': '#' },
+      { 'id': 12, 'title': 'A função post-order', 'url': '#' },
+    ]
+  },
   'datastructures-100': {
     'id': 'ds100',
     'title': 'Estruturas de Dados com JS',

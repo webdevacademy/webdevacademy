@@ -30,7 +30,7 @@ Estes tópicos foram baseados nas exigências de entrevistas que fiz na Amazon e
   <a class="tag-cloud-link" href="/artigos/stack-js">Stacks</a>
   <a class="tag-cloud-link" href="/artigos/linked-list-js">Linked Lists</a>
   <a class="tag-cloud-link" href="#">Hash Tables</a>
-  <a class="tag-cloud-link" href="#">Trees</a>
+  <a class="tag-cloud-link" href="/artigos/binary-tree-javascript/">Binary Tree</a>
   <a class="tag-cloud-link" href="#">Graphs</a>
   <a class="tag-cloud-link" href="#">Priority Queues</a>
 </div>
