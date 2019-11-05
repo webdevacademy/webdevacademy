@@ -1,12 +1,12 @@
 ---
-pid: "20191002"
-title: 'Binary Tree: Percurso in-order'
-date: '2019-10-02'
+pid: "20191004"
+title: 'Binary Tree: Percurso post-order'
+date: '2019-10-04'
 author: Ruan Carvalho
 excerpt: ''
 contentType: post
-path: /artigos/binary-tree-inorder-javascript
-slug: binary-tree-inorder-javascript
+path: /artigos/binary-tree-postorder-javascript
+slug: binary-tree-postorder-javascript
 featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572540340/data-structures/binary-tree-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']

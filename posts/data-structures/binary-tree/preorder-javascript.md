@@ -1,12 +1,12 @@
 ---
-pid: "20191002"
-title: 'Binary Tree: Percurso in-order'
-date: '2019-10-02'
+pid: "20191003"
+title: 'Binary Tree: Percurso pre-order'
+date: '2019-10-03'
 author: Ruan Carvalho
 excerpt: ''
 contentType: post
-path: /artigos/binary-tree-inorder-javascript
-slug: binary-tree-inorder-javascript
+path: /artigos/binary-tree-preorder-javascript
+slug: binary-tree-preorder-javascript
 featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572540340/data-structures/binary-tree-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']
@@ -14,7 +14,7 @@ menus: ['binary-tree-100', 'binary-tree-200', 'binary-tree-300', 'binary-tree-40
 video: ""
 ---
 
-O **in-order traversal** (ou, percurso em-ordem) percorre primeiro o lado esquerdo da árvore. Depois acessa o root (raiz). E, por fim, percorre o lado direito.
+O **pre-order traversal** (ou, percurso pré-ordem) percorre primeiro o lado esquerdo da árvore. Depois acessa o root (raiz). E, por fim, percorre o lado direito.
 
 ----
 

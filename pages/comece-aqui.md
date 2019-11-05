@@ -25,7 +25,7 @@ Estes tópicos foram baseados nas exigências de entrevistas que fiz na Amazon e
 ### Estruturas de Dados Básicas
 
 <div class="tagcloud clear">  
-  <a class="tag-cloud-link" href="#">Arrays</a>
+  <a class="tag-cloud-link" href="#"><del>Arrays</del></a>
   <a class="tag-cloud-link" href="/artigos/queue-js">Queues</a>
   <a class="tag-cloud-link" href="/artigos/stack-js">Stacks</a>
   <a class="tag-cloud-link" href="/artigos/linked-list-js">Linked Lists</a>

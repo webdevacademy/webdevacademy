@@ -11,10 +11,31 @@ module.exports = {
     'title': 'Binary Tree com JS',
     'items': [
       { 'id': 'bt101', 'title': 'Implementação com JS', 'url': '/artigos/binary-tree-javascript' },
-      { 'id': 'bt102', 'title': 'Percurso in-order', 'url': '/artigos/binary-tree-inorder-javascript' },
-      { 'id': 'bt103', 'title': 'Percurso pre-order', 'url': '/artigos/binary-tree-preorder-javascript' },
-      { 'id': 'bt104', 'title': 'Percurso post-order', 'url': '/artigos/binary-tree-postorder-javascript' },
-      { 'id': 'bt105', 'title': 'Breadth-First Search (BFS)', 'url': '/artigos/binary-tree-bfs-javascript' },
+    ]
+  },
+  'binary-tree-200': {
+    'id': 'bt200',
+    'title': 'Percursos em Binary Tree',
+    'items': [
+      { 'id': 'bt201', 'title': 'Percurso in-order', 'url': '/artigos/binary-tree-inorder-javascript' },
+      { 'id': 'bt202', 'title': 'Percurso pre-order*', 'url': '/artigos/binary-tree-preorder-javascript' },
+      { 'id': 'bt203', 'title': 'Percurso post-order*', 'url': '/artigos/binary-tree-postorder-javascript' },
+      { 'id': 'bt204', 'title': 'Percurso level-order ou BFS', 'url': '/artigos/binary-tree-levelorder-javascript' },
+    ]
+  },
+  'binary-tree-300': {
+    'id': 'bt300',
+    'title': 'Soluções Recursivas',
+    'items': [
+      { 'id': 'bt301', 'title': 'Top-Down*', 'url': '/artigos/binary-tree-top-down-js' },
+      { 'id': 'bt302', 'title': 'Bottom-Up*', 'url': '/artigos/binary-tree-bottom-up-js' },
+    ]
+  },
+  'binary-tree-400': {
+    'id': 'bt400',
+    'title': 'Problemas Clássicos',
+    'items': [
+      { 'id': 'bt401', 'title': 'Serialização e Desserialização*', 'url': '/artigos/binary-tree-serialize-js' },
     ]
   },
   'bootstrap-100': {

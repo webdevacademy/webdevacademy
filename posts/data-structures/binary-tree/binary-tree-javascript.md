@@ -1,7 +1,7 @@
 ---
-pid: "20191030"
+pid: "20191001"
 title: 'Binary Tree com JavaScript'
-date: '2019-10-30'
+date: '2019-10-01'
 author: Ruan Carvalho
 excerpt: ''
 contentType: post
@@ -10,19 +10,23 @@ slug: binary-tree-javascript
 featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572540340/data-structures/binary-tree-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']
-menus: ['binary-tree-100', 'binary-tree-200', datastructures-100]
+menus: ['binary-tree-100', 'binary-tree-200', 'binary-tree-300', 'binary-tree-400', datastructures-100]
 video: ""
 ---
 
-Uma ***Binary Tree*** (árvore binária) é uma estrutura de dados de árvore em que cada ***node*** (nó) tem no máximo dois filhos.
+Uma ***Binary Tree*** (árvore binária) é uma estrutura de dados hierárquica em que cada ***node*** (nó) tem no máximo dois filhos.
 
-A ordem dos itens não é definida, ao contrário da ***binary search tree*** (árvore binária de busca), onde os _nodes_ são ordenados.
+A ordem dos itens não é definida. Essa seria a principal diferença entre uma ***binary tree*** e uma ***binary search tree*** (árvore binária de busca), que tem seus _nodes_ ordenados.
 
 ----
 
 ## Exemplo de Node para Binary Tree
 
-Os nodes, em uma Binary Tree, devem ter: um **left child**, um **right child**, o **valor** que será guardado e, se precisar, um **parent** para apontar para o _node_ superior.
+Os nodes, em uma Binary Tree, devem ter: 
+  * um **left child** - que aponta para o filho esquerdo
+  * um **right child** - que aponta para o filho direito
+  * um **valor** ou chave - que será guardado pelo _node_
+  * e um **parent** - que é opcional, e serve para apontar para o _node_ superior.
 
 ```js
 const TreeNode = function(value) {
@@ -32,7 +36,7 @@ const TreeNode = function(value) {
 }
 ```
 
-Para criar uma instância:
+Para criar uma instância, ou seja, um _node_:
 
 ```js
 let item = new TreeNode(15);
