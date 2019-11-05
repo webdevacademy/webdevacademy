@@ -12,6 +12,7 @@ dsq_thread_id:
 featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1516676760/bootstrap/webdevacademy-bootstrap-4.png
 categories: ['Tutoriais']
 tags: ['Bootstrap']
+menus: ['bootstrap-100']
 ---
 Neste tutorial, você vai aprender como fazer o download do Bootstrap 4 e entender como criar as pastas iniciais de um projeto.
 

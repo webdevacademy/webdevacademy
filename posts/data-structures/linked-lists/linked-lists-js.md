@@ -7,7 +7,7 @@ excerpt: Neste tutorial, você vai aprender como começar um projeto com Bootstr
 contentType: post
 path: /artigos/linked-list-js/
 slug: linked-list-js
-featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg
+featured_media: https://res.cloudinary.com/webdevacademy/image/upload/v1572742792/data-structures/linked-list-com-js.png
 categories: ['Artigos']
 tags: ['Algoritmos']
 menus: ['linked-list-100', 'linked-list-200', datastructures-100]
