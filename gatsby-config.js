@@ -10,10 +10,10 @@ module.exports = {
     siteUrl: 'https://webdevacademy.com.br',
     disqus: 'webdevacademycombr',
     menuLinks: [
-      {
-        name:'Comece Aqui',
-        link:'/comece-aqui'
-      },
+      // {
+      //   name:'Comece Aqui',
+      //   link:'/comece-aqui'
+      // },
       {
         name:'Tutoriais',
         link:'/tutoriais'
