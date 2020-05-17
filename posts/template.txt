@@ -1,0 +1,13 @@
+---
+pid: "01"
+title: "Post Template"
+slug: "post-template"
+path: "/artigos/post-template"
+date: "2014-02-28"
+categories: [ 'Artigos' ]
+tags: [ 'Template' ]
+featured_media: 'https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg'
+video: "https://www.youtube.com/embed/elMetwUnBGk"
+---
+
+This is just a template for new posts.

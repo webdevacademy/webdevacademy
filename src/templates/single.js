@@ -39,10 +39,10 @@ const Single = (props) => {
           <article id={post.id} className="post type-post hentry clear">
             {hasVideo &&
               <div className="featured-media" style={{'marginBottom': '-5%'}}>
-                <iframe width="100%" height="432" 
-                  src={post.frontmatter.video} frameborder="0" 
+                <iframe width="100%" height="532" 
+                  src={post.frontmatter.video} frameBorder="0" 
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
+                  allowFullScreen>
                 </iframe>
               </div>
             }
@@ -86,7 +86,6 @@ export const pageQuery = graphql`
         title
         tags
         video
-        menus
       }
       html
     }
