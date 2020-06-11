@@ -26,44 +26,48 @@ module.exports = {
   },
   pathPrefix: '/webdevacademy',
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        path: `${__dirname}/posts`,
-        name: 'posts',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/pages`,
-        name: 'pages',
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 640,
-            },
-          },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
-        ],
+        name: 'webdevacademy',
+        short_name: 'wda',
+        start_url: '/',
+        background_color: '#F2F2F2',
+        theme_color: '#1D1D1D',
+        display: 'minimal-ui',
+        icon: 'src/assets/favicon.jpg',
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        /*
+         * The base URL of the WordPress site without the trailingslash and the protocol. This is required.
+         * Example : 'demo.wp-api.org' or 'www.example-site.com'
+         */
+        baseUrl: `wda2014cms.wordpress.com`,
+        // The protocol. This can be http or https.
+        protocol: `https`,
+        // Indicates whether the site is hosted on wordpress.com.
+        // If false, then the assumption is made that the site is self hosted.
+        // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
+        // If your site is hosted on wordpress.org, then set this to false.
+        hostingWPCOM: true,
+        // If useACF is true, then the source plugin will try to import the WordPress ACF Plugin contents.
+        // This feature is untested for sites hosted on WordPress.com
+        useACF: false,
+        includedRoutes: [
+          "**/categories",
+          "**/posts",
+          "**/pages",
+          "**/tags",
+          "**/taxonomies",
+        ],        
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -83,20 +87,7 @@ module.exports = {
     //     icon: `src/assets/wda-icon.png`,
     //   },
     // },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: 'webdevacademy',
-        short_name: 'wda',
-        start_url: '/',
-        background_color: '#F2F2F2',
-        theme_color: '#1D1D1D',
-        display: 'minimal-ui',
-        icon: 'src/assets/favicon.jpg',
-      },
-    },
+    `gatsby-plugin-offline`,    
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-disqus`,
