@@ -1,9 +1,11 @@
 import React from 'react'
+import { useEffect } from "react"
 import PropTypes from "prop-types"
 import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Disqus from 'gatsby-plugin-disqus'
 
+import Prism from "prismjs"
 import 'prismjs/themes/prism-okaidia.css'
 
 import Layout from '../components/layout'
@@ -16,19 +18,23 @@ import PostsNavigation from '../components/postnav';
  * @param {*} props 
  */
 const Single = (props) => {
-  const post = props.data.markdownRemark
+  const post = props.data.wordpressPost
   const siteTitle = props.data.site.siteMetadata.title
   const siteUrl = props.data.site.siteMetadata.siteUrl
   const siteDescription = post.excerpt ? post.excerpt : String.empty;
   const { prev, next } = props.pageContext 
-  const hasVideo = post.frontmatter.video || false;
+  const hasVideo = post.video || false;
+
+  useEffect(() => {
+    Prism.highlightAll()
+  })
 
   return (
     <Layout location={props.location}>
       <Helmet
         htmlAttributes={{ lang: 'pt-br' }}
         meta={[{ name: 'description', content: siteDescription }]}
-        title={`${post.frontmatter.title} | ${siteTitle}`}
+        title={`${post.title} | ${siteTitle}`}
         bodyAttributes={{
           'class': 'single'
         }}
@@ -40,7 +46,7 @@ const Single = (props) => {
             {hasVideo &&
               <div className="featured-media" style={{'marginBottom': '-5%'}}>
                 <iframe width="100%" height="532" 
-                  src={post.frontmatter.video} frameBorder="0" 
+                  src={post.video} frameBorder="0" 
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen>
                 </iframe>
@@ -49,20 +55,20 @@ const Single = (props) => {
             <header className="post-header">
               <h1 className="post-title entry-title">
                 <Link to={props.location.pathname} rel="bookmark"
-                  dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
+                  dangerouslySetInnerHTML={{ __html: post.title }} />
               </h1>
             </header>
             <div className="post-content clear"
-              dangerouslySetInnerHTML={{ __html: post.html }}
+              dangerouslySetInnerHTML={{ __html: post.content }}
             /> 
-            <PostsNavigation prev={prev && prev.node} next={next && next.node} />
-            <Disqus identifier={post.frontmatter.pid.toString()}
-              title={post.frontmatter.title}
-              url={`${siteUrl}${post.frontmatter.path}`} />
+            {/* <PostsNavigation prev={prev && prev.node} next={next && next.node} /> */}
+            <Disqus identifier={post.wordpress_id.toString()}
+              title={post.title}
+              url={`${siteUrl}${post.path}`} />
           </article>
         </div>
 
-        <Sidebar data={post} />
+        <Sidebar data={post.tags} />
       </main>        
     </Layout>
   )
@@ -76,18 +82,22 @@ Single.propTypes = {
 export default Single
 
 export const pageQuery = graphql`
-  query getPost($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query getPost($slug: String!) {
+    wordpressPost(slug: { eq: $slug }) {
       id
-      frontmatter {
-        pid
-        path
+      wordpress_id
+      title      
+      slug
+      content
+      jetpack_featured_media_url
+      categories {
+        name
         slug
-        title
-        tags
-        video
       }
-      html
+      tags {
+        name
+        slug
+      }      
     }
     site {
       siteMetadata {

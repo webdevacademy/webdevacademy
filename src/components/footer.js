@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { SearchWidget, TagCloudWidget, TextWidget } from './widgets'
+import { SearchWidget, TagCloudWidget, TextWidget } from './widgets.js'
 
 const Footer = () => (
   <Fragment>

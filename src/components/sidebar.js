@@ -2,13 +2,13 @@ import React, { Fragment } from 'react'
 import { MenuWidget, SearchWidget, TagCloudWidget } from './widgets';
 
 const Sidebar = (props) => {
-  const menus = props.data.frontmatter.menus || false;
+  const tags = props.data || false;
 
   return (
     <aside className="sidebar fright" role="complementary">
       <SearchWidget />
-      {menus && menus.map(menu => {
-        return <MenuWidget title="Hash Tables" key={menu} id={menu} />
+      {tags && tags.map(tag => {
+        return <MenuWidget key={tag.slug} id={tag.slug} />
       })}    
       <TagCloudWidget title="Tópicos" />
     </aside>

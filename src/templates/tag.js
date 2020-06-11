@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet'
 // Components
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Content from '../templates/content';
+import Content from './content';
 
 const Tag = (props) => {
   const { tag } = props.pageContext;
-  const posts = props.data.allMarkdownRemark.edges;
+  const posts = props.data.allWordpressPost.edges;
   const siteTitle = props.data.site.siteMetadata.title
 
   return (
@@ -39,32 +39,25 @@ const Tag = (props) => {
 export default Tag;
 
 export const pageQuery = graphql`
-  query TagPage($tag: String!) {
-    allMarkdownRemark(
-      sort: {
-        fields: [frontmatter___date], order: DESC
-      }, 
-      filter: {
-        fileAbsolutePath: {regex: "/posts/"}, 
-        frontmatter: {            
-          tags: { eq: $tag }
-        }
-      }
-    ) {
-      totalCount
+  query TagPage($slug: String = "") {
+    allWordpressPost(sort: {fields: date, order: DESC}, filter: {tags: {elemMatch: {slug: {eq: $slug}}}}) {
       edges {
         node {
           id
-          frontmatter {
-            title
+          title
+          slug
+          jetpack_featured_media_url
+          categories {
+            name
             slug
-            featured_media
-            categories
-            tags
-            path
+          }
+          tags {
+            name
+            slug
           }
         }
       }
+      totalCount
     }
     site {
       siteMetadata {

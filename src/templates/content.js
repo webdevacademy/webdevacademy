@@ -8,9 +8,10 @@ import { Link } from 'gatsby'
  */
 const Content = (props) => {
   const content = props.data
-  const thumbnail = content.frontmatter.featured_media || ''
-  const url = `${content.frontmatter.path}`
-  const category = content.frontmatter.categories[0] || ''
+
+  const thumbnail = content.jetpack_featured_media_url || 'https://res.cloudinary.com/webdevacademy/image/upload/v1556582305/featured/wda-placeholder.jpg'
+  const category = content.categories[0] || { name: '', slug: '' }
+  const url = `/${category.slug}/${content.slug}`
   
   return (
     <div className="post-container post-loaded fade-in">
@@ -23,12 +24,12 @@ const Content = (props) => {
         <header className="post-header">
           <h1 className="post-title entry-title">
             <Link to={url} rel="bookmark"
-              dangerouslySetInnerHTML={{ __html: content.frontmatter.title }} />
+              dangerouslySetInnerHTML={{ __html: content.title }} />
           </h1>
         </header>
         <div className="post-meta clear">
-          <Link to={url} rel="bookmark" className="post-date" >
-            <i className="fa fa-folder"></i>{category}
+          <Link to={`/${category.slug}`} rel="bookmark" className="post-date" >
+            <i className="fa fa-folder"></i>{category.name}
           </Link>          
         </div>
       </article>

@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from 'gatsby'
 
-import toLower from "lodash/toLower"
 import * as UserMenu from "../utils/menus"
 
 export const MenuWidget = (props) => {
@@ -51,12 +50,12 @@ export const TagCloudWidget = (props) => (
   <StaticQuery
     query={graphql`
       query TagCloudQuery {
-        allMarkdownRemark(
-          filter: {fileAbsolutePath: {regex: "/posts/"}}
-        ) {
-          group(field: frontmatter___tags) {
-            fieldValue
-            totalCount
+        allWordpressTag {
+          nodes {
+            name
+            slug
+            id
+            count
           }
         }
       }
@@ -68,10 +67,9 @@ export const TagCloudWidget = (props) => (
             <h3 className="widget-title">{props.title}</h3>
           }
           <div className="tagcloud">
-            {data.allMarkdownRemark.group.map(tag => (
-              <Link to={`/tag/${toLower(tag.fieldValue)}`} className="tag-cloud-link" key={tag.fieldValue}>
-                {tag.fieldValue}
-              </Link>
+            {data.allWordpressTag.nodes.map(tag => (
+              <Link to={`/tag/${tag.slug}`} className="tag-cloud-link" key={tag.id}
+                dangerouslySetInnerHTML={{ __html: tag.name }} />
             ))}
           </div>
         </div>
