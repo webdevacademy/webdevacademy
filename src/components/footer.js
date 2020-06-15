@@ -32,8 +32,8 @@ const Footer = () => (
         <p className="credits-left fleft">
           <a href="#">Desde 2014</a> 
           <span className="sep"> | </span>
-          Feito com <a href="http://gatsbyjs.com/" target="_blank">Gatsby</a> 
-          &nbsp;&amp; <a href="http://netlify.com/" target="_blank">Netlify</a>
+          Feito com <a href="https://gatsbyjs.org/" target="_blank">Gatsby</a> 
+          &nbsp;&amp; <a href="https://wordpress.org/" target="_blank">WordPress</a>
           <span className="sep"> | </span>
           Theme:&nbsp;
           <a href="http://www.andersnoren.se/teman/baskerville-wordpress-theme/" target="_blank" rel="designer">

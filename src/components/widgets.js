@@ -46,37 +46,39 @@ export const SearchWidget = (props) => (
   </div>
 )
 
-export const TagCloudWidget = (props) => (
-  <StaticQuery
-    query={graphql`
-      query TagCloudQuery {
-        allWordpressTag {
-          nodes {
-            name
-            slug
-            id
-            count
+export function TagCloudWidget(props) {  
+  return (
+    <StaticQuery
+      query={graphql`
+        query TagCloudQuery {
+          allWordpressTag {
+            nodes {
+              name
+              slug
+              id
+              count
+            }
           }
         }
-      }
-    `}
-    render={data => (
-      <div className="widget widget_tag_cloud">
-        <div className="widget-content clear">
-          {props.title &&
-            <h3 className="widget-title">{props.title}</h3>
-          }
-          <div className="tagcloud">
-            {data.allWordpressTag.nodes.map(tag => (
-              <Link to={`/tag/${tag.slug}`} className="tag-cloud-link" key={tag.id}
-                dangerouslySetInnerHTML={{ __html: tag.name }} />
-            ))}
+      `}
+      render={data => (
+        <div className="widget widget_tag_cloud">
+          <div className="widget-content clear">
+            {props.title &&
+              <h3 className="widget-title">{props.title}</h3>
+            }
+            <div className="tagcloud">
+              {data.allWordpressTag.nodes.map(tag => (
+                <Link to={`/tag/${tag.slug}`} className="tag-cloud-link" key={tag.id}
+                  dangerouslySetInnerHTML={{ __html: tag.name }} />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    )}
-  />
-)
+      )}
+    />
+  )
+}
 
 export const TextWidget = (props) => (
   <div className="widget">

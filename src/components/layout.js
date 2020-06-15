@@ -21,15 +21,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <Fragment>
-        <Helmet
-          title={'tite'}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        >
-        </Helmet>      
+      <Fragment>  
         <Header 
           menuLinks={data.site.siteMetadata.menuLinks} 
           siteTitle={data.site.siteMetadata.title} 
