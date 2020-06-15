@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import PropTypes from "prop-types"
 import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
-import Disqus from 'gatsby-plugin-disqus'
+import { DiscussionEmbed } from 'disqus-react'
 
 import Prism from "prismjs"
 import 'prismjs/themes/prism-okaidia.css'
@@ -25,9 +25,18 @@ const Single = (props) => {
   const { prev, next } = props.pageContext 
   const hasVideo = post.video || false;
 
+  post.path = `${siteUrl}/${post.categories[0].slug}/${post.slug}`;
+
   useEffect(() => {
     Prism.highlightAll()
-  })
+  })  
+
+  const disqusConfig = {
+    shortname: 'webdevacademycombr',
+    config: { identifier: post.wordpress_id.toString() },
+    url: post.path
+  }
+  
 
   return (
     <Layout location={props.location}>
@@ -36,40 +45,47 @@ const Single = (props) => {
         meta={[{ name: 'description', content: siteDescription }]}
         title={`${post.title} | ${siteTitle}`}
         bodyAttributes={{
-          'class': 'single'
+          class: 'single',
         }}
       />
 
       <main className="section-inner clear" role="main">
         <div className="content clear fleft" id="content">
           <article id={post.id} className="post type-post hentry clear">
-            {hasVideo &&
-              <div className="featured-media" style={{'marginBottom': '-5%'}}>
-                <iframe width="100%" height="532" 
-                  src={post.video} frameBorder="0" 
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                  allowFullScreen>
-                </iframe>
+            {hasVideo && (
+              <div className="featured-media" style={{ marginBottom: '-5%' }}>
+                <iframe
+                  width="100%"
+                  height="532"
+                  src={post.video}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </div>
-            }
+            )}
             <header className="post-header">
               <h1 className="post-title entry-title">
-                <Link to={props.location.pathname} rel="bookmark"
-                  dangerouslySetInnerHTML={{ __html: post.title }} />
+                <Link
+                  to={props.location.pathname}
+                  rel="bookmark"
+                  dangerouslySetInnerHTML={{ __html: post.title }}
+                />
               </h1>
             </header>
-            <div className="post-content clear"
+            <div
+              className="post-content clear"
               dangerouslySetInnerHTML={{ __html: post.content }}
-            /> 
+            />
             {/* <PostsNavigation prev={prev && prev.node} next={next && next.node} /> */}
-            <Disqus identifier={post.wordpress_id.toString()}
-              title={post.title}
-              url={`${siteUrl}${post.path}`} />
+            {/* <Disqus identifier={post.wordpress_id} title={post.title} url={post.path} /> */}
+
+            <DiscussionEmbed {...disqusConfig} />
           </article>
         </div>
 
         <Sidebar data={post.tags} />
-      </main>        
+      </main>
     </Layout>
   )
 }
